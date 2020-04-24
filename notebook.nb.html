@@ -1752,23 +1752,62 @@ summary {
 <p>Ładowanie danych:</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYmRsX2RpY3QgPC0gcmVhZHhsOjpyZWFkX2V4Y2VsKFwiZGF0YS9iZGxfZGljdGlvbmFyeS54bHN4XCIpXG5cbmBgYCJ9 -->
-<pre class="r"><code>bdl_dict &lt;- readxl::read_excel(&quot;data/bdl_dictionary.xlsx&quot;)
-</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShkcGx5cilcbmJkbF9kaWN0IDwtIHJlYWR4bDo6cmVhZF9leGNlbChcImRhdGEvYmRsX2RpY3Rpb25hcnkueGxzeFwiKVxuYGBgIn0= -->
+<pre class="r"><code>library(dplyr)
+bdl_dict &lt;- readxl::read_excel(&quot;data/bdl_dictionary.xlsx&quot;)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-output-begin eyJkYXRhIjoiTmV3IG5hbWVzOlxuKiBgYCAtPiAuLi4xNlxuKiBgYCAtPiAuLi4xN1xuIn0= -->
 <pre><code>New names:
 * `` -&gt; ...16
 * `` -&gt; ...17</code></pre>
 <!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY2VpZGcgPC0gcmVhZC5jc3YoXCJkYXRhL2NlaWRnX2RhdGFfY2xhc3NpZi5jc3ZcIiwgc3RyaW5nc0FzRmFjdG9ycz1GQUxTRSlcbmBgYCJ9 -->
+<pre class="r"><code>ceidg &lt;- read.csv(&quot;data/ceidg_data_classif.csv&quot;, stringsAsFactors=FALSE)</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<p>Zabawa:</p>
+<p>Filtrowanie</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3ByaW50ZigncHJ6ZWQgZmlsdHJvd2FuaWVtOiAlZCcsIG5yb3coY2VpZGcpKVxuYGBgIn0= -->
+<pre class="r"><code>sprintf('przed filtrowaniem: %d', nrow(ceidg))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwicHJ6ZWQgZmlsdHJvd2FuaWVtOiAyNDAxMDU1XCJcbiJ9 -->
+<pre><code>[1] &quot;przed filtrowaniem: 2401055&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyB3aWVyc3plIGJleiBrb2TDs3cgUEtEIHJhY3plaiBuYW0gc2nEmSBuaWUgcHJ6eWRhZHrEhVxuY2VpZGcgPC0gY2VpZGcgJT4lIGZpbHRlcihQS0RNYWluU2VjdGlvbiAhPSAnJylcbnNwcmludGYoJ3BvIGZpbHRyb3dhbml1OiAlZCcsIG5yb3coY2VpZGcpKVxuYGBgIn0= -->
+<pre class="r"><code># wiersze bez kodów PKD raczej nam się nie przydadzą
+ceidg &lt;- ceidg %&gt;% filter(PKDMainSection != '')
+sprintf('po filtrowaniu: %d', nrow(ceidg))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwicG8gZmlsdHJvd2FuaXU6IDIzNjQzNjBcIlxuIn0= -->
+<pre><code>[1] &quot;po filtrowaniu: 2364360&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyB3eWJpZXJ6IGFkcmVzIGfFgsOzd255LCBhIGplxZtsaSBnbyBuaWUgbWEgdG8ga29yZXNwb25kZWN5am55XG4jIHVzdcWEIHpixJlkbmUga29sdW1ueSwgcG9tacWEIGZpcm15IGJleiBhZHJlc3VcbmNlaWRnIDwtIGNlaWRnICU+JVxuICBtdXRhdGUoQWRyZXNzVm9pdm9kZXNoaXAgPSBpZl9lbHNlKE1haW5BZGRyZXNzVm9pdm9kZXNoaXAgPT0gJycsIENvcnJlc3BvbmRlbmNlQWRkcmVzc1ZvaXZvZGVzaGlwLCBNYWluQWRkcmVzc1ZvaXZvZGVzaGlwKSkgJT4lXG4gIG11dGF0ZShBZHJlc3NDb3VudHkgPSBpZl9lbHNlKE1haW5BZGRyZXNzVm9pdm9kZXNoaXAgPT0gJycsIENvcnJlc3BvbmRlbmNlQWRkcmVzc0NvdW50eSwgTWFpbkFkZHJlc3NDb3VudHkpKSAlPiVcbiAgbXV0YXRlKEFkcmVzc1RFUkMgPSBpZl9lbHNlKE1haW5BZGRyZXNzVm9pdm9kZXNoaXAgPT0gJycsIENvcnJlc3BvbmRlbmNlQWRkcmVzc1RFUkMsIE1haW5BZGRyZXNzVEVSQykpICU+JVxuICBzZWxlY3QoLWMoTWFpbkFkZHJlc3NWb2l2b2Rlc2hpcCwgTWFpbkFkZHJlc3NDb3VudHksIE1haW5BZGRyZXNzVEVSQywgQ29ycmVzcG9uZGVuY2VBZGRyZXNzVm9pdm9kZXNoaXAsIENvcnJlc3BvbmRlbmNlQWRkcmVzc0NvdW50eSwgQ29ycmVzcG9uZGVuY2VBZGRyZXNzVEVSQykpICU+JVxuICBmaWx0ZXIoQWRyZXNzVm9pdm9kZXNoaXAgIT0gJycpXG5cbnNwcmludGYoJ3BvIGZpbHRyb3dhbml1OiAlZCcsIG5yb3coY2VpZGcpKVxuYGBgIn0= -->
+<pre class="r"><code># wybierz adres główny, a jeśli go nie ma to korespondecyjny
+# usuń zbędne kolumny, pomiń firmy bez adresu
+ceidg &lt;- ceidg %&gt;%
+  mutate(AdressVoivodeship = if_else(MainAddressVoivodeship == '', CorrespondenceAddressVoivodeship, MainAddressVoivodeship)) %&gt;%
+  mutate(AdressCounty = if_else(MainAddressVoivodeship == '', CorrespondenceAddressCounty, MainAddressCounty)) %&gt;%
+  mutate(AdressTERC = if_else(MainAddressVoivodeship == '', CorrespondenceAddressTERC, MainAddressTERC)) %&gt;%
+  select(-c(MainAddressVoivodeship, MainAddressCounty, MainAddressTERC, CorrespondenceAddressVoivodeship, CorrespondenceAddressCounty, CorrespondenceAddressTERC)) %&gt;%
+  filter(AdressVoivodeship != '')
+
+sprintf('po filtrowaniu: %d', nrow(ceidg))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwicG8gZmlsdHJvd2FuaXU6IDIzNjExMjBcIlxuIn0= -->
+<pre><code>[1] &quot;po filtrowaniu: 2361120&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>Zabawa</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKCsWBYWRvd2FuaWUgZGFueWNoOgpgYGB7cn0KYmRsX2RpY3QgPC0gcmVhZHhsOjpyZWFkX2V4Y2VsKCJkYXRhL2JkbF9kaWN0aW9uYXJ5Lnhsc3giKQpjZWlkZyA8LSByZWFkLmNzdigiZGF0YS9jZWlkZ19kYXRhX2NsYXNzaWYuY3N2IikKYGBgCgpaYWJhd2E6CmBgYHtyfQoKCmBgYAo=</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKCsWBYWRvd2FuaWUgZGFueWNoOgpgYGB7cn0KbGlicmFyeShkcGx5cikKYmRsX2RpY3QgPC0gcmVhZHhsOjpyZWFkX2V4Y2VsKCJkYXRhL2JkbF9kaWN0aW9uYXJ5Lnhsc3giKQpjZWlkZyA8LSByZWFkLmNzdigiZGF0YS9jZWlkZ19kYXRhX2NsYXNzaWYuY3N2Iiwgc3RyaW5nc0FzRmFjdG9ycz1GQUxTRSkKYGBgCgpGaWx0cm93YW5pZQpgYGB7cn0Kc3ByaW50ZigncHJ6ZWQgZmlsdHJvd2FuaWVtOiAlZCcsIG5yb3coY2VpZGcpKQoKIyB3aWVyc3plIGJleiBrb2TDs3cgUEtEIHJhY3plaiBuYW0gc2nEmSBuaWUgcHJ6eWRhZHrEhQpjZWlkZyA8LSBjZWlkZyAlPiUgZmlsdGVyKFBLRE1haW5TZWN0aW9uICE9ICcnKQoKIyB3eWJpZXJ6IGFkcmVzIGfFgsOzd255LCBhIGplxZtsaSBnbyBuaWUgbWEgdG8ga29yZXNwb25kZWN5am55CiMgdXN1xYQgemLEmWRuZSBrb2x1bW55LCBwb21pxYQgZmlybXkgYmV6IGFkcmVzdQpjZWlkZyA8LSBjZWlkZyAlPiUKICBtdXRhdGUoQWRyZXNzVm9pdm9kZXNoaXAgPSBpZl9lbHNlKE1haW5BZGRyZXNzVm9pdm9kZXNoaXAgPT0gJycsIENvcnJlc3BvbmRlbmNlQWRkcmVzc1ZvaXZvZGVzaGlwLCBNYWluQWRkcmVzc1ZvaXZvZGVzaGlwKSkgJT4lCiAgbXV0YXRlKEFkcmVzc0NvdW50eSA9IGlmX2Vsc2UoTWFpbkFkZHJlc3NWb2l2b2Rlc2hpcCA9PSAnJywgQ29ycmVzcG9uZGVuY2VBZGRyZXNzQ291bnR5LCBNYWluQWRkcmVzc0NvdW50eSkpICU+JQogIG11dGF0ZShBZHJlc3NURVJDID0gaWZfZWxzZShNYWluQWRkcmVzc1ZvaXZvZGVzaGlwID09ICcnLCBDb3JyZXNwb25kZW5jZUFkZHJlc3NURVJDLCBNYWluQWRkcmVzc1RFUkMpKSAlPiUKICBzZWxlY3QoLWMoTWFpbkFkZHJlc3NWb2l2b2Rlc2hpcCwgTWFpbkFkZHJlc3NDb3VudHksIE1haW5BZGRyZXNzVEVSQywgQ29ycmVzcG9uZGVuY2VBZGRyZXNzVm9pdm9kZXNoaXAsIENvcnJlc3BvbmRlbmNlQWRkcmVzc0NvdW50eSwgQ29ycmVzcG9uZGVuY2VBZGRyZXNzVEVSQykpICU+JQogIGZpbHRlcihBZHJlc3NWb2l2b2Rlc2hpcCAhPSAnJykKCnNwcmludGYoJ3BvIGZpbHRyb3dhbml1OiAlZCcsIG5yb3coY2VpZGcpKQpgYGAKCgpaYWJhd2EKYGBge3J9CgpgYGAKCg==</div>
 
 
 
