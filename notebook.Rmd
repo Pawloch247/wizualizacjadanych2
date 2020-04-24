@@ -1,0 +1,17 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+Ładowanie danych:
+```{r}
+bdl_dict <- readxl::read_excel("data/bdl_dictionary.xlsx")
+ceidg <- read.csv("data/ceidg_data_classif.csv")
+```
+
+Zabawa:
+```{r}
+
+
+```
