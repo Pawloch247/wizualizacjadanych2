@@ -1,0 +1,58 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+library(ggplot2)
+library(ggforce)
+```
+
+
+```{r}
+source("load_and_filter.R")
+ceidg <- loadAndFilterCeidg("data/ceidg_data_classif.csv")
+```
+
+
+Zabawa
+```{r}
+# parametry szablonu
+voivodeship <- ''
+county <- 'PABIANICKI'
+
+# filtrowanie po regionie
+if (voivodeship != '') {
+  data = ceidg %>% filter(AdressVoivodeship == voivodeship)
+} else {
+  data = ceidg %>% filter(AdressCounty == county)
+}
+```
+
+
+```{r}
+# Kołowy pokazujący rodzaje działalności
+data %>%
+  group_by(PKDMainSection) %>% tally() %>%
+  
+  mutate(end = 2 * pi * cumsum(n)/sum(n),
+         start = lag(end, default = 0),
+         middle = 0.5 * (start + end),
+         hjust = ifelse(middle > pi, 1, 0),
+         vjust = ifelse(middle < pi/2 | middle > 3 * pi/2, 0, 1)) %>% 
+  
+  ggplot() +
+  
+  geom_arc_bar(aes(x0 = 0, y0 = 0, r0 = 0, r = 1,
+                   start = start, end = end, fill = PKDMainSection), color="white") +
+  geom_text(aes(x = 1.05 * sin(middle), y = 1.05 * cos(middle), label = PKDMainSection,
+                hjust = hjust, vjust = vjust)) +
+  coord_fixed() +
+  scale_x_continuous(limits = c(-1.5, 1.4),  # Adjust so labels are not cut off
+                     name = "", breaks = NULL, labels = NULL) +
+  scale_y_continuous(limits = c(-1, 1),      # Adjust so labels are not cut off
+                     name = "", breaks = NULL, labels = NULL) +
+  theme_void() +
+  theme(legend.position = "none")
+
+```
+
