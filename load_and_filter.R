@@ -10,9 +10,10 @@ loadAndFilterCeidg <- function(path) {
   
   # wybierz adres główny, a jeśli go nie ma to korespondecyjny
   # usuń zbędne kolumny, pomiń firmy bez adresu
+  # znormalizuj nazwy województw i powiatów do uppercase
   ceidg <- ceidg %>%
-    mutate(AdressVoivodeship = if_else(MainAddressVoivodeship == '', CorrespondenceAddressVoivodeship, MainAddressVoivodeship)) %>%
-    mutate(AdressCounty = if_else(MainAddressVoivodeship == '', CorrespondenceAddressCounty, MainAddressCounty)) %>%
+    mutate(AdressVoivodeship = toupper(if_else(MainAddressVoivodeship == '', CorrespondenceAddressVoivodeship, MainAddressVoivodeship))) %>%
+    mutate(AdressCounty = toupper(if_else(MainAddressVoivodeship == '', CorrespondenceAddressCounty, MainAddressCounty))) %>%
     mutate(AdressTERC = if_else(MainAddressVoivodeship == '', CorrespondenceAddressTERC, MainAddressTERC)) %>%
     select(-c(MainAddressVoivodeship, MainAddressCounty, MainAddressTERC, CorrespondenceAddressVoivodeship, CorrespondenceAddressCounty, CorrespondenceAddressTERC)) %>%
     filter(AdressVoivodeship != '')
