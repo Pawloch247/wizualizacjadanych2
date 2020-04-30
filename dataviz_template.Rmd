@@ -31,6 +31,9 @@ if (voivodeship != '') {
 
 ```{r}
 # Kołowy pokazujący rodzaje działalności
+# TODO: wywalić nakładające się etykiety, ściągać etykiety z kodów PKD
+# z jakiegoś powodu czasem niektóre labelki gubią się
+# może przerobić to na legendę, wywalić te labelki i dać etykiety w shiny po najechaniu myszką na element wykresu?
 data %>%
   group_by(PKDMainSection) %>% tally() %>%
   
@@ -53,6 +56,26 @@ data %>%
                      name = "", breaks = NULL, labels = NULL) +
   theme_void() +
   theme(legend.position = "none")
+
+```
+```{r}
+# podział płci
+# TODO: ogarnąć jakieś labelki procentowe do wyświetlenia na tym barplocie
+data %>%
+  group_by(Sex) %>% tally() %>% mutate(Percentage = n / nrow(data)) %>%
+  
+  ggplot(data, mapping = aes(x="", y=Percentage, fill=Sex)) +
+  geom_bar(stat="identity", width=1) +
+  theme_void()
+```
+
+z innych statystyk:
+* !! histogram długości życia firmy
+* odsetek obywateli Polski
+* odsetek firm które przeżyły (Target)
+
+
+```{r}
 
 ```
 
