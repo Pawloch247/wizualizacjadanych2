@@ -16,5 +16,3 @@ kody_pow = data.frame(id = powiaty$JPT_KOD_JE,
 kody = rbind(kody_woj, kody_pow)
 write.csv(kody, "../data/codes.csv", row.names = FALSE, fileEncoding = "UTF-8")
 
-df = loadAndFilterCeidg("/data/ceidg_data_classif.csv")
-
