@@ -4,16 +4,15 @@ library(leaflet)
 library(rgdal)
 library(ggplot2)
 
-x <- generate_map(20320)
-source("../load_and_filter.R")
 
-data <- loadAndFilterCeidg("../data/")
+source("utils/load_and_filter.R")
+
+data <- loadAndFilterCeidg("data/")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
   
   mainPanel(
-    setBackgroundColor(color = "blue"),
     selectInput("region_type", "Wybierz jednostkę administracyjną:",
                 c("Województwa", "Powiaty"), selected = "Województwa"),
     leafletOutput("map"),
@@ -26,9 +25,9 @@ server <- function(input, output) {
   
   regions <- reactive ({
     if (input$region_type == "Województwa")
-      readOGR("../maps/wojewodztwa.shp")
+      readOGR("maps/wojewodztwa.shp")
     else
-      readOGR("../maps/powiaty.shp")
+      readOGR("maps/powiaty.shp")
   })
   
   wojewodztwa <- reactive ({
@@ -49,7 +48,7 @@ server <- function(input, output) {
   
   observeEvent(input$map_shape_click,{
     event <- input$map_shape_click
-    print(event$id)
+
     if (wojewodztwa()){
       df <- data %>%
         filter(substr(AdressTERC, 1, 2) == event$id) %>%
