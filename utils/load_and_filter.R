@@ -1,7 +1,8 @@
 loadAndFilterCeidg <- function(path) {
   library(dplyr)
-  bdl_dict <- readxl::read_excel("data/bdl_dictionary.xlsx")
-  ceidg <- read.csv("data/ceidg_data_classif.csv", stringsAsFactors=FALSE)
+  print(paste(path, "bdl_dictionary.xlsx", sep = ""))
+  bdl_dict <- readxl::read_excel(paste(path, "bdl_dictionary.xlsx", sep = ""))
+  ceidg <- read.csv(paste(path,"ceidg_data_classif.csv", sep = ""), stringsAsFactors=FALSE, encoding = "UTF-8")
   
   sprintf('przed filtrowaniem: %d', nrow(ceidg))
   
@@ -15,6 +16,7 @@ loadAndFilterCeidg <- function(path) {
     mutate(AdressVoivodeship = toupper(if_else(MainAddressVoivodeship == '', CorrespondenceAddressVoivodeship, MainAddressVoivodeship))) %>%
     mutate(AdressCounty = toupper(if_else(MainAddressVoivodeship == '', CorrespondenceAddressCounty, MainAddressCounty))) %>%
     mutate(AdressTERC = if_else(MainAddressVoivodeship == '', CorrespondenceAddressTERC, MainAddressTERC)) %>%
+    mutate(AdressTERC = if_else(floor(log10(AdressTERC)) + 1 == 7, as.character(AdressTERC), paste("0", AdressTERC, sep = ""))) %>% 
     select(-c(MainAddressVoivodeship, MainAddressCounty, MainAddressTERC, CorrespondenceAddressVoivodeship, CorrespondenceAddressCounty, CorrespondenceAddressTERC)) %>%
     filter(AdressVoivodeship != '')
   
@@ -22,3 +24,4 @@ loadAndFilterCeidg <- function(path) {
   
   return(ceidg)
 }
+getwd()

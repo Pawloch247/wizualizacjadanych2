@@ -1,58 +1,75 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-
 library(shiny)
 library(bdl)
 library(leaflet)
 library(rgdal)
+library(ggplot2)
+
+x <- generate_map(20320)
+source("../load_and_filter.R")
+
+data <- loadAndFilterCeidg("../data/")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
   
-  # Application title
-  
-  # Sidebar with a slider input for number of bins 
-  
-  # Show a plot of the generated distribution
   mainPanel(
+    setBackgroundColor(color = "blue"),
+    selectInput("region_type", "Wybierz jednostkę administracyjną:",
+                c("Województwa", "Powiaty"), selected = "Województwa"),
     leafletOutput("map"),
-    wellPanel(textOutput("cnty"))
+    wellPanel(plotOutput("plot"))
   )
 )
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
   
+  regions <- reactive ({
+    if (input$region_type == "Województwa")
+      readOGR("../maps/wojewodztwa.shp")
+    else
+      readOGR("../maps/powiaty.shp")
+  })
+  
+  wojewodztwa <- reactive ({
+    if (input$region_type == "Województwa")
+      TRUE
+    else
+      FALSE
+  })
   
   output$map <- renderLeaflet({
-    # bdl_map <- generate_map(varId = "60559", year = "2018", unitLevel = 5)
-    # bdl_map
-    tmp2 <- readOGR("./maps/powiaty.shp")
-    leaflet(tmp2) %>%
+    leaflet(regions()) %>%
       addTiles() %>%
-      addPolygons(layerId = tmp2$JPT_NAZWA_, highlightOptions = highlightOptions(color = "white", weight = 2,
+      addPolygons(layerId = regions()$JPT_KOD_JE,
+                  highlightOptions = highlightOptions(color = "white", weight = 2,
                                                       bringToFront = TRUE))
   })
   
-  observe({
+  
+  observeEvent(input$map_shape_click,{
     event <- input$map_shape_click
-    # # bdl_map[["x"]][["calls"]][[5]][["args"]][[5]]
-    # number = sub("X", "", event$id)
-    # tmp = bdl_map[["x"]][["calls"]][[5]][["args"]][[5]][1]
-    # start = stringi::stri_locate(tmp, regex = "<nobr>")
-    # end = stringi::stri_locate(tmp, regex = "</nobr>")
-    # # output$cnty <- renderText(substr(tmp, start[1,2] + 1, end[1,1] - 1))
-    output$cnty <- renderText(c(event$id))
-
+    print(event$id)
+    if (wojewodztwa()){
+      df <- data %>%
+        filter(substr(AdressTERC, 1, 2) == event$id) %>%
+        rename(Region = AdressVoivodeship) %>% 
+        select(DurationOfExistenceInMonths, Region)
+      
+    } else {
+      df <- data %>%
+        filter(substr(AdressTERC, 1, 4) == event$id) %>%
+        rename(Region = AdressCounty) %>% 
+        select(DurationOfExistenceInMonths, Region)
+      
+    }
+    p <- ggplot(df, aes(x=DurationOfExistenceInMonths)) +
+      geom_histogram() + 
+      ggtitle(df$Region)
+    output$plot <- renderPlot(p)
   })
   
-
+  
 }
 
 # Run the application 
