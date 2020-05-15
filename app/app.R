@@ -1,60 +1,145 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-
 library(shiny)
-library(bdl)
+library(shinydashboard)
 library(leaflet)
 library(rgdal)
+library(ggplot2)
+library(sortable)
 
-# Define UI for application that draws a histogram
-ui <- fluidPage(
+source("utils/load_and_filter.R")
+
+
+if (!"data" %in% ls())
+  data <- loadAndFilterCeidg("data/")
+
+
+ui <- dashboardPage(
+  skin = "blue",
+  dashboardHeader(title = "Działalności gospodarcze w Polsce"),
+  dashboardSidebar(
+    sidebarSearchForm(textId = "findRegion", buttonId = "searchButton",
+                      label = "Znajdź wybrany powiat/województwo"),
+
+    selectInput("region_type", "Wybierz jednostkę administracyjną:",
+                c("Województwa", "Powiaty"), selected = "Województwa")
+  ),
   
-  # Application title
-  
-  # Sidebar with a slider input for number of bins 
-  
-  # Show a plot of the generated distribution
-  mainPanel(
-    leafletOutput("map"),
-    wellPanel(textOutput("cnty"))
+  dashboardBody(
+    tags$head(
+      tags$style(HTML('* { font-family: Arial; }'))
+    ),
+
+    fluidRow(
+      column(width = 6,
+        box(
+          width = NULL,
+          # solidHeader = T,
+          # status = "info",
+          background = "light-blue",
+          leafletOutput("map")
+        ),
+        box(
+          width = NULL,
+          background = "light-blue",
+          "Tu będą ogólne statystyki"
+        )
+      ),
+      column(width = 6,
+        box(
+          width = NULL,
+          background = "light-blue",
+          # bucket_list(
+          #   header = NULL,
+          #   group_name = "bucket_list_group",
+          #   orientation = "vertical",
+          textOutput("regionName"),
+          rank_list(
+            labels = list(
+              plotOutput("plot"),
+              plotOutput("plot1")
+            ),
+            input_id = "rank_list_1",
+            class = ()
+          )
+        )
+      )
+    )
   )
 )
 
+
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-  
-  
+
+  regions <- reactive ({
+    if (input$region_type == "Województwa")
+      readOGR("maps/wojewodztwa.shp")
+    else
+      readOGR("maps/Powiaty.shp")
+  })
+
+  wojewodztwa <- reactive ({
+    if (input$region_type == "Województwa")
+      TRUE
+    else
+      FALSE
+  })
+
   output$map <- renderLeaflet({
-    # bdl_map <- generate_map(varId = "60559", year = "2018", unitLevel = 5)
-    # bdl_map
-    tmp2 <- readOGR("./maps/powiaty.shp")
-    leaflet(tmp2) %>%
+    leaflet(regions()) %>%
       addTiles() %>%
-      addPolygons(layerId = tmp2$JPT_NAZWA_, highlightOptions = highlightOptions(color = "white", weight = 2,
+      addPolygons(layerId = regions()$JPT_KOD_JE,
+                  highlightOptions = highlightOptions(color = "white", weight = 2,
                                                       bringToFront = TRUE))
   })
-  
-  observe({
-    event <- input$map_shape_click
-    # # bdl_map[["x"]][["calls"]][[5]][["args"]][[5]]
-    # number = sub("X", "", event$id)
-    # tmp = bdl_map[["x"]][["calls"]][[5]][["args"]][[5]][1]
-    # start = stringi::stri_locate(tmp, regex = "<nobr>")
-    # end = stringi::stri_locate(tmp, regex = "</nobr>")
-    # # output$cnty <- renderText(substr(tmp, start[1,2] + 1, end[1,1] - 1))
-    output$cnty <- renderText(c(event$id))
 
+
+  observeEvent(input$map_shape_click,{
+    event <- input$map_shape_click
+
+    if (wojewodztwa()){
+      df <- data %>%
+        filter(substr(AdressTERC, 1, 2) == event$id) %>%
+        rename(Region = AdressVoivodeship) %>%
+        select(DurationOfExistenceInMonths, Region, PKDMainSection)
+      
+      region_name = df$Region[1]
+
+    } else {
+      df <- data %>%
+        filter(substr(AdressTERC, 1, 4) == event$id) %>%
+        rename(Region = AdressCounty) %>%
+        select(DurationOfExistenceInMonths, Region, PKDMainSection)
+      
+      region_name = df$Region[1]
+
+    }
+    p <- ggplot(df, aes(x=DurationOfExistenceInMonths)) +
+      geom_histogram()
+    output$plot <- renderPlot(p)
+    
+    p1 <- df %>%
+      group_by(PKDMainSection) %>% tally() %>%
+      
+      ggplot(aes(x="", y=n, fill=PKDMainSection)) +
+      geom_bar(stat="identity", width=1, color="white") +
+      coord_polar("y", start=0)
+      # theme_ft_rc() +
+      # theme(
+      #   axis.title.x = element_blank(),
+      #   axis.title.y = element_blank(),
+      #   axis.text.x = element_blank(),
+      #   panel.grid = element_blank() # to z jakiegoś powodu nie działa
+      # )
+    output$plot1 <- renderPlot(p1)
+    
+    output$regionName <- renderText(region_name)
+    
+    # output$statistics <- renderText("Overall statistics")
   })
   
-
+  
 }
 
-# Run the application 
+# Run the application
 shinyApp(ui = ui, server = server)
 
