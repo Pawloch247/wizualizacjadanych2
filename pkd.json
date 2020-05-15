@@ -2279,196 +2279,198 @@
       },
       "47": {
         "title": "HANDEL DETALICZNY, Z WYŁĄCZENIEM HANDLU DETALICZNEGO POJAZDAMI SAMOCHODOWYMI",
-        "471": {
-          "title": "Sprzedaż detaliczna prowadzona w niewyspecjalizowanych sklepach",
-          "children": {
-            "4711": {
-              "title": "Sprzedaż detaliczna prowadzona w niewyspecjalizowanych sklepach z przewagą żywności, napojów i wyrobów tytoniowych",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną różnego rodzaju towarów, wśród których przeważa żywność, napoje i wyroby tytoniowe. Poza sprzedażą ww. artykułów jako głównej działalności handlowej, prowadzi się także sprzedaż innych towarów, takich jak: odzież, meble, urządzenia gospodarstwa domowego, artykuły metalowe, kosmetyki itp."
-            },
-            "4719": {
-              "title": "Pozostała sprzedaż detaliczna prowadzona w niewyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje: - sprzedaż detaliczną różnego rodzaju towarów, wśród których żywność, napoje i wyroby tytoniowe nie zajmują dominującej pozycji, - działalność domów towarowych prowadzących sprzedaż towarów, takich jak: odzież, meble, urządzenia gospodarstwa domowego, artykuły metalowe, kosmetyki, biżuteria, zabawki, artykuły sportowe itp."
+        "children": {
+          "471": {
+            "title": "Sprzedaż detaliczna prowadzona w niewyspecjalizowanych sklepach",
+            "children": {
+              "4711": {
+                "title": "Sprzedaż detaliczna prowadzona w niewyspecjalizowanych sklepach z przewagą żywności, napojów i wyrobów tytoniowych",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną różnego rodzaju towarów, wśród których przeważa żywność, napoje i wyroby tytoniowe. Poza sprzedażą ww. artykułów jako głównej działalności handlowej, prowadzi się także sprzedaż innych towarów, takich jak: odzież, meble, urządzenia gospodarstwa domowego, artykuły metalowe, kosmetyki itp."
+              },
+              "4719": {
+                "title": "Pozostała sprzedaż detaliczna prowadzona w niewyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje: - sprzedaż detaliczną różnego rodzaju towarów, wśród których żywność, napoje i wyroby tytoniowe nie zajmują dominującej pozycji, - działalność domów towarowych prowadzących sprzedaż towarów, takich jak: odzież, meble, urządzenia gospodarstwa domowego, artykuły metalowe, kosmetyki, biżuteria, zabawki, artykuły sportowe itp."
+              }
             }
-          }
-        },
-        "472": {
-          "title": "Sprzedaż detaliczna żywności, napojów i wyrobów tytoniowych prowadzona w wyspecjalizowanych sklepach",
-          "children": {
-            "4721": {
-              "title": "Sprzedaż detaliczna owoców i warzyw prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - świeżych owoców i warzyw, - przygotowanych lub zakonserwowanych owoców i warzyw."
-            },
-            "4722": {
-              "title": "Sprzedaż detaliczna mięsa i wyrobów z mięsa prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną mięsa i wyrobów z mięsa, włączając drób."
-            },
-            "4723": {
-              "title": "Sprzedaż detaliczna ryb, skorupiaków i mięczaków prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną ryb i innych owoców morza oraz otrzymywanych z nich wyrobów."
-            },
-            "4724": {
-              "title": "Sprzedaż detaliczna pieczywa, ciast, wyrobów ciastkarskich i cukierniczych prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa nie wymaga wyjaśnień."
-            },
-            "4725": {
-              "title": "Sprzedaż detaliczna napojów alkoholowych i bezalkoholowych prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną napojów alkoholowych i bezalkoholowych bez ich konsumpcji na miejscu."
-            },
-            "4726": {
-              "title": "Sprzedaż detaliczna wyrobów tytoniowych prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa nie wymaga wyjaśnień."
-            },
-            "4729": {
-              "title": "Sprzedaż detaliczna pozostałej żywności prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - wyrobów mleczarskich i jaj, pozostałych artykułów żywnościowych, gdzie indziej niesklasyfikowaną."
+          },
+          "472": {
+            "title": "Sprzedaż detaliczna żywności, napojów i wyrobów tytoniowych prowadzona w wyspecjalizowanych sklepach",
+            "children": {
+              "4721": {
+                "title": "Sprzedaż detaliczna owoców i warzyw prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - świeżych owoców i warzyw, - przygotowanych lub zakonserwowanych owoców i warzyw."
+              },
+              "4722": {
+                "title": "Sprzedaż detaliczna mięsa i wyrobów z mięsa prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną mięsa i wyrobów z mięsa, włączając drób."
+              },
+              "4723": {
+                "title": "Sprzedaż detaliczna ryb, skorupiaków i mięczaków prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną ryb i innych owoców morza oraz otrzymywanych z nich wyrobów."
+              },
+              "4724": {
+                "title": "Sprzedaż detaliczna pieczywa, ciast, wyrobów ciastkarskich i cukierniczych prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              },
+              "4725": {
+                "title": "Sprzedaż detaliczna napojów alkoholowych i bezalkoholowych prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną napojów alkoholowych i bezalkoholowych bez ich konsumpcji na miejscu."
+              },
+              "4726": {
+                "title": "Sprzedaż detaliczna wyrobów tytoniowych prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              },
+              "4729": {
+                "title": "Sprzedaż detaliczna pozostałej żywności prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - wyrobów mleczarskich i jaj, pozostałych artykułów żywnościowych, gdzie indziej niesklasyfikowaną."
+              }
             }
-          }
-        },
-        "473": {
-          "title": "Sprzedaż detaliczna paliw do pojazdów silnikowych na stacjach paliw",
-          "children": {
-            "4730": {
-              "title": "Sprzedaż detaliczna paliw do pojazdów silnikowych na stacjach paliw",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - paliwa do pojazdów silnikowych, - smarów i płynów chłodzących dla pojazdów silnikowych."
+          },
+          "473": {
+            "title": "Sprzedaż detaliczna paliw do pojazdów silnikowych na stacjach paliw",
+            "children": {
+              "4730": {
+                "title": "Sprzedaż detaliczna paliw do pojazdów silnikowych na stacjach paliw",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - paliwa do pojazdów silnikowych, - smarów i płynów chłodzących dla pojazdów silnikowych."
+              }
             }
-          }
-        },
-        "474": {
-          "title": "Sprzedaż detaliczna narzędzi technologii informacyjnej i komunikacyjnej prowadzona w wyspecjalizowanych sklepach",
-          "children": {
-            "4741": {
-              "title": "Sprzedaż detaliczna komputerów, urządzeń peryferyjnych i oprogramowania prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - komputerów, - urządzeń peryferyjnych, - konsoli do gier wideo, - oprogramowania standardowego, włącznie z grami wideo."
-            },
-            "4742": {
-              "title": "Sprzedaż detaliczna sprzętu telekomunikacyjnego prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa nie wymaga wyjaśnień."
-            },
-            "4743": {
-              "title": "Sprzedaż detaliczna sprzętu audiowizualnego prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - sprzętu radiowo-telewizyjnego, - sprzętu audiowizualnego, - odtwarzaczy i nagrywarek CD i DVD itp."
+          },
+          "474": {
+            "title": "Sprzedaż detaliczna narzędzi technologii informacyjnej i komunikacyjnej prowadzona w wyspecjalizowanych sklepach",
+            "children": {
+              "4741": {
+                "title": "Sprzedaż detaliczna komputerów, urządzeń peryferyjnych i oprogramowania prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - komputerów, - urządzeń peryferyjnych, - konsoli do gier wideo, - oprogramowania standardowego, włącznie z grami wideo."
+              },
+              "4742": {
+                "title": "Sprzedaż detaliczna sprzętu telekomunikacyjnego prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              },
+              "4743": {
+                "title": "Sprzedaż detaliczna sprzętu audiowizualnego prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - sprzętu radiowo-telewizyjnego, - sprzętu audiowizualnego, - odtwarzaczy i nagrywarek CD i DVD itp."
+              }
             }
-          }
-        },
-        "475": {
-          "title": "Sprzedaż detaliczna artykułów użytku domowego prowadzona w wyspecjalizowanych sklepach",
-          "children": {
-            "4751": {
-              "title": "Sprzedaż detaliczna wyrobów tekstylnych prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - tkanin, - przędzy dla celów dziewiarskich, - przędzy do produkcji dywanów, kilimów, gobelinów lub haftów, - wyrobów tekstylnych, - wyrobów pasmanteryjnych, igieł, nici do szycia itp."
-            },
-            "4752": {
-              "title": "Sprzedaż detaliczna drobnych wyrobów metalowych, farb i szkła prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - drobnych wyrobów metalowych, - farb, lakierów i werniksu, - szkła płaskiego, - pozostałych materiałów budowlanych, takich jak: cegły, drewno, sprzęt sanitarny itp., - płytek podłogowych z korka, - okien i drzwi, - artykułów i sprzętu dla majsterkowiczów, - kosiarek do trawy, niezależnie od rodzaju napędu, - saun."
-            },
-            "4753": {
-              "title": "Sprzedaż detaliczna dywanów, chodników i innych pokryć podłogowych oraz pokryć ściennych prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - dywanów i chodników, sprzedaży detalicznej dywanów i pledów - zasłon i firanek, - pokryć ściennych i podłogowych."
-            },
-            "4754": {
-              "title": "Sprzedaż detaliczna elektrycznego sprzętu gospodarstwa domowego prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa nie wymaga wyjaśnień."
-            },
-            "4759": {
-              "title": "Sprzedaż detaliczna mebli, sprzętu oświetleniowego i pozostałych artykułów użytku domowego prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - mebli, - wyrobów oświetleniowych, - artykułów gospodarstwa domowego: naczyń, sztućców, wyrobów ze szkła, porcelany i ceramiki, - wyrobów z drewna, korka i wikliny, - urządzeń domowych innych niż elektryczne, - instrumentów muzycznych i nut, - systemów bezpieczeństwa, takich jak: urządzenia zamykające, sejfy i skarbce, z wyłączeniem instalacji i konserwacji, - artykułów i sprzętu gospodarstwa domowego, gdzie indziej niesklasyfikowaną."
+          },
+          "475": {
+            "title": "Sprzedaż detaliczna artykułów użytku domowego prowadzona w wyspecjalizowanych sklepach",
+            "children": {
+              "4751": {
+                "title": "Sprzedaż detaliczna wyrobów tekstylnych prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - tkanin, - przędzy dla celów dziewiarskich, - przędzy do produkcji dywanów, kilimów, gobelinów lub haftów, - wyrobów tekstylnych, - wyrobów pasmanteryjnych, igieł, nici do szycia itp."
+              },
+              "4752": {
+                "title": "Sprzedaż detaliczna drobnych wyrobów metalowych, farb i szkła prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - drobnych wyrobów metalowych, - farb, lakierów i werniksu, - szkła płaskiego, - pozostałych materiałów budowlanych, takich jak: cegły, drewno, sprzęt sanitarny itp., - płytek podłogowych z korka, - okien i drzwi, - artykułów i sprzętu dla majsterkowiczów, - kosiarek do trawy, niezależnie od rodzaju napędu, - saun."
+              },
+              "4753": {
+                "title": "Sprzedaż detaliczna dywanów, chodników i innych pokryć podłogowych oraz pokryć ściennych prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - dywanów i chodników, sprzedaży detalicznej dywanów i pledów - zasłon i firanek, - pokryć ściennych i podłogowych."
+              },
+              "4754": {
+                "title": "Sprzedaż detaliczna elektrycznego sprzętu gospodarstwa domowego prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              },
+              "4759": {
+                "title": "Sprzedaż detaliczna mebli, sprzętu oświetleniowego i pozostałych artykułów użytku domowego prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - mebli, - wyrobów oświetleniowych, - artykułów gospodarstwa domowego: naczyń, sztućców, wyrobów ze szkła, porcelany i ceramiki, - wyrobów z drewna, korka i wikliny, - urządzeń domowych innych niż elektryczne, - instrumentów muzycznych i nut, - systemów bezpieczeństwa, takich jak: urządzenia zamykające, sejfy i skarbce, z wyłączeniem instalacji i konserwacji, - artykułów i sprzętu gospodarstwa domowego, gdzie indziej niesklasyfikowaną."
+              }
             }
-          }
-        },
-        "476": {
-          "title": "Sprzedaż detaliczna wyrobów związanych z kulturą i rekreacją prowadzona w wyspecjalizowanych sklepach",
-          "children": {
-            "4761": {
-              "title": "Sprzedaż detaliczna książek prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa nie wymaga wyjaśnień."
-            },
-            "4762": {
-              "title": "Sprzedaż detaliczna gazet i artykułów piśmiennych prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną gazet i artykułów piśmiennych, takich jak: pióra, ołówki, papier itp."
-            },
-            "4763": {
-              "title": "Sprzedaż detaliczna nagrań dźwiękowych i audiowizualnych prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - nagrań muzycznych, taśm wideo i audio, płyt CD i DVD, - czystych taśm, płyt i dyskietek."
-            },
-            "4764": {
-              "title": "Sprzedaż detaliczna sprzętu sportowego prowadzona w wyspecjalizowanych sklepach",
-              "description": "Sprzedaż detaliczna sprzętu sportowego prowadzona w wyspecjalizowanych sklepach"
-            },
-            "4765": {
-              "title": "Sprzedaż detaliczna gier i zabawek prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną gier i zabawek, wykonanych z dowolnych materiałów."
+          },
+          "476": {
+            "title": "Sprzedaż detaliczna wyrobów związanych z kulturą i rekreacją prowadzona w wyspecjalizowanych sklepach",
+            "children": {
+              "4761": {
+                "title": "Sprzedaż detaliczna książek prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              },
+              "4762": {
+                "title": "Sprzedaż detaliczna gazet i artykułów piśmiennych prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną gazet i artykułów piśmiennych, takich jak: pióra, ołówki, papier itp."
+              },
+              "4763": {
+                "title": "Sprzedaż detaliczna nagrań dźwiękowych i audiowizualnych prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - nagrań muzycznych, taśm wideo i audio, płyt CD i DVD, - czystych taśm, płyt i dyskietek."
+              },
+              "4764": {
+                "title": "Sprzedaż detaliczna sprzętu sportowego prowadzona w wyspecjalizowanych sklepach",
+                "description": "Sprzedaż detaliczna sprzętu sportowego prowadzona w wyspecjalizowanych sklepach"
+              },
+              "4765": {
+                "title": "Sprzedaż detaliczna gier i zabawek prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną gier i zabawek, wykonanych z dowolnych materiałów."
+              }
             }
-          }
-        },
-        "477": {
-          "title": "Sprzedaż detaliczna pozostałych wyrobów prowadzona w wyspecjalizowanych sklepach",
-          "children": {
-            "4771": {
-              "title": "Sprzedaż detaliczna odzieży prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - wyrobów odzieżowych, w tym bielizny, - wyrobów futrzarskich, - dodatków odzieżowych, takich jak: rękawiczki, krawaty, szelki itp."
-            },
-            "4772": {
-              "title": "Sprzedaż detaliczna obuwia i wyrobów skórzanych prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - obuwia, - artykułów ze skóry, - przyborów podróżnych ze skóry i jej substytutów."
-            },
-            "4773": {
-              "title": "Sprzedaż detaliczna wyrobów farmaceutycznych prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje: - sprzedaż detaliczną wyrobów farmaceutycznych prowadzoną w wyspecjalizowanych sklepach, w tym w aptekach."
-            },
-            "4774": {
-              "title": "Sprzedaż detaliczna wyrobów medycznych, włączając ortopedyczne, prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa nie wymaga wyjaśnień."
-            },
-            "4775": {
-              "title": "Sprzedaż detaliczna kosmetyków i artykułów toaletowych prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje także sprzedaż detaliczną perfum."
-            },
-            "4776": {
-              "title": "Sprzedaż detaliczna kwiatów, roślin, nasion, nawozów, żywych zwierząt domowych, karmy dla zwierząt domowych prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa nie wymaga wyjaśnień."
-            },
-            "4777": {
-              "title": "Sprzedaż detaliczna zegarków, zegarów i biżuterii prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa nie wymaga wyjaśnień."
-            },
-            "4778": {
-              "title": "Sprzedaż detaliczna pozostałych nowych wyrobów prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - sprzętu fotograficznego, optycznego i precyzyjnego, - pamiątek, wyrobów rzemieślniczych i artykułów religijnych, - realizowaną przez handlowe galerie artystyczne, - oleju opałowego, gazu w butlach, węgla i drewna dla potrzeb gospodarstwa domowego, - broni i amunicji, - znaczków i monet, - produktów innych niż żywnościowe, gdzie indziej niesklasyfikowaną oraz - działalność optyków."
-            },
-            "4779": {
-              "title": "Sprzedaż detaliczna artykułów używanych prowadzona w wyspecjalizowanych sklepach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną: - używanych książek, - pozostałych artykułów używanych, - antyków, - prowadzoną przez domy aukcyjne."
+          },
+          "477": {
+            "title": "Sprzedaż detaliczna pozostałych wyrobów prowadzona w wyspecjalizowanych sklepach",
+            "children": {
+              "4771": {
+                "title": "Sprzedaż detaliczna odzieży prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - wyrobów odzieżowych, w tym bielizny, - wyrobów futrzarskich, - dodatków odzieżowych, takich jak: rękawiczki, krawaty, szelki itp."
+              },
+              "4772": {
+                "title": "Sprzedaż detaliczna obuwia i wyrobów skórzanych prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - obuwia, - artykułów ze skóry, - przyborów podróżnych ze skóry i jej substytutów."
+              },
+              "4773": {
+                "title": "Sprzedaż detaliczna wyrobów farmaceutycznych prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje: - sprzedaż detaliczną wyrobów farmaceutycznych prowadzoną w wyspecjalizowanych sklepach, w tym w aptekach."
+              },
+              "4774": {
+                "title": "Sprzedaż detaliczna wyrobów medycznych, włączając ortopedyczne, prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              },
+              "4775": {
+                "title": "Sprzedaż detaliczna kosmetyków i artykułów toaletowych prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje także sprzedaż detaliczną perfum."
+              },
+              "4776": {
+                "title": "Sprzedaż detaliczna kwiatów, roślin, nasion, nawozów, żywych zwierząt domowych, karmy dla zwierząt domowych prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              },
+              "4777": {
+                "title": "Sprzedaż detaliczna zegarków, zegarów i biżuterii prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              },
+              "4778": {
+                "title": "Sprzedaż detaliczna pozostałych nowych wyrobów prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - sprzętu fotograficznego, optycznego i precyzyjnego, - pamiątek, wyrobów rzemieślniczych i artykułów religijnych, - realizowaną przez handlowe galerie artystyczne, - oleju opałowego, gazu w butlach, węgla i drewna dla potrzeb gospodarstwa domowego, - broni i amunicji, - znaczków i monet, - produktów innych niż żywnościowe, gdzie indziej niesklasyfikowaną oraz - działalność optyków."
+              },
+              "4779": {
+                "title": "Sprzedaż detaliczna artykułów używanych prowadzona w wyspecjalizowanych sklepach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną: - używanych książek, - pozostałych artykułów używanych, - antyków, - prowadzoną przez domy aukcyjne."
+              }
             }
-          }
-        },
-        "478": {
-          "title": "Sprzedaż detaliczna prowadzona na straganach i targowiskach",
-          "children": {
-            "4781": {
-              "title": "Sprzedaż detaliczna żywności, napojów i wyrobów tytoniowych prowadzona na straganach i targowiskach",
-              "description": "Podklasa nie wymaga wyjaśnień."
-            },
-            "4782": {
-              "title": "Sprzedaż detaliczna wyrobów tekstylnych, odzieży i obuwia prowadzona na straganach i targowiskach",
-              "description": "Podklasa nie wymaga wyjaśnień."
-            },
-            "4789": {
-              "title": "Sprzedaż detaliczna pozostałych wyrobów prowadzona na straganach i targowiskach",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną prowadzoną na straganach i targowiskach pozostałych wyrobów, takich jak: - dywany i chodniki, - książki, - gry i zabawki, - urządzenia domowe i elektroniczne powszechnego użytku, - nagrania muzyczne i nagrania wideo."
+          },
+          "478": {
+            "title": "Sprzedaż detaliczna prowadzona na straganach i targowiskach",
+            "children": {
+              "4781": {
+                "title": "Sprzedaż detaliczna żywności, napojów i wyrobów tytoniowych prowadzona na straganach i targowiskach",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              },
+              "4782": {
+                "title": "Sprzedaż detaliczna wyrobów tekstylnych, odzieży i obuwia prowadzona na straganach i targowiskach",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              },
+              "4789": {
+                "title": "Sprzedaż detaliczna pozostałych wyrobów prowadzona na straganach i targowiskach",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną prowadzoną na straganach i targowiskach pozostałych wyrobów, takich jak: - dywany i chodniki, - książki, - gry i zabawki, - urządzenia domowe i elektroniczne powszechnego użytku, - nagrania muzyczne i nagrania wideo."
+              }
             }
-          }
-        },
-        "479": {
-          "title": "Sprzedaż detaliczna prowadzona poza siecią sklepową, straganami i targowiskami",
-          "children": {
-            "4791": {
-              "title": "Sprzedaż detaliczna prowadzona przez domy sprzedaży wysyłkowej lub Internet",
-              "description": "Klient dokonuje wyboru towaru w oparciu o ogłoszenia, katalogi, informacje dostarczone na stronie internetowej, modele albo inny środek reklamy i składa swoje zamówienie za pośrednictwem poczty, telefonu lub przez Internet (zwykle poprzez specjalne środki zapewnione w ramach takiej strony internetowej). Nabyte towary mogą być albo bezpośrednio ściągnięte z Internetu lub fizycznie dostarczone do klienta. Podklasa ta obejmuje sprzedaż detaliczną: - dowolnego towaru drogą zamówienia pocztowego, - dowolnego produktu przez Internet, - bezpośrednią przez telewizję, radio i telefon, - prowadzoną na aukcjach internetowych."
-            },
-            "4799": {
-              "title": "Pozostała sprzedaż detaliczna prowadzona poza siecią sklepową, straganami i targowiskami",
-              "description": "Podklasa ta obejmuje sprzedaż detaliczną dowolnych towarów w dowolny sposób, która nie została zaliczona do żadnej z poprzednich podklas: - sprzedaż bezpośrednią lub przez domokrążców, - z automatów sprzedających itp., - sprzedaż paliw (oleju opałowego, drewna opałowego) bezpośrednio dostarczanych do klientów, - działalność domów aukcyjnych, prowadzoną poza siecią sklepową zajmującą się sprzedażą detaliczną, - sprzedaż detaliczną prowadzoną przez agentów komisowych poza siecią sklepową."
+          },
+          "479": {
+            "title": "Sprzedaż detaliczna prowadzona poza siecią sklepową, straganami i targowiskami",
+            "children": {
+              "4791": {
+                "title": "Sprzedaż detaliczna prowadzona przez domy sprzedaży wysyłkowej lub Internet",
+                "description": "Klient dokonuje wyboru towaru w oparciu o ogłoszenia, katalogi, informacje dostarczone na stronie internetowej, modele albo inny środek reklamy i składa swoje zamówienie za pośrednictwem poczty, telefonu lub przez Internet (zwykle poprzez specjalne środki zapewnione w ramach takiej strony internetowej). Nabyte towary mogą być albo bezpośrednio ściągnięte z Internetu lub fizycznie dostarczone do klienta. Podklasa ta obejmuje sprzedaż detaliczną: - dowolnego towaru drogą zamówienia pocztowego, - dowolnego produktu przez Internet, - bezpośrednią przez telewizję, radio i telefon, - prowadzoną na aukcjach internetowych."
+              },
+              "4799": {
+                "title": "Pozostała sprzedaż detaliczna prowadzona poza siecią sklepową, straganami i targowiskami",
+                "description": "Podklasa ta obejmuje sprzedaż detaliczną dowolnych towarów w dowolny sposób, która nie została zaliczona do żadnej z poprzednich podklas: - sprzedaż bezpośrednią lub przez domokrążców, - z automatów sprzedających itp., - sprzedaż paliw (oleju opałowego, drewna opałowego) bezpośrednio dostarczanych do klientów, - działalność domów aukcyjnych, prowadzoną poza siecią sklepową zajmującą się sprzedażą detaliczną, - sprzedaż detaliczną prowadzoną przez agentów komisowych poza siecią sklepową."
+              }
             }
           }
         }
@@ -2479,19 +2481,166 @@
     "title": "TRANSPORT I GOSPODARKA MAGAZYNOWA",
     "children": {
       "49": {
-        "title": "TRANSPORT LĄDOWY ORAZ TRANSPORT RUROCIĄGOWY"
+        "title": "TRANSPORT LĄDOWY ORAZ TRANSPORT RUROCIĄGOWY",
+        "children": {
+          "491": {
+            "title": "Transport kolejowy pasażerski międzymiastowy",
+            "children": {
+              "4910": {
+                "title": "Transport kolejowy pasażerski międzymiastowy",
+                "description": "Podklasa ta obejmuje: - przewozy kolejowe pasażerskie wykonywane na sieciach magistralnych na obszarze kraju, - przewozy kolejowe pasażerskie międzymiastowe, - działalność wagonów sypialnych i wagonów restauracyjnych wykonywana w ramach przedsiębiorstwa kolejowego."
+              }
+            }
+          },
+          "492": {
+            "title": "Transport kolejowy towarów",
+            "children": {
+              "4920": {
+                "title": "Transport kolejowy towarów",
+                "description": "Podklasa ta obejmuje: - transport kolejowy towarów zarówno na sieciach magistralnych jak i na sieciach lokalnych."
+              }
+            }
+          },
+          "493": {
+            "title": "Pozostały transport lądowy pasażerski",
+            "children": {
+              "4931": {
+                "title": "Transport lądowy pasażerski, miejski i podmiejski",
+                "description": "Podklasa ta obejmuje: - miejskie lub podmiejskie przewozy pasażerskie realizowane środkami transportu lądowego, takimi jak: autobus, tramwaj, trolejbus, kolej podziemna lub nadziemna itp., po ustalonych trasach w oparciu o rozkład jazdy, uwzględniający zabieranie pasażerów oraz ich wysadzanie na ustalonych przystankach, - przewozy pasażerskie na trasach między lotniskiem czy stacją kolejową a centrum miasta, - działalność kolei linowo-naziemnych, linowych itp. w przypadku, gdy należą do miejskiego lub podmiejskiego systemu komunikacji."
+              },
+              "4932": {
+                "title": "Działalność taksówek osobowych",
+                "description": "Podklasa ta obejmuje: - działalność polegająca na przewozie indywidualnych pasażerów do ustalonych przez nich miejsc, działalność polegającą na wynajmowaniu samochodów osobowych i furgonetek (< =3,5 t) z kierowcą."
+              },
+              "4939": {
+                "title": "Pozostały transport lądowy pasażerski, gdzie indziej niesklasyfikowany",
+                "description": "Podklasa ta obejmuje: - transport drogowy pasażerski pozostały, taki jak: - rozkładowe dalekobieżne przewozy autobusowe, - wynajem autobusów z kierowcą, przewozy wycieczkowe i turystyczne oraz inne okazjonalne przewozy autobusowe kursujące bez ustalonego rozkładu, - przewozy wahadłowe między portem lotniczym a stałymi punktami w centrum miasta, - działalność kolejek linowych naziemnych, kolejek linowych, wyciągów orczykowych i wyciągów narciarskich pod warunkiem, że nie są częścią miejskiego lub podmiejskiego systemu komunikacji, - autobusowe przewozy szkolne i pracownicze, - transport pasażerski pojazdami napędzanymi siłą mięśni ludzkich lub ciągnionymi przez zwierzęta."
+              }
+            }
+          },
+          "494": {
+            "title": "Transport drogowy towarów oraz działalność usługowa związana z przeprowadzkami",
+            "children": {
+              "4941": {
+                "title": "Transport drogowy towarów",
+                "description": "Podklasa ta obejmuje: - przewozy towarów realizowane środkami transportu drogowego przystosowanymi do przewozu: - dłużyc, - inwentarza żywego, - towarów zamrożonych lub schłodzonych, - towarów ciężkich, - towarów masowych, włączając transport cysternami mleka z gospodarstw rolnych, - samochodów, - odpadów i materiałów wtórnych, z wyłączeniem ich zbierania i usuwania, - wynajem samochodów ciężarowych z kierowcą, - transport towarów pojazdami napędzanymi siłą mięśni ludzkich lub ciągnionymi przez zwierzęta."
+              },
+              "4942": {
+                "title": "Działalność usługowa związana z przeprowadzkami",
+                "description": "Podklasa ta obejmuje: - transport drogowy związany z przeprowadzkami świadczony na rzecz przedsiębiorstw i gospodarstw domowych."
+              }
+            }
+          },
+          "495": {
+            "title": "Transport rurociągowy",
+            "children": {
+              "4950": {
+                "title": "Transport rurociągowy",
+                "description": "Podklasa ta obejmuje: - transport rurociągami paliw gazowych, - działalność stacji pomp, - transport rurociągami cieczy, wody, zawiesin i pozostałych towarów."
+              }
+            }
+          }
+        }
       },
       "50": {
-        "title": "TRANSPORT WODNY"
+        "title": "TRANSPORT WODNY",
+        "children": {
+          "5010": {
+            "title": "Transport morski i przybrzeżny pasażerski",
+            "description": "Podklasa ta obejmuje: - przewozy pasażerskie na pełnym morzu i wodach przybrzeżnych, rozkładowe lub pozarozkładowe: - działalność łodzi wycieczkowych i podobnych jednostek pływających, - działalność promów, taksówek wodnych itp., - wynajem łodzi żeglugi morskiej i przybrzeżnej wraz z załogą w celach rekreacyjnych (np. dla rejsów wędkarskich)."
+          },
+          "5020": {
+            "title": "Transport morski i przybrzeżny towarów",
+            "description": "Podklasa ta obejmuje: - transport towarów na pełnym morzu i wodach przybrzeżnych, rozkładowy lub pozarozkładowy, - holowanie i pchanie barek, platform wiertniczych itp., - wynajem środków transportu morskiego i wodnego przybrzeżnego towarów, z załogą."
+          },
+          "5030": {
+            "title": "Transport wodny śródlądowy pasażerski ",
+            "description": "Podklasa ta obejmuje: - transport pasażerski na drogach wodnych śródlądowych: rzekach, kanałach, jeziorach i wewnątrz portów, zatok i w dokach, - wynajem łodzi transportu śródlądowego wraz z załogą w celach rekreacyjnych."
+          },
+          "5040": {
+            "title": "Transport wodny śródlądowy towarów",
+            "description": "Podklasa ta obejmuje: - transport towarów na drogach wodnych śródlądowych: rzekach, kanałach, jeziorach i wewnątrz portów, zatok i w dokach, - wynajem statków transportu wodnego śródlądowego towarów, z załogą."
+          }
+        }
       },
       "51": {
-        "title": "TRANSPORT LOTNICZY"
+        "title": "TRANSPORT LOTNICZY",
+        "children": {
+          "511": {
+            "title": "Transport lotniczy pasażerski",
+            "children": {
+              "5110": {
+                "title": "Transport lotniczy pasażerski",
+                "description": "Podklasa ta obejmuje: - transport lotniczy pasażerski na stałych trasach i według ustalonego rozkładu lotów, - loty czarterowe, - loty widokowe i wycieczkowe, - wynajem środków lotniczego transportu pasażerskiego z załogą, - działalność lotnictwa ogólnego, taką jak: przewozy pasażerów organizowane przez aerokluby w celach szkoleniowych lub dla przyjemności."
+              }
+            }
+          },
+          "512": {
+            "title": "Transport lotniczy towarów i transport kosmiczny",
+            "children": {
+              "5121": {
+                "title": "Transport lotniczy towarów",
+                "description": "Podklasa ta obejmuje: - transport lotniczy towarów na stałych trasach i według ustalonego rozkładu lotów, - transport lotniczy towarów, nieobjęty rozkładem lotów, - wynajem środków transportu lotniczego z załogą, w celu przewozu towarów."
+              },
+              "5122": {
+                "title": "Transport kosmiczny",
+                "description": "Podklasa ta obejmuje: - wystrzeliwanie satelitów i pojazdów kosmicznych, - transport kosmiczny pasażerów i towarów."
+              }
+            }
+          }
+        }
       },
       "52": {
-        "title": "MAGAZYNOWANIE I DZIAŁALNOŚĆ USŁUGOWA WSPOMAGAJĄCA TRANSPORT"
+        "title": "MAGAZYNOWANIE I DZIAŁALNOŚĆ USŁUGOWA WSPOMAGAJĄCA TRANSPORT",
+        "children": {
+          "521": {
+            "title": "Magazynowanie i przechowywanie towarów",
+            "children": {
+              "5210": {
+                "title": "Magazynowanie i przechowywanie towarów",
+                "description": "Podklasa ta obejmuje: - działalność polegającą na magazynowaniu i przechowywaniu paliw gazowych, z wyłączeniem tej części instalacji, która jest wykorzystywana do działalności produkcyjnej oraz instalacji służącej do realizacji zadań operatorów systemu przesyłowego paliw gazowych, - działalność polegającą na magazynowaniu i przechowywaniu wszystkich rodzajów towarów (z wyłączeniem paliw gazowych): - w silosach zbożowych, magazynach towarowych ogólnego przeznaczenia, chłodniach składowych, zbiornikach magazynowych itp., - magazynowanie towarów w strefach wolnocłowych, - zamrażanie towarów."
+              }
+            }
+          },
+          "522": {
+            "title": "Działalność usługowa wspomagająca transport",
+            "children": {
+              "5221": {
+                "title": "Działalność usługowa wspomagająca transport lądowy",
+                "description": "Podklasa ta obejmuje: - działalność związaną z transportem lądowym pasażerów, zwierząt i towarów, taką jak: - działalność terminali, takich jak: dworce kolejowe, dworce autobusowe, stacje towarowe, - działalność związaną z infrastrukturą kolejową, - działalność związaną z drogami, mostami, tunelami, parkingami samochodowymi i rowerowymi, garażami, magazynami do przechowywania przyczep kempingowych w czasie zimy, - prace manewrowe na kolei, - holowanie i pomoc drogową, - skraplanie gazu w celu dalszego transportu."
+              },
+              "5222": {
+                "title": "Działalność usługowa wspomagająca transport wodny",
+                "description": "Podklasa ta obejmuje działalność usługową wspomagającą transport morski pasażerów, zwierząt i towarów, taką jak: - działalność terminali portowych, - działalność związaną z nawigacją, pilotażem i miejscami postoju statków, - lichtowanie (przeładowywanie części ładunku na inny statek w celu zmniejszenia zanurzenia statku), - działalność ratownictwa okrętowego, - działalność latarni morskich, - działalność terminali portowych, - działalność śluz dróg wodnych itp., - działalność związaną z nawigacją, pilotażem i miejscami postoju statków, - lichtowanie (przeładowywanie części ładunku na inny statek w celu zmniejszenia zanurzenia statku)."
+              },
+              "5223": {
+                "title": "Działalność usługowa wspomagająca transport lotniczy",
+                "description": "Podklasa ta obejmuje: - działalność usługową wspomagającą lotniczy transport pasażerów, zwierząt i towarów, taką jak: - działalność terminali, takich jak: porty, dworce lotnicze itp., - kontrola ruchu lotniczego, - obsługa naziemna statków powietrznych itp., - usługi gaszenia pożarów i ochrony przeciwpożarowej w portach lotniczych."
+              },
+              "5224": {
+                "title": "Przeładunek towarów",
+                "description": "Podklasa ta obejmuje: - załadunek, rozładunek i przeładunek towarów oraz bagażu pasażerów w portach morskich, - załadunek, rozładunek i przeładunek towarów oraz bagażu pasażerów w portach śródlądowych, - załadunek, rozładunek i przeładunek towarów oraz bagażu pasażerów przeładunek w pozostałych punktach przeładunkowych."
+              },
+              "5229": {
+                "title": "Pozostała działalność usługowa wspomagająca transport",
+                "description": "Podklasa ta obejmuje: - działalność agentów morskich statków pasażerskich, - spedycję towarów (działalność wspomagającą transport lądowy i śródlądowy), - organizację lub przygotowywanie, przez morskie agencje transportowe, transportu morskiego w imieniu nadawcy ładunku, - przyjmowanie przesyłek towarów zbiorowych lub indywidualnych, włącznie z odbiorem i dostarczaniem towarów oraz ich pogrupowaniem, przez morskie agencje transportowe, - wystawianie i realizowanie dokumentów przewozowych przez morskie agencje transportowe, - działalność agentów celnych, - działalność agentów spedycji towarowej morskich agencji transportowych, - działalność maklerów okrętowych, - działalność przez morskie agencje transportowe związana z obsługą towarową, np. załadunek towaru w tymczasowe opakowania w celu jego ochrony podczas transportu, wyładowywanie, sprawdzanie jakości i ważenie towarów - działalność agentów śródlądowych statków pasażerskich, - organizację lub przygotowywanie, przez śródlądowe wodne agencje transportowe, transportu w imieniu nadawcy ładunku, - przyjmowanie przesyłek towarów zbiorowych lub indywidualnych, włącznie z odbiorem i dostarczaniem towarów oraz ich pogrupowaniem, przez śródlądowe wodne agencje transportowe, - wystawianie i realizowanie dokumentów i listów przewozowych przez śródlądowe wodne agencje transportowe, - działalność agentów celnych, - działalność agentów spedycji towarowej śródlądowych wodnych agencji transportowych, - działalność śródlądowych wodnych agencji transportowych związana z obsługą towarową, np. załadunek towaru w tymczasowe opakowania w celu jego ochrony podczas transportu, wyładowywanie, sprawdzanie jakości i ważenie towarów, - organizację lub przygotowywanie transportu w imieniu nadawcy ładunku, - przyjmowanie przesyłek zbiorowych lub indywidualnych, włącznie z odbiorem i dostarczaniem towarów oraz ich pogrupowaniem, - wystawianie i realizowanie dokumentów przewozowych, - działalność agentów celnych, - działalność agentów spedycji towarowej, - działalność związana z obsługą towarową, np. załadunek towaru w tymczasowe opakowania w celu jego ochrony podczas transportu, wyładowywanie, sprawdzanie jakości i ważenie towarów."
+              }
+            }
+          }
+        }
       },
       "53": {
-        "title": "DZIAŁALNOŚĆ POCZTOWA I KURIERSKA"
+        "title": "DZIAŁALNOŚĆ POCZTOWA I KURIERSKA",
+        "children": {
+          "5310": {
+            "title": "Działalność pocztowa objęta obowiązkiem świadczenia usług powszechnych (operatora publicznego)",
+            "description": "Podklasa ta obejmuje działalność pocztową objętą obowiązkiem usług powszechnych (operatora publicznego). Działalność ta korzysta z infrastruktury usług powszechnych, włączając punkty handlu detalicznego, pomieszczenia do sortowania i obróbki oraz tras przewoźników, którzy odbierają i doręczają pocztę. Doręczanie może obejmować przesyłki listowe do 2000 g, przesyłki dla ociemniałych, przesyłki reklamowe i paczki pocztowe do 10 kg. W niniejszym dziale mieszczą się również inne niezbędne usługi związane z usługami powszechnymi, takie jak: potwierdzenie odbioru, traktowanie przesyłki jako przesyłki z zadeklarowaną wartością, usługi poste-restante. Podklasa ta obejmuje: - zbieranie, sortowanie, przewóz i doręczanie przesyłek listowych, paczek pocztowych niezależnie od miejsca przeznaczenia, świadczone przez operatora publicznego, objęte obowiązkiem usług powszechnych, z wykorzystaniem jednego lub więcej środków transportu prywatnego lub publicznego, - działalność kurierską objętą obowiązkiem usług powszechnych, - odbiór przesyłek listowych i paczek (ze skrzynek pocztowych lub placówek pocztowych)."
+          },
+          "5320": {
+            "title": "Pozostała działalność pocztowa i kurierska",
+            "description": "Podklasa ta obejmuje: - zbieranie, sortowanie, przewóz i doręczanie listów, paczek i innych przesyłek pocztowych nie objętych obowiązkiem ich świadczenia, niezależnie od miejsca przeznaczenia, świadczone przez operatorów pocztowych i kurierów, z wykorzystaniem jednego lub więcej środków transportu prywatnego lub publicznego, - usługi doręczania przesyłek do domu."
+          }
+        }
       }
     }
   },
@@ -2499,10 +2648,61 @@
     "title": "DZIAŁALNOŚĆ ZWIĄZANA Z ZAKWATEROWANIEM I USŁUGAMI GASTRONOMICZNYMI",
     "children": {
       "55": {
-        "title": "ZAKWATEROWANIE"
+        "title": "ZAKWATEROWANIE",
+        "children": {
+          "5510": {
+            "title": "Hotele i podobne obiekty zakwaterowania",
+            "description": "Podklasa ta obejmuje zapewnienie zakwaterowania w cyklu dziennym lub tygodniowym. Obiekty tu sklasyfikowane zapewniają zakwaterowanie w umeblowanych pokojach, apartamentach z usługami codziennego sprzątania, słania łóżek oraz szeroki zakres usług dodatkowych takich jak: usługi podawania posiłków i napojów, usługi parkingowe, usługi pralni, udostępnianie basenów kąpielowych, pomieszczeń do ćwiczeń gimnastycznych czy urządzeń rekreacyjnych oraz udostępnianie sal konferencyjnych. Podklasa ta obejmuje zapewnienie krótkotrwałego zakwaterowania w: - hotelach, - motelach, - pensjonatach, - innych obiektach hotelowych (np. wotele, botele, novotele, airtele, zajazdy, zamki)."
+          },
+          "5520": {
+            "title": "Obiekty noclegowe turystyczne i miejsca krótkotrwałego zakwaterowania",
+            "description": "Podklasa ta obejmuje zapewnienie zakwaterowania w cyklu dziennym lub tygodniowym w specjalnie wydzielonych umeblowanych pokojach lub pomieszczeniach umożliwiających mieszkanie, przygotowywanie posiłków oraz spanie lub z warunkami do gotowania lub wyposażonymi kuchniami. Mogą to być pokoje, apartamenty lub mieszkania w budynkach wielopiętrowych lub zespołach budynków, domki letniskowe lub domki kempingowe. Mogą być zapewnione minimalne usługi towarzyszące zakwaterowaniu. Podklasa ta obejmuje zapewnienie krótkotrwałego zakwaterowania w: - ośrodkach kolonijnych i pozostałych obiektach wypoczynku wakacyjnego (np. w ośrodkach wczasowych, domach wycieczkowych, ośrodkach szkoleniowo-wypoczynkowych), - kwaterach dla gości i bungalowach, - domkach lub chatach, bez obsługi, - gospodarstwach wiejskich (agroturystyka), - schroniskach młodzieżowych i górskich."
+          },
+          "5530": {
+            "title": "Pola kempingowe (włączając pola dla pojazdów kempingowych) i pola namiotowe",
+            "description": "Podklasa ta obejmuje: - zapewnienie krótkotrwałego zakwaterowania w obozowiskach (np. rekreacyjnych, wędkarskich, łowieckich), przyczepach kempingowych, - zapewnienie miejsc dla pojazdów kempingowych, - zapewnienie miejsc na ustawienie namiotów."
+          },
+          "5590": {
+            "title": "Pozostałe zakwaterowanie",
+            "description": "Podklasa ta obejmuje zapewnienie tymczasowego lub długoterminowego zakwaterowania w pojedynczych lub wspólnych pokojach lub domach dla studentów, pracowników sezonowych lub innych osób. Podklasa ta obejmuje - zapewnienie zakwaterowania w: - domach studenckich, - internatach i bursach szkolnych, - hotelach robotniczych, - blokach mieszkalnych, - usługi sypialne w wagonach kolejowych oraz pozostałych środkach transportu."
+          }
+        }
       },
       "56": {
-        "title": "DZIAŁALNOŚĆ USŁUGOWA ZWIĄZANA Z WYŻYWIENIEM"
+        "title": "DZIAŁALNOŚĆ USŁUGOWA ZWIĄZANA Z WYŻYWIENIEM",
+        "children": {
+          "561": {
+            "title": "Restauracje i pozostałe placówki gastronomiczne",
+            "children": {
+              "5610": {
+                "title": "Restauracje i pozostałe placówki gastronomiczne",
+                "description": "Podklasa ta obejmuje przygotowywanie i podawanie posiłków gościom siedzącym przy stołach lub gościom dokonującym własnego wyboru potraw z wystawionego menu, bez względu na to czy spożywają oni przygotowywane posiłki na miejscu, biorą je na wynos czy są im dostarczane. Podklasa ta obejmuje działalność: - restauracji, - kawiarni, - restauracji typu fast food, - barów mlecznych, - barów szybkiej obsługi, - lodziarni, - pizzerii, - miejsc z żywnością na wynos, - restauracyjną lub barową prowadzoną w środkach transportu, wykonywaną przez oddzielne jednostki, - obwoźnych sprzedawców lodów, - wózków z żywnością, - przyczep gastronomicznych, - związaną z przygotowywaniem żywności na straganach."
+              }
+            }
+          },
+          "562": {
+            "title": "Przygotowywanie żywności dla odbiorców zewnętrznych (katering) i pozostała gastronomiczna działalność usługowa",
+            "children": {
+              "5621": {
+                "title": "Przygotowywanie i dostarczanie żywności dla odbiorców zewnętrznych (katering)",
+                "description": "Podklasa ta obejmuje: - przygotowywanie i dostarczanie żywności świadczone w oparciu o zawartą z klientem umowę, na określone uroczystości do miejsc przez niego wyznaczonych, - przygotowywanie i dostarczanie żywności dla odbiorców zewnętrznych."
+              },
+              "5629": {
+                "title": "Pozostała usługowa działalność gastronomiczna",
+                "description": "Podklasa ta obejmuje katering przemysłowy tj. przygotowywanie i dostarczanie żywności świadczone w oparciu o zawartą z klientem umowę, przez określony czas. Podklasa ta obejmuje także określone umową usługi gastronomiczne świadczone w obiektach sportowych i podobnych. Żywność zazwyczaj przygotowywana jest w jednostkach centralnych. Podklasa ta obejmuje: - przygotowywanie i dostarczanie żywności na postawie umowy, np. dla przedsiębiorstw transportowych, - usługi gastronomiczne świadczone w obiektach sportowych i podobnych, - działalność stołówek i kawiarni (np. w zakładach przemysłowych, biurach, szpitalach lub szkołach)."
+              }
+            }
+          },
+          "563": {
+            "title": "Przygotowywanie i podawanie napojów",
+            "children": {
+              "5610": {
+                "title": "Przygotowywanie i podawanie napojów",
+                "description": "Podklasa ta obejmuje przygotowywanie i podawanie napojów do konsumpcji na miejscu. Podklasa ta obejmuje działalność: - barów, - tawern, - koktajlbarów, - dyskotek (serwujących głównie napoje), - piwiarni i pubów, - sklepów z kawą, - pijalni soków owocowych, - sprzedawców napojów w ruchomych punktach, - przygotowywania i podawania napojów w środkach transportu, wykonywaną przez oddzielne jednostki."
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -2510,22 +2710,168 @@
     "title": "INFORMACJA I KOMUNIKACJA",
     "children": {
       "58": {
-        "title": "DZIAŁALNOŚĆ WYDAWNICZA"
+        "title": "DZIAŁALNOŚĆ WYDAWNICZA",
+        "children": {
+          "581": {
+            "title": "Wydawanie książek i periodyków oraz pozostała działalność wydawnicza, z wyłączeniem w zakresie oprogramowania",
+            "children": {
+              "5811": {
+                "title": "Wydawanie książek",
+                "description": "Podklasa ta obejmuje wydawanie: - książek, broszur, ulotek i podobnych publikacji, włączając słowniki i encyklopedie, w formie drukowanej, elektronicznej i dźwiękowej lub w Internecie, - atlasów, map i wykresów w formie drukowanej i elektronicznej."
+              },
+              "5812": {
+                "title": "Wydawanie wykazów oraz list (np. adresowych, telefonicznych)",
+                "description": "Podklasa ta obejmuje wydawanie: - list adresowych w formie drukowanej lub elektronicznej, - książek telefonicznych, - pozostałych informatorów i zestawów, takich jak: orzecznictwo prawne, poradniki farmaceutyczne itp."
+              },
+              "5813": {
+                "title": "Wydawanie gazet",
+                "description": "Podklasa ta obejmuje: - wydawanie gazet, włączając gazety ogłoszeniowe i reklamowe, ukazujące się co najmniej 4 razy w tygodniu, w formie drukowanej lub elektronicznej, włączając Internet."
+              },
+              "5814": {
+                "title": "Wydawanie czasopism i pozostałych periodyków",
+                "description": "Podklasa ta obejmuje: - wydawanie czasopism i pozostałych periodyków ukazujących się mniej niż 4 razy w tygodniu, w formie drukowanej lub elektronicznej, włączając Internet, - wydawanie programów radiowych i telewizyjnych."
+              },
+              "5819": {
+                "title": "Pozostała działalność wydawnicza",
+                "description": "Podklasa ta obejmuje: - wydawanie, włączając udostępnianie w trybie on-line: - katalogów, - materiałów reklamowych, - fotografii, rycin i pocztówek, - kartek z życzeniami, - formularzy, - plakatów, reprodukcji dzieł sztuki, - pozostałych wyrobów drukowanych - wydawanie (udostępnianie) danych statystycznych i innych informacji w trybie on-line."
+              }
+            }
+          },
+          "582": {
+            "title": "Działalność wydawnicza w zakresie oprogramowania",
+            "children": {
+              "5821": {
+                "title": "Działalność wydawnicza w zakresie gier komputerowych",
+                "description": "Podklasa ta obejmuje działalność wydawniczą w zakresie gier komputerowych dla wszystkich platform."
+              },
+              "5829": {
+                "title": "Działalność wydawnicza w zakresie pozostałego oprogramowania",
+                "description": "Podklasa ta obejmuje tworzenie, dostarczanie oraz dokumentację standardowego oprogramowania, bez uwzględniania specyficznych wymagań klienta: - systemów operacyjnych, - programów użytkowych i pozostałych."
+              }
+            }
+          }
+        }
       },
       "59": {
-        "title": "DZIAŁALNOŚĆ ZWIĄZANA Z PRODUKCJĄ FILMÓW, NAGRAŃ WIDEO, PROGRAMÓW TELEWIZYJNYCH, NAGRAŃ DŹWIĘKOWYCH I MUZYCZNYCH"
+        "title": "DZIAŁALNOŚĆ ZWIĄZANA Z PRODUKCJĄ FILMÓW, NAGRAŃ WIDEO, PROGRAMÓW TELEWIZYJNYCH, NAGRAŃ DŹWIĘKOWYCH I MUZYCZNYCH",
+        "children": {
+          "591": {
+            "title": "Działalność związana z filmami, nagraniami wideo i programami telewizyjnymi",
+            "children": {
+              "5911": {
+                "title": "Działalność związana z produkcją filmów, nagrań wideo i programów telewizyjnych",
+                "description": "Podklasa ta obejmuje: - produkcję filmów kinowych, nagrań wideo, programów telewizyjnych (seriali telewizyjnych, programów dokumentalnych) i reklam telewizyjnych."
+              },
+              "5912": {
+                "title": "Działalność postprodukcyjna związana z filmami, nagraniami wideo i programami telewizyjnymi",
+                "description": "Podklasa ta obejmuje: - montaż filmowy, telewizyjny i wideo realizowany przy pomocy dowolnej techniki w sferze obrazu i dźwięku, wykonywanie napisów, napisów czołowych i końcowych, postprodukcyjne efekty specjalne, w tym: grafika i animacja komputerowa, - działalność laboratoriów filmowych, - cyfrowe przeniesienie filmu z taśmy filmowej, - wykonywanie materiałów wyjściowych obrazu i dźwięku do kopii eksploatacyjnych, - działalność filmotek przechowujących materiały filmowe i podobną działalność."
+              },
+              "5913": {
+                "title": "Działalność związana z dystrybucją filmów, nagrań wideo i programów telewizyjnych",
+                "description": "Podklasa ta obejmuje: - dystrybucję filmów kinowych, kaset wideo, płyt DVD i podobnych produkcji do kin, stacji telewizyjnych itp. jednostek, - nabywanie praw autorskich do filmów kinowych, nagrań wideo i DVD."
+              },
+              "5914": {
+                "title": "Działalność związana z projekcją filmów",
+                "description": "Podklasa ta obejmuje: - projekcję filmów lub nagrań wideo w kinach, na otwartym powietrzu lub w pozostałych miejscach, - działalność klubów filmowych."
+              }
+            }
+          },
+          "592": {
+            "title": "Działalność w zakresie nagrań dźwiękowych i muzycznych",
+            "children": {
+              "5920": {
+                "title": "Działalność w zakresie nagrań dźwiękowych i muzycznych",
+                "description": "Podklasa ta obejmuje: - produkcję oryginalnych dźwiękowych nagrań wzorcowych, na taśmach, płyt CD, - wydawanie, promocję i dystrybucję nagrań dźwiękowych przeznaczonych do sprzedaży hurtowej, detalicznej lub bezpośrednio do odbiorców, Działalności te wykonywane w ramach tej samej jednostki mogą być związane lub nie z produkcją nagrań wzorcowych. Jeżeli nie są związane z produkcją nagrań wzorcowych, to jednostka taka musi uzyskać prawa do reprodukcji i dystrybucji nagrań wzorcowych. - nagrywanie dźwięku zarówno w studio jak i w innych miejscach, włączając produkcję programów radiofonicznych na taśmach, - nabywanie i rejestrowanie praw autorskich do kompozycji muzycznych, - promowanie, autoryzowanie i stosowanie tych kompozycji w nagraniach radiofonicznych, telewizyjnych, filmach, przedstawieniach na żywo, druku i pozostałych mediach. Jednostki zaangażowane w te działalności mogą posiadać prawa autorskie lub mogą zarządzać prawami autorskimi w imieniu ich właściciela. - wydawanie nut."
+              }
+            }
+          }
+        }
       },
       "60": {
-        "title": "NADAWANIE PROGRAMÓW OGÓLNODOSTĘPNYCH I ABONAMENTOWYCH"
+        "title": "NADAWANIE PROGRAMÓW OGÓLNODOSTĘPNYCH I ABONAMENTOWYCH",
+        "children": {
+          "6010": {
+            "title": "Hotele i podobne obiekty zakwaterowania",
+            "description": "Podklasa ta obejmuje: - transmisję radiofoniczną sygnałów dźwiękowych przez studia nadawcze i systemy do transmisji programów dźwiękowych, ogólnodostępnych lub dla abonentów, - działalność stacji radiofonicznych, tj. układanie i nadawanie programów dźwiękowych dla osób stowarzyszonych lub dla abonentów, drogą radiową, kablowa lub satelitarną, - transmisję radiofoniczną przez Internet (internetowe stacje radiowe), - transmisję danych zintegrowaną z programami radiofonicznymi."
+          },
+          "6020": {
+            "title": "Nadawanie programów telewizyjnych ogólnodostępnych i abonamentowych",
+            "description": "Podklasa ta obejmuje: - tworzenie programów telewizyjnych, poprzez nabywanie określonych programów (np. filmów, programów dokumentalnych itp.), produkcję określonych programów we własnym zakresie (np. wiadomości lokalne, relacje na żywo) lub ich kombinację. - programowanie i transmisję programów telewizyjnych ogólnych i specjalistycznych (relacje sportowe, informacyjne itp.), - nadawanie programów na życzenie. Programy te mogą być nadawane przez producenta lub dystrybuowane przez osoby trzecie takie jak telewizje kablowe lub dostawcy telewizji satelitarnej. Programy te mogą być ogólnodostępne lub abonamentowe."
+          }
+        }
       },
       "61": {
-        "title": "TELEKOMUNIKACJA"
+        "title": "TELEKOMUNIKACJA",
+        "children": {
+          "6110": {
+            "title": "Działalność w zakresie telekomunikacji przewodowej",
+            "description": "Podklasa ta obejmuje działalności związane z obsługą, konserwacją lub udostępnianiem systemów transmisyjnych do przesyłania głosu, danych, tekstu, dźwięku i obrazu realizowane za pomocą infrastruktury telekomunikacji przewodowej. Systemy transmisyjne mogą być oparte na jednej technologii lub ich kombinacji. Podklasa ta obejmuje: - obsługę i konserwację systemów łącznościowych i transmisyjnych w celu zapewnienia komunikacji pomiędzy dwiema centralami przez linie naziemne, mikrofale lub kombinację linii naziemnych z połączeniami satelitarnymi, - obsługę systemów dystrybucji kablowej, np. dystrybucja danych, sygnałów telewizyjnych, - zapewnienie komunikacji telegraficznej i pozostałej innej niż głosowa, przy użyciu własnych systemów, - dzierżawę łączy od właścicieli i operatorów, - świadczenie usług telekomunikacyjnych firmom i gospodarstwom domowym, - zapewnianie dostępu do Internetu przez operatora sieci przewodowej."
+          },
+          "6120": {
+            "title": "Działalność w zakresie telekomunikacji bezprzewodowej, z wyłączeniem telekomunikacji satelitarnej",
+            "description": "Podklasa ta obejmuje: - obsługę, konserwację lub udostępnianie systemów transmisyjnych do przesyłania głosu, danych, tekstu, dźwięku i obrazu realizowane za pomocą infrastruktury telekomunikacji bezprzewodowych. Systemy transmisyjne zapewniają transmisję wielokierunkową dzięki wykorzystaniu fal radiowych i mogą być one oparte na jednej technologii lub ich kombinacji, - obsługę i konserwację bezprzewodowych sieci telekomunikacyjnych, takich jak: pagery, telefony komórkowe i podobne, - zakup dostępu i pojemności do sieci od właścicieli i operatorów sieci, - świadczenie usług telekomunikacji bezprzewodowej (z wyłączeniem satelitarnych) firmom i gospodarstwom domowym, - zapewnianie dostępu do Internetu przez operatora sieci bezprzewodowej. Podklasa nie obejmuje: - pośrednictwa w zakresie usług telekomunikacyjnych, sklasyfikowanego w 6190Z."
+          },
+          "6130": {
+            "title": "Działalność w zakresie telekomunikacji satelitarnej",
+            "description": "Podklasa ta obejmuje: - działalność związaną z obsługą, konserwacją lub udostępnianiem systemów transmisyjnych do przesyłania głosu, danych, tekstu, dźwięku i obrazu realizowane za pomocą infrastruktury telekomunikacji satelitarnej, - dostarczanie programów wizualnych, dźwiękowych i tekstowych odbieranych z kanałów telewizyjnych, stacji i sieci telewizyjnych lub radiowych, przez systemy satelitarne bezpośrednio do domu odbiorców. Jednostki które są tu klasyfikowane nie uczestniczą w tworzeniu programów, - zapewnianie dostępu do Internetu przez operatora sieci satelitarnej."
+          },
+          "6190": {
+            "title": "Działalność w zakresie pozostałej telekomunikacji",
+            "description": "Podklasa ta obejmuje: - świadczenie wyspecjalizowanych usług telekomunikacyjnych takich jak: śledzenie za pomocą satelitów, telemetria komunikacyjna i obsługa stacji radarowych, - obsługę końcowych stacji satelitarnych i związanych z nimi systemów operacyjnych połączonych z jednym lub większą liczbą naziemnych systemów komunikacyjnych, zdolnych do przesyłania lub odbioru sygnałów telekomunikacyjnych z systemów satelitarnych, - zapewnienie dostępu do Internetu przez sieci, na podstawie umowy pomiędzy klientem a dostawcą usług internetowych (ISP – Internet Service Provider), które nie są jego własnością i nie są przez niego kontrolowane, tak jak na przykład komutowany dostęp do Internetu, - udostępnienie telefonu i Internetu w obiektach ogólnie dostępnych, - dostarczanie usług telekomunikacyjnych przez istniejące połączenia telekomunikacyjne: - umożliwianie rozmów za pośrednictwem Internetu (VOIP - Voice Over Internet Protocol), - pośrednictwo w zakresie usług telekomunikacyjnych (tj. zakup i odsprzedaż uprawnień do sieci bez świadczenia dodatkowych usług)."
+          }
+        }
       },
       "62": {
-        "title": "DZIAŁALNOŚĆ ZWIĄZANA Z OPROGRAMOWANIEM I DORADZTWEM W ZAKRESIE INFORMATYKI ORAZ DZIAŁALNOŚĆ POWIĄZANA"
+        "title": "DZIAŁALNOŚĆ ZWIĄZANA Z OPROGRAMOWANIEM I DORADZTWEM W ZAKRESIE INFORMATYKI ORAZ DZIAŁALNOŚĆ POWIĄZANA",
+        "children": {
+          "6201": {
+            "title": "Działalność związana z oprogramowaniem",
+            "description": "Podklasa ta obejmuje pisanie, modyfikowanie, badanie, dokumentowanie i wspomaganie oprogramowania, włączając pisanie zleceń sterujących programami dla użytkowników. Podklasa ta obejmuje analizowanie, projektowanie systemów gotowych do użycia: - rozbudowę, tworzenie, dostarczanie oraz dokumentację oprogramowania wykonanego na zlecenie określonego użytkownika, - pisanie programów na zlecenie użytkownika, - projektowanie stron internetowych."
+          },
+          "6202": {
+            "title": "Działalność związana z doradztwem w zakresie informatyki",
+            "description": "Podklasa ta obejmuje: - planowanie i projektowanie systemów komputerowych, które łączą sprzęt komputerowy, oprogramowanie i technologie komunikacyjne, włączając szkolenia dla użytkowników."
+          },
+          "6203": {
+            "title": "Działalność związana z zarządzaniem urządzeniami informatycznymi",
+            "description": "Podklasa ta obejmuje: - zarządzanie i obsługę systemów komputerowych i/lub urządzeń przetwarzania danych należących do klienta w miejscu ich zainstalowania, włączając usługi wspomagające."
+          },
+          "6209": {
+            "title": "Pozostała działalność usługowa w zakresie technologii informatycznych i komputerowych",
+            "description": "Podklasa ta obejmuje pozostałą działalność związaną z technologią informatyczną i komputerową, gdzie indziej niesklasyfikowaną: - usługi odzyskiwania danych z uszkodzonych komputerów, - instalowanie komputerów osobistych, - instalowanie oprogramowania."
+          }
+        }
       },
       "63": {
-        "title": "DZIAŁALNOŚĆ USŁUGOWA W ZAKRESIE INFORMACJI"
+        "title": "DZIAŁALNOŚĆ USŁUGOWA W ZAKRESIE INFORMACJI",
+        "children": {
+          "631": {
+            "title": "Przetwarzanie danych; zarządzanie stronami internetowymi (hosting) i podobna działalność; działalność portali internetowych",
+            "children": {
+              "6311": {
+                "title": "Przetwarzanie danych; zarządzanie stronami internetowymi (hosting) i podobna działalność",
+                "description": "Podklasa ta obejmuje: - działalności związane z zapewnieniem infrastruktury dla usług hostingowych, przetwarzania danych i działalności powiązanych, - specjalistyczne usługi hostingowe, takie jak: hosting sieci www, usługi przesyłania strumieniowego lub oferowania hostingu do wykonywania aplikacji, świadczenie usług aplikacyjnych, dostarczanie klientom urządzeń głównego komputera ze współdzieleniem czasu, - przetwarzanie danych, włączając kompletna obróbkę i specjalistyczne raporty z danych dostarczonych przez klienta lub zapewnienie automatycznego przetwarzania danych oraz wprowadzania danych, włącznie z prowadzeniem bazy danych."
+              },
+              "6312": {
+                "title": "Działalność portali internetowych",
+                "description": "Podklasa ta obejmuje: - działanie witryn internetowych, które wykorzystują wyszukiwarki, aby generować i utrzymywać obszerne bazy danych internetowych adresów i treści w formacie łatwym do wyszukania, - działanie pozostałych witryn internetowych, które działają jak portale internetowe, tj.: strony mediów dostarczających aktualne informacje."
+              }
+            }
+          },
+          "639": {
+            "title": "Pozostała działalność usługowa w zakresie informacji",
+            "children": {
+              "6391": {
+                "title": "Działalność agencji informacyjnych",
+                "description": "Podklasa ta obejmuje - działalność agencji informacyjnych dostarczających wiadomości, zdjęcia i reportaże dla mediów."
+              },
+              "6399": {
+                "title": "Pozostała działalność usługowa w zakresie informacji, gdzie indziej niesklasyfikowana",
+                "description": "Podklasa ta obejmuje pozostałą działalność w zakresie usług informacyjnych, gdzie indziej niesklasyfikowaną, taką jak: - zautomatyzowane udzielanie informacji przez telefon, - wyszukiwanie informacji wykonywane na zlecenie, - dostarczanie wycinków w zakresie informacji i wycinków prasowych itp."
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -2533,13 +2879,141 @@
     "title": "DZIAŁALNOŚĆ FINANSOWA I UBEZPIECZENIOWA",
     "children": {
       "64": {
-        "title": "FINANSOWA DZIAŁALNOŚĆ USŁUGOWA, Z WYŁĄCZENIEM UBEZPIECZEŃ I FUNDUSZÓW EMERYTALNYCH"
+        "title": "FINANSOWA DZIAŁALNOŚĆ USŁUGOWA, Z WYŁĄCZENIEM UBEZPIECZEŃ I FUNDUSZÓW EMERYTALNYCH",
+        "children": {
+          "641": {
+            "title": "Pośrednictwo pieniężne",
+            "children": {
+              "6411": {
+                "title": "Działalność banku centralnego",
+                "description": "Podklasa ta obejmuje: - emisję krajowych znaków pieniężnych oraz prowadzenie polityki pieniężnej, - monitorowanie i kontrolę podaży pieniądza, - przyjmowanie depozytów, które są wykorzystywane do rozliczeń pomiędzy instytucjami finansowymi, - nadzorowanie operacji bankowych, - utrzymywanie krajowych rezerw dewizowych, - działalność banku centralnego jako bankiera rządu."
+              },
+              "6419": {
+                "title": "Pozostałe pośrednictwo pieniężne",
+                "description": "Podklasa ta obejmuje: - działalność związaną z przyjmowaniem depozytów i udzielaniem kredytów, w takich formach jak: pożyczki, zastawy hipoteczne, karty kredytowe itp. przez instytucje finansowe inne niż bank centralny, np. banki, kasy oszczędnościowe, towarzystwa kredytowe, - działalność związaną z pocztową obsługą kredytów i oszczędności oraz pozostałych operacji finansowych realizowanych za pośrednictwem poczty, - działalność związaną z udzielaniem kredytów mieszkaniowych przez specjalistyczne instytucje przyjmujące depozyty, - działalność agencji bankowych i punktów pobierania opłat."
+              }
+            }
+          },
+          "642": {
+            "title": "Działalność holdingów finansowych",
+            "children": {
+              "6420": {
+                "title": "Działalność holdingów finansowych",
+                "description": "Podklasa ta obejmuje: - działalność spółek holdingowych, które poprzez posiadanie odpowiednich udziałów (akcji) w innych spółkach (spółkach zależnych) zapewniają sobie nad nimi kontrolę, z wyłączeniem zarządzania nimi."
+              }
+            }
+          },
+          "643": {
+            "title": "Działalność trustów, funduszów i podobnych instytucji finansowych",
+            "children": {
+              "6430": {
+                "title": "Działalność trustów, funduszów i podobnych instytucji finansowych",
+                "description": "Podklasa ta obejmuje działalność osób prawnych (np. funduszy, trustów) lokujących w papiery wartościowe lub inne aktywa w imieniu akcjonariuszy lub beneficjentów, z wyłączeniem zarządzania. Portfele papierów wartościowych są konstruowane tak, aby osiągnąć określone zyski z inwestycji uwzględniając następujące kryteria: dywersyfikację, ryzyko, stopę zwrotu, niestabilność cen. Te przedsięwzięcia inwestycyjne dające dywidendy i inne dochody z nieruchomości, mają niewielkie (lub zerowe) zatrudnienie oraz niewiele lub żadnych zysków ze sprzedaży swoich usług. Podklasa ta obejmuje: - fundusze inwestycyjne otwarte, - fundusze inwestycyjne zamknięte, - fundusze powiernicze zarządzane w imieniu akcjonariuszy lub beneficjentów, zgodnie z warunkami umów powierniczych, oświadczeniami woli lub umowami agencyjnymi, - powiernicze fundusze inwestycyjne."
+              }
+            }
+          },
+          "649": {
+            "title": "Pozostała finansowa działalność usługowa, z wyłączeniem ubezpieczeń i funduszów emerytalnych",
+            "children": {
+              "6491": {
+                "title": "Leasing finansowy",
+                "description": "odklasa ta obejmuje: - dzierżawy, których okres w przybliżeniu pokrywa się z przewidywanym czasem amortyzacji środków trwałych, a dzierżawca otrzymuje wszelkie zyski płynące z dzierżawy i ponosi wszelkie ryzyko związane z posiadanym prawem własności. Prawo własności środka trwałego może, ale nie musi być ostatecznie przeniesione na dzierżawcę. Tego rodzaju dzierżawa obejmuje wszystkie lub praktycznie wszystkie koszty, włączając odsetki."
+              },
+              "6492": {
+                "title": "Pozostałe formy udzielania kredytów",
+                "description": "Podklasa ta obejmuje działalność związaną z usługami finansowymi dotyczącymi przede wszystkim udzielania kredytów przez instytucje nieobjęte pośrednictwem pieniężnym, tj.: - udzielanie kredytów konsumpcyjnych, - finansowanie handlu międzynarodowego, - zapewnienie długoterminowego finansowania działalności przemysłowej, - pożyczki pieniężne poza systemem bankowym, - udzielanie kredytów mieszkaniowych przez specjalistyczne instytucje, nieprzyjmujące depozytów, - udzielanie pożyczek pod zastaw (np. działalność lombardów)."
+              },
+              "6499": {
+                "title": "Pozostała finansowa działalność usługowa, gdzie indziej niesklasyfikowana, z wyłączeniem ubezpieczeń i funduszów emerytalnych",
+                "description": "Podklasa ta obejmuje: - pozostałe pośrednictwo finansowe związane głównie z dystrybucją środków finansowych, w inny sposób niż udzielanie pożyczek: - faktoring, - wystawianie swapów, dokonywanie opcji oraz zawieranie transakcji zabezpieczających, - działalność inwestycyjną na własny rachunek dokonywaną poprzez lokatę kapitału za pośrednictwem przedsiębiorstw wysokiego ryzyka, klubów inwestycyjnych itp."
+              }
+            }
+          }
+        }
       },
       "65": {
-        "title": "UBEZPIECZENIA, REASEKURACJA ORAZ FUNDUSZE EMERYTALNE, Z WYŁĄCZENIEM OBOWIĄZKOWEGO UBEZPIECZENIA SPOŁECZNEGO"
+        "title": "UBEZPIECZENIA, REASEKURACJA ORAZ FUNDUSZE EMERYTALNE, Z WYŁĄCZENIEM OBOWIĄZKOWEGO UBEZPIECZENIA SPOŁECZNEGO",
+        "children": {
+          "651": {
+            "title": "Ubezpieczenia",
+            "children": {
+              "6511": {
+                "title": "Ubezpieczenia na życie",
+                "description": "Podklasa ta obejmuje: - ubezpieczenia rentowe, ubezpieczenia na życie, ubezpieczenia na wypadek inwalidztwa oraz ubezpieczenia na wypadek śmierci (z oszczędnościami jako elementem składowym lub bez oszczędności)."
+              },
+              "6512": {
+                "title": "Pozostałe ubezpieczenia osobowe oraz ubezpieczenia majątkowe",
+                "description": "Podklasa ta obejmuje ubezpieczenia inne niż ubezpieczenia na życie, tj.: - ubezpieczenia od nieszczęśliwych wypadków i pożaru, - ubezpieczenia na wypadek choroby, - ubezpieczenia na czas podróży, - ubezpieczenia majątkowe, - ubezpieczenia pojazdów samochodowych oraz transportu morskiego, lotniczego i transportu pozostałego, - ubezpieczenia od straty pieniędzy i odpowiedzialności cywilnej."
+              }
+            }
+          },
+          "652": {
+            "title": "Reasekuracja",
+            "children": {
+              "6520": {
+                "title": "Reasekuracja",
+                "description": "Podklasa ta obejmuje: - ponoszenie całego lub częściowego ryzyka związanego z polisami ubezpieczeniowymi wydawanymi przez innych ubezpieczycieli."
+              }
+            }
+          },
+          "653": {
+            "title": "Fundusze emerytalne",
+            "children": {
+              "6530": {
+                "title": "Fundusze emerytalne",
+                "description": "Podklasa ta obejmuje: - działalność osób prawnych (np. funduszy) zajmujących się zapewnieniem dochodów emerytalnych, wyłącznie dla pracowników lub członków funduszu, - fundusze emerytalne z ustalonym z góry dochodem, jak również fundusze indywidualne, gdzie wysokość dochodu uzależniona jest od wysokość składki, - działalność pracowniczych programów emerytalnych, - działalność funduszy emerytalnych."
+              }
+            }
+          }
+        }
       },
       "66": {
-        "title": "DZIAŁALNOŚĆ WSPOMAGAJĄCA USŁUGI FINANSOWE ORAZ UBEZPIECZENIA I FUNDUSZE EMERYTALNE"
+        "title": "DZIAŁALNOŚĆ WSPOMAGAJĄCA USŁUGI FINANSOWE ORAZ UBEZPIECZENIA I FUNDUSZE EMERYTALNE",
+        "children": {
+          "661": {
+            "title": "Działalność wspomagająca usługi finansowe, z wyłączeniem ubezpieczeń i funduszów emerytalnych",
+            "children": {
+              "6611": {
+                "title": "Zarządzanie rynkami finansowymi",
+                "description": "Podklasa ta obejmuje prowadzenie operacji i nadzoru nad rynkiem finansowym przez czynniki inne niż urzędowe: - giełdy towarowe, - terminowe giełdowe kontrakty towarowe, - giełdy papierów wartościowych, - transakcje opcjami na giełdach papierów wartościowych lub towarowych."
+              },
+              "6612": {
+                "title": "Działalność maklerska związana z rynkiem papierów wartościowych i towarów giełdowych",
+                "description": "Podklasa ta obejmuje: - działalność na rynkach finansowych wykonywaną na cudzy rachunek (np. maklera giełdowego) i działalności pokrewne, - pośrednictwo w zakresie obrotu papierami wartościowymi, - pośrednictwo w zakresie obrotu towarami giełdowymi, - działalność kantorów wymiany walut itp."
+              },
+              "6619": {
+                "title": "Pozostała działalność wspomagająca usługi finansowe, z wyłączeniem ubezpieczeń i funduszów emerytalnych",
+                "description": "Podklasa ta obejmuje: - przetwarzanie i rozliczanie transakcji finansowych, włączając obsługę transakcji dokonywanych za pomocą kart płatniczych, - doradztwo dotyczące inwestycji, - doradztwo i pośrednictwo dotyczące kredytów hipotecznych, - powiernictwo i nadzór wykonywane na zlecenie."
+              }
+            }
+          },
+          "662": {
+            "title": "Działalność wspomagająca ubezpieczenia i fundusze emerytalne",
+            "children": {
+              "6621": {
+                "title": "Działalność związana z oceną ryzyka i szacowaniem poniesionych strat",
+                "description": "Podklasa ta obejmuje: - szacowanie roszczeń ubezpieczeniowych: - ocena roszczeń, - obliczenie ryzyka i poniesionych szkód, - ocena ryzyka, - likwidacja szkód, - dochodzenie roszczeń ubezpieczeniowych."
+              },
+              "6622": {
+                "title": "Działalność agentów i brokerów ubezpieczeniowych",
+                "description": "Podklasa ta obejmuje: - działalność agentów i brokerów ubezpieczeniowych zajmujących się sprzedażą oraz prowadzeniem negocjacji dotyczących polis ubezpieczeniowych, - działalność akwizycyjną na rzecz otwartych funduszy emerytalnych."
+              },
+              "6629": {
+                "title": "Pozostała działalność wspomagająca ubezpieczenia i fundusze emerytalne",
+                "description": "Podklasa ta obejmuje: - działalność pomocniczą ściśle zwiazaną z ubezpieczeniami i funduszami emerytalnymi, z wyłączeniem pośrednictwa finansowego, oceny roszczeń oraz działalności agentów i brokrerów ubezpieczeniowych: - zarządzanie dobrami powypadkowymi, - usługi aktuariuszy."
+              }
+            }
+          },
+          "663": {
+            "title": "Działalność związana z zarządzaniem funduszami",
+            "children": {
+              "6630": {
+                "title": "Działalność związana z zarządzaniem funduszami",
+                "description": "Podklasa ta obejmuje działalność związaną z zarządzaniem portfelem papierów wartościowych i funduszami, wykonywaną na zlecenie osób indywidualnych, przedsiębiorstw i innych jednostek: - zarządzanie funduszami lokacyjnymi, - zarządzanie pozostałymi funduszami inwestycyjnymi, - zarządzanie funduszami emerytalnymi."
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -2547,7 +3021,40 @@
     "title": "DZIAŁALNOŚĆ ZWIĄZANA Z OBSŁUGĄ RYNKU NIERUCHOMOŚCI",
     "children": {
       "68": {
-        "title": "DZIAŁALNOŚĆ ZWIĄZANA Z OBSŁUGĄ RYNKU NIERUCHOMOŚCI"
+        "title": "DZIAŁALNOŚĆ ZWIĄZANA Z OBSŁUGĄ RYNKU NIERUCHOMOŚCI",
+        "children": {
+          "681": {
+            "title": "Kupno i sprzedaż nieruchomości na własny rachunek",
+            "children": {
+              "6810": {
+                "title": "Kupno i sprzedaż nieruchomości na własny rachunek",
+                "description": "Podklasa ta obejmuje: - kupno i sprzedaż nieruchomości własnych lub dzierżawionych, takich jak: - budynki mieszkalne i mieszkania, - budynki niemieszkalne, włączając obiekty wystawowe, magazyny, centra handlowe, - grunty; - podział nieruchomości na parcele, bez rekultywacji gruntów."
+              }
+            }
+          },
+          "682": {
+            "title": "Wynajem i zarządzanie nieruchomościami własnymi lub dzierżawionymi",
+            "children": {
+              "6820": {
+                "title": "Wynajem i zarządzanie nieruchomościami własnymi lub dzierżawionymi",
+                "description": "Podklasa ta obejmuje: - wynajem i zarządzanie nieruchomościami własnymi lub dzierżawionymi, takimi jak: - budynki mieszkalne i mieszkania, - budynki niemieszkalne, włączając obiekty wystawowe, magazyny, włącznie z przeznaczonymi na użytek handlu hurtowego artykułami rolno-spożywczymi umożliwianego przez rolno-spożywcze rynki hurtowe, - grunty, - wynajem domów, mieszkań i apartamentów, włączając umeblowane, na dłuższy okres użytkowania, tzn. w cyklu miesięcznym lub rocznym, - wynajem miejsc pod przewoźne domy mieszkalne, - wynajem miejsca w schroniskach dla zwierząt gospodarskich."
+              }
+            }
+          },
+          "683": {
+            "title": "Działalność związana z obsługą rynku nieruchomości wykonywana na zlecenie",
+            "children": {
+              "6831": {
+                "title": "Pośrednictwo w obrocie nieruchomościami",
+                "description": "Podklasa ta obejmuje działalność agencji obrotu nieruchomościami w zakresie: - pośrednictwa w kupnie, sprzedaży i dzierżawie nieruchomości, - doradztwa i szacowania wartości nieruchomości związanych z jej kupnem, sprzedażą lub dzierżawą."
+              },
+              "6832": {
+                "title": "Zarządzanie nieruchomościami wykonywane na zlecenie",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -2555,25 +3062,155 @@
     "title": "DZIAŁALNOŚĆ PROFESJONALNA, NAUKOWA I TECHNICZNA",
     "children": {
       "69": {
-        "title": "DZIAŁALNOŚĆ PRAWNICZA, RACHUNKOWO-KSIĘGOWA I DORADZTWO PODATKOWE"
+        "title": "DZIAŁALNOŚĆ PRAWNICZA, RACHUNKOWO-KSIĘGOWA I DORADZTWO PODATKOWE",
+        "children": {
+          "6910": {
+            "title": "Działalność prawnicza",
+            "description": "Podklasa ta obejmuje: - reprezentowanie interesów jednej strony przeciw drugiej stronie przed sądem lub innym ciałem orzekającym, prowadzone przez adwokatów, radców prawnych lub pod ich nadzorem: - doradztwo i reprezentowanie w sprawach cywilnych, - doradztwo i reprezentowanie w sprawach karnych, - doradztwo i reprezentowanie w przypadkach sporów pracowniczych, - doradztwo prawne i ogólne konsultacje, przygotowywanie dokumentów prawnych w zakresie: - statutów, umów, porozumień i innych dokumentów związanych z prowadzeniem firm, - dokumentacji patentowej i praw autorskich, - przygotowywanie innych dokumentów prawnych, np.: testamentów, pełnomocnictw, - działalność notariuszy, komorników, sędziów polubownych, rzeczników patentowych, radców prawnych, mediatorów sądowych."
+          },
+          "6920": {
+            "title": "Działalność rachunkowo-księgowa; doradztwo podatkowe",
+            "description": "Podklasa ta obejmuje: - księgowanie wszelkiego rodzaju transakcji gospodarczych, wykonywane na zlecenie, - sporządzanie sprawozdań i bilansów finansowych, - kontrolę i potwierdzanie poprawności sprawozdań i bilansów finansowych (działalność biegłych księgowych/ biegłych rewidentów), - przygotowywanie dokumentów o dochodach osób i firm w celach podatkowych, - doradztwo podatkowe i reprezentowanie klientów przed organami podatkowymi."
+          }
+        }
       },
       "70": {
-        "title": "DZIAŁALNOŚĆ FIRM CENTRALNYCH (HEAD OFFICES); DORADZTWO ZWIĄZANE Z ZARZĄDZANIEM"
+        "title": "DZIAŁALNOŚĆ FIRM CENTRALNYCH (HEAD OFFICES); DORADZTWO ZWIĄZANE Z ZARZĄDZANIEM",
+        "children": {
+          "701": {
+            "title": "Działalność firm centralnych (head offices) i holdingów, z wyłączeniem holdingów finansowych",
+            "children": {
+              "7010": {
+                "title": "Działalność firm centralnych (head offices) i holdingów, z wyłączeniem holdingów finansowych",
+                "description": "Podklasa ta obejmuje: - kontrolowanie i zarządzanie innymi spółkami lub przedsiębiorstwami, - planowanie strategiczne lub organizacyjne oraz procesy podejmowania decyzji. Jednostki objęte tą podklasą mogą kontrolować i zarządzać bieżącymi operacjami w powiązanych z nimi jednostkach. Podklasa ta obejmuje działalność: - firm centralnych (head offices), - holdingów, z wyłączeniem działalności holdingów finansowych, - zarządów spółek, - zarządów jednostek lokalnych i regionalnych, - zarządów filii przedsiębiorstw."
+              }
+            }
+          },
+          "702": {
+            "title": "Wynajem i zarządzanie nieruchomościami własnymi lub dzierżawionymi",
+            "children": {
+              "7021": {
+                "title": "Stosunki międzyludzkie (public relations) i komunikacja",
+                "description": "Podklasa ta obejmuje: - doradztwo i bezpośrednią pomoc, włączając lobbing dla podmiotów gospodarczych i innych jednostek w zakresie stosunków międzyludzkich (public relations) i komunikacji."
+              },
+              "7022": {
+                "title": "Pozostałe doradztwo w zakresie prowadzenia działalności gospodarczej i zarządzania",
+                "description": "Podklasa ta obejmuje: - doradztwo i bezpośrednią pomoc dla podmiotów gospodarczych i innych jednostek w zakresie: - planowania strategicznego i organizacyjnego, - strategii i działalności marketingowej, - kontroli kosztów i innych zagadnień finansowych, - zarządzania produkcją, - zarządzania zasobami ludzkimi, doradztwa personalnego, - planowania, organizacji pracy, efektywności zarządzania, - opracowywania systemów prowadzenia rachunkowości i kontroli wydatków. - doradztwo i bezpośrednią pomoc dla podmiotów gospodarczych i administracji państwowej w zakresie: - planowania metod czy procedur dotyczących rachunkowości, programów związanych z kalkulowaniem kosztów, procedur dotyczących kontroli budżetu, - planowania, organizacji, efektywności i kontroli itp."
+              }
+            }
+          }
+        }
       },
       "71": {
-        "title": "DZIAŁALNOŚĆ W ZAKRESIE ARCHITEKTURY I INŻYNIERII; BADANIA I ANALIZY TECHNICZNE"
+        "title": "DZIAŁALNOŚĆ W ZAKRESIE ARCHITEKTURY I INŻYNIERII; BADANIA I ANALIZY TECHNICZNE",
+        "children": {
+          "711": {
+            "title": "Działalność w zakresie architektury i inżynierii oraz związane z nią doradztwo techniczne",
+            "children": {
+              "7111": {
+                "title": "Działalność w zakresie architektury",
+                "description": "Podklasa ta obejmuje opracowywanie projektów architektonicznych oraz doradztwo w zakresie architektury związane z: - projektowaniem budowlanym, - projektowaniem urbanistycznym i architektonicznym kształtowaniem krajobrazu."
+              },
+              "7112": {
+                "title": "Działalność w zakresie inżynierii i związane z nią doradztwo techniczne",
+                "description": "Podklasa ta obejmuje: - projektowanie inżynierskie (tj. zastosowanie praw fizycznych i zasad inżynierskich w projektowaniu maszyn, materiałów, instrumentów, konstrukcji, procesów i systemów) i doradztwo związane z: - maszynami, procesami przemysłowymi i zakładami przemysłowymi, - projektowaniem w zakresie inżynierii lądowej i wodnej, hydrotechniki i inżynierii ruchu, włączając doradztwo i sprawowanie nadzoru budowlanego, - projektowaniem w zakresie elektrotechniki i elektroniki, górnictwa, inżynierii chemicznej, technologii budowy maszyn, bezpieczeństwa pracy oraz projektowaniem zakładów przemysłowych, włączając doradztwo i sprawowanie nadzoru budowlanego, - projektowaniem w zakresie techniki zarządzania gospodarką wodną, włączając doradztwo i sprawowanie nadzoru budowlanego, - opracowywanie projektów w zakresie instalacji klimatyzacyjnych, chłodniczych, sanitarnych oraz kontroli zanieczyszczeń itp., - projektowanie obiektów produkcyjnych i przemysłowych, - wykonywanie pomiarów geofizycznych, geologicznych i sejsmicznych, - wykonywanie pomiarów geodezyjnych, w tym dla potrzeb ewidencji: - wykonywanie pomiarów geodezyjnych na i pod powierzchnią Ziemi, - wykonywanie pomiarów hydrologicznych, - opracowywanie map topograficznych i ogólnogeograficznych oraz map tematycznych, w tym ortofotomap."
+              }
+            }
+          },
+          "712": {
+            "title": "Wynajem i zarządzanie nieruchomościami własnymi lub dzierżawionymi",
+            "children": {
+              "7020": {
+                "title": "Badania i analizy techniczne",
+                "description": "Podklasa ta obejmuje: - wykonywanie badań i analiz związanych z jakością żywności, włączając badanie zwierząt rzeźnych przed ubojem i mięsa po uboju, - nadzór związany z produkcją żywności, włączając pasze dla zwierząt, - wydawanie atestów dla artykułów konsumpcyjnych, - wykonywanie fizycznych, chemicznych i innych rodzajów badań, pomiarów i analiz wszystkich typów materiałów i wyrobów, włączając: - wykonywanie badań akustycznych i związanych z wibracjami, - wykonywanie badań składu i czystości minerałów itp., - wykonywanie badań wytrzymałościowych, dotyczących gęstości, trwałości oraz wykonywanie pomiarów poziomu radioaktywności itp., - wykonywanie badań na zgodność z wymaganiami i niezawodność, - wykonywanie badań silników, pojazdów samochodowych, sprzętu elektronicznego itp., - wykonywanie badań radiograficznych spawów i spoin, - wykonywanie pomiarów uszkodzeń, - wykonywanie badań, pomiarów i analiz chemicznych i biologicznych składu i czystości wody i powietrza, - wydawanie atestów dla pojazdów silnikowych, statków, samolotów, pojemników ciśnieniowych, elektrowni jądrowych itp., - wykonywanie okresowych przeglądów technicznych pojazdów silnikowych, - wykonywanie prób przy użyciu modeli lub makiet (np. samolotów, statków, tam itp.), - działalność laboratoriów policyjnych."
+              }
+            }
+          }
+        }
       },
       "72": {
-        "title": "BADANIA NAUKOWE I PRACE ROZWOJOWE"
+        "title": "BADANIA NAUKOWE I PRACE ROZWOJOWE",
+        "children": {
+          "721": {
+            "title": "Badania naukowe i prace rozwojowe w dziedzinie nauk przyrodniczych i technicznych",
+            "children": {
+              "7211": {
+                "title": "Badania naukowe i prace rozwojowe w dziedzinie biotechnologii",
+                "description": "Podklasa ta obejmuje prowadzenie badań naukowych i prac rozwojowych w dziedzinie biotechnologii: - związanych z budową DNA/RNA (kwas deoksyrybonukleinowy /kwas rybonukleinowy): badaniem genomów, farmakogenetyką, genosondą, inżynierią genetyczną, sekwencjonowaniem /synteza/ rozwinięcie DNA/RNA, określaniem profilu genu, - w zakresie białek i pozostałych cząsteczek: sekwencjonowanie/synteza/inżynieria białek i peptydów (włączając wielkie cząsteczki hormonów); ulepszone metody pozyskiwania lekarstw; proteom (zespół białek wytwarzanych w organizmie na podstawie informacji genetycznej), białko - izolacja, oczyszczanie i oznakowanie, rozpoznanie receptorów komórkowych, - związanych z hodowlą i inżynierią komórek i tkanek: hodowla komórek/tkanek, inżynieria tkanek (włączając strukturyzację tkanek i inżynierię biomedyczną), łączenie komórek, stymulanty szczepionek/środków odpornościowych, prace nad embrionami, - w zakresie technik/metod procesu biotechnologicznego: fermentacje stosujące bioreaktory, bioprocesy, bioekstrakcje, bioroztwarzanie, biowybielanie, bioodsiarczanie, biokorektę, biofiltrację i fitokorektę, - w zakresie wektorów genów i RNA: terapia genowa, wektory wirusowe, - w zakresie bioinformatyki: opracowywanie baz danych o genomach, sekwencjach białek; modelowanie kompleksowych procesów biologicznych, włączając biologię systemów, - w zakresie nanobiotechnologii: zastosowanie narzędzi i procesów nano/mikroprodukcji służących do zbudowania urządzeń stosowanych w badaniach biosystemów i zastosowania w produkcji leków, diagnostyce itp."
+              },
+              "7219": {
+                "title": "Badania naukowe i prace rozwojowe w dziedzinie pozostałych nauk przyrodniczych i technicznych",
+                "description": "Podklasa ta obejmuje prowadzenie badań naukowych i prac rozwojowych w dziedzinie nauk przyrodniczych i technicznych, innych niż biotechnologia, w zakresie: - nauk przyrodniczych, - nauk technicznych, - nauk medycznych, włączając badania kliniczne, - nauk rolniczych, - międzydyscyplinarnych nauk z przewagą nauk przyrodniczych i technicznych."
+              }
+            }
+          },
+          "722": {
+            "title": "Badania naukowe i prace rozwojowe w dziedzinie nauk społecznych i humanistycznych",
+            "children": {
+              "7220": {
+                "title": "Badania naukowe i prace rozwojowe w dziedzinie nauk społecznych i humanistycznych",
+                "description": "Podklasa ta obejmuje prowadzenie badań naukowych i prac rozwojowych w zakresie: - nauk społecznych, - nauk humanistycznych, - międzydyscyplinarnych nauk z przewagą nauk społecznych i humanistycznych."
+              }
+            }
+          }
+        }
       },
       "73": {
-        "title": "REKLAMA, BADANIE RYNKU I OPINII PUBLICZNEJ"
+        "title": "REKLAMA, BADANIE RYNKU I OPINII PUBLICZNEJ",
+        "children": {
+          "731": {
+            "title": "Reklama",
+            "children": {
+              "7311": {
+                "title": "Działalność agencji reklamowych",
+                "description": "Podklasa ta obejmuje: - kompleksowe projektowanie i realizowanie kampanii reklamowych poprzez: - projektowanie, planowanie i umieszczanie reklam w mediach drukowanych, radiu, telewizji, Internecie oraz innych mediach, - projektowanie, planowanie i umieszczanie reklam zewnętrznych, w formie billbordów, paneli, gablot, balonów i sterowców reklamowych, wystawach okiennych, reklam na samochodach i autobusach itp., - dystrybucję i doręczanie prospektów i próbek reklamowych, - tworzenie stoisk oraz innych konstrukcji i miejsc wystawowych, - prowadzenie kampanii reklamowych i pozostałe usługi reklamowe mające na celu przyciągnięcie lub zatrzymanie klientów, np. poprzez: - promocję wyrobów, - marketing bezpośredni, - doręczanie i zamieszczanie prospektów i próbek reklamowych oraz bezpośrednią reklamę korespondencyjną, - doradztwo marketingowe."
+              },
+              "7312": {
+                "title": "Działalność związana z reprezentowaniem mediów",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              }
+            }
+          },
+          "732": {
+            "title": "Badanie rynku i opinii publicznej",
+            "children": {
+              "7320": {
+                "title": "Badanie rynku i opinii publicznej",
+                "description": "Podklasa ta obejmuje: - badanie potencjału rynkowego, popytu i zwyczajów konsumentów w celu zwiększenia sprzedaży i wprowadzania nowych produktów, włączając analizę statystyczną uzyskanych wyników, - badanie opinii publicznej w kwestiach zagadnień politycznych, gospodarczych i społecznych oraz analizę statystyczną uzyskanych wyników."
+              }
+            }
+          }
+        }
       },
       "74": {
-        "title": "POZOSTAŁA DZIAŁALNOŚĆ PROFESJONALNA, NAUKOWA I TECHNICZNA"
+        "title": "POZOSTAŁA DZIAŁALNOŚĆ PROFESJONALNA, NAUKOWA I TECHNICZNA",
+        "children": {
+          "7410": {
+            "title": "Działalność w zakresie specjalistycznego projektowania",
+            "description": "Podklasa ta obejmuje: - projektowanie wzornictwa tkanin, odzieży, obuwia, biżuterii, mebli i pozostałego wystroju i dekoracji wnętrz oraz pozostałe wzornictwo wyrobów użytku osobistego i gospodarstwa domowego, - projektowanie przemysłowe, tj. tworzenie i rozwój projektów i specyfikacji, które optymalizują użytkowanie, wartość i wygląd wyrobów, włącznie z określeniem materiałów, mechanizmów, kształtu, koloru i wykończeniem powierzchni wyrobu, biorąc pod uwagę cechy i potrzeby użytkowników, bezpieczeństwo, popyt, sposób dystrybucji, użytkowanie i konserwację, - działalność projektantów graficznych, - działalność dekoratorów wnętrz."
+          },
+          "7420": {
+            "title": "Działalność fotograficzna",
+            "description": "Podklasa ta obejmuje: - usługi fotograficzne w zakresie: - fotografii portretowej, zdjęć paszportowych, zdjęć do legitymacji, zdjęć z uroczystości ślubnych itp., - fotografii komercyjnej, dla wydawców, dla potrzeb kreatorów mody, dla agentów handlu nieruchomościami lub dla celów turystyki, - fotografii lotniczej, - fotografii obiektów w ruchu, takiej jak: nagrywanie wideokaset z wydarzeń takich jak: śluby, spotkania, pokazy mody itp., - obróbkę materiałów fotograficznych, taką jak: - wywoływanie klisz, wykonywanie odbitek zdjęć, drukowanie i powiększanie z negatywów i taśm filmowych przyjętych od klienta, - wywoływanie i wykonywanie odbitek zdjęć przez laboratoria fotograficzne, - wywoływanie zdjęć (w godzinę) przez punkty zajmujące się ich ekspresowym wywoływaniem, z wyłączeniem sklepów sprzedających sprzęt fotograficzny, - oprawianie slajdów, - kopiowanie, restaurowanie i retuszowanie fotografii, - działalność fotoreporterów, - mikrofilmowanie dokumentów."
+          },
+          "7430": {
+            "title": "Działalność związana z tłumaczeniami",
+            "description": "Podklasa ta obejmuje także działalność tłumaczy przysięgłych."
+          },
+          "7490": {
+            "title": "Pozostała działalność profesjonalna, naukowa i techniczna, gdzie indziej niesklasyfikowana",
+            "description": "Podklasa ta obejmuje: - pośrednictwo w interesach tj. organizowanie zaopatrzenia lub sprzedaży dla małych i średnich firm, z wyłączeniem pośrednictwa w handlu nieruchomościami, - pośrednictwo w zakupie lub sprzedaży patentów, - działalność związaną z wyceną, z wyłączeniem wyceny nieruchomości i wyceny dla towarzystw ubezpieczeniowych (antyki, biżuteria itp.), - kontrolę dokumentów przewozowych, informacje dotyczące stawek za fracht, - działalność związaną z prognozowaniem pogody, - doradztwo w zakresie bezpieczeństwa, - działalność agronomów i ekonomistów rolnych, - doradztwo w sprawach środowiska naturalnego, - pozostałe doradztwo techniczne, - doradztwo inne niż doradztwo z zakresu architektury lub inżynierii oraz doradztwo w zakresie zarządzania, - działalność związaną z opracowywaniem kosztorysów, - działalność agentów lub agencji występujących w imieniu indywidualnych osób, w celu zaangażowania do filmu, teatru oraz innej działalności artystycznej lub sportowej, wydania książek, nagrań muzycznych, scenariuszy sztuk, prac artystycznych i fotografii przez wydawców, producentów itp."
+          }
+        }
       },
       "75": {
-        "title": "DZIAŁALNOŚĆ WETERYNARYJNA"
+        "title": "DZIAŁALNOŚĆ WETERYNARYJNA",
+        "children": {
+          "7500": {
+            "title": "DZIAŁALNOŚĆ WETERYNARYJNA",
+            "description": "Podklasa ta obejmuje: - opiekę zdrowotną dla zwierząt gospodarskich, - opiekę zdrowotną dla zwierząt domowych, - działalność asystentów weterynaryjnych i pozostałego pomocniczego personelu weterynaryjnego, - działalność kliniczno-patologiczną oraz pozostałą działalność związaną z rozpoznaniem i ustalaniem przyczyn chorób zwierząt, - działalność pogotowia dla zwierząt. Działalności te są prowadzone przez lekarzy weterynarii w klinikach weterynaryjnych, w prywatnych gabinetach lekarzy weterynarii, w formie wizyt w gospodarstwach rolnych, domach, schroniskach dla zwierząt lub innych miejscach."
+          }
+        }
       }
     }
   },
@@ -2581,22 +3218,231 @@
     "title": "DZIAŁALNOŚĆ W ZAKRESIE USŁUG ADMINISTROWANIA I DZIAŁALNOŚĆ WSPIERAJĄCA",
     "children": {
       "77": {
-        "title": "WYNAJEM I DZIERŻAWA"
+        "title": "WYNAJEM I DZIERŻAWA",
+        "children": {
+          "771": {
+            "title": "Wynajem i dzierżawa pojazdów samochodowych, z wyłączeniem motocykli",
+            "children": {
+              "7711": {
+                "title": "Wynajem i dzierżawa samochodów osobowych i furgonetek",
+                "description": "Podklasa ta obejmuje: - wynajem i dzierżawę samochodów osobowych i furgonetek (<= 3,5 t), bez kierowcy."
+              },
+              "7712": {
+                "title": "Wynajem i dzierżawa pozostałych pojazdów samochodowych, z wyłączeniem motocykli",
+                "description": "Podklasa ta obejmuje wynajem i dzierżawę: - samochodów ciężarowych i pozostałych pojazdów samochodowych przeznaczonych do przewozu towarów (> 3,5 t), - pojazdów kempingowych."
+              }
+            }
+          },
+          "772": {
+            "title": "Wypożyczanie i dzierżawa artykułów użytku osobistego i domowego",
+            "children": {
+              "7721": {
+                "title": "Wypożyczanie i dzierżawa sprzętu rekreacyjnego i sportowego",
+                "description": "Podklasa ta obejmuje wypożyczanie i dzierżawę sprzętu rekreacyjnego i sportowego: - łodzi wycieczkowych, kajaków, żaglówek, - rowerów, - leżaków oraz parasoli, - nart, - pozostałego sprzętu sportowego."
+              },
+              "7722": {
+                "title": "Wypożyczanie kaset wideo, płyt CD, DVD itp.",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              },
+              "7729": {
+                "title": "Wypożyczanie i dzierżawa pozostałych artykułów użytku osobistego i domowego",
+                "description": "Podklasa ta obejmuje wypożyczanie i dzierżawę wszystkich rodzajów artykułów użytku osobistego i domowego, z wyłączeniem sprzętu rekreacyjnego i sportowego, gospodarstwom domowym czy przedsiębiorstwom: - tkanin, odzieży i obuwia, - mebli, wyrobów szklanych i ceramicznych, zastawy kuchennej i stołowej, urządzeń elektrycznych i artykułów gospodarstwa domowego, - biżuterii, instrumentów muzycznych, elementów dekoracyjnych i kostiumów, - książek, magazynów i czasopism, - maszyn i urządzeń stosowanych przez amatorów lub hobbistów, np. sprzętu do majsterkowania, - kwiatów i roślin, - sprzętu elektronicznego do użytku domowego."
+              }
+            }
+          },
+          "773": {
+            "title": "Wynajem i dzierżawa pozostałych maszyn, urządzeń oraz dóbr materialnych",
+            "children": {
+              "7731": {
+                "title": "Wynajem i dzierżawa maszyn i urządzeń rolniczych",
+                "description": "Podklasa ta obejmuje wynajem i dzierżawę bez obsługi: - maszyn i urządzeń rolniczych i leśnych sklasyfikowanych w 2830Z."
+              },
+              "7732": {
+                "title": "Wynajem i dzierżawa maszyn i urządzeń budowlanych",
+                "description": "Podklasa ta obejmuje wynajem i dzierżawę maszyn i urządzeń budowlanych oraz inżynierii lądowej i wodnej bez obsługi, m.in.: - dźwigów samochodowych, - rusztowań i platform roboczych, bez ich wznoszenia i demontażu."
+              },
+              "7733": {
+                "title": "Wynajem i dzierżawa maszyn i urządzeń biurowych, włączając komputery",
+                "description": "Podklasa ta obejmuje wynajem i dzierżawę maszyn i urządzeń biurowych bez obsługi: - komputerów i sprzętu peryferyjnego, - urządzeń kopiujących, maszyn do pisania i urządzeń do przetwarzania tekstów, - maszyn i urządzeń księgujących: kas sklepowych, kalkulatorów elektronicznych itp., - pozostałych maszyn i urządzeń biurowych, - mebli biurowych."
+              },
+              "7734": {
+                "title": "Wynajem i dzierżawa środków transportu wodnego",
+                "description": "Podklasa ta obejmuje wynajem i dzierżawę środków transportu wodnego bez załogi, m.in.: - łodzi i statków handlowych."
+              },
+              "7735": {
+                "title": "Wynajem i dzierżawa środków transportu lotniczego",
+                "description": "Podklasa ta obejmuje wynajem i dzierżawę środków transportu lotniczego bez załogi, m.in.: - samolotów, - balonów."
+              },
+              "7739": {
+                "title": "Wynajem i dzierżawa pozostałych maszyn, urządzeń oraz dóbr materialnych, gdzie indziej niesklasyfikowane",
+                "description": "Podklasa ta obejmuje: - wynajem i dzierżawę pozostałych maszyn i urządzeń bez obsługi, zazwyczaj będących środkami produkcji: - silników i turbin, - obrabiarek, - urządzeń górniczych oraz do wydobywania ropy naftowej, - profesjonalnego sprzętu radiowego, telewizyjnego i łączności, - sprzętu do produkcji filmów, - sprzętu kontrolno-pomiarowego, - pozostałych maszyn i urządzeń stosowanych do badań naukowych, w handlu i przemyśle; - wynajem i dzierżawę środków transportu lądowego bez kierowcy (z wyłączeniem pojazdów samochodowych): - motocykli, przyczep kempingowych i turystycznych itp., - pojazdów szynowych; - wynajem zwierząt (np. stad, koni wyścigowych), - wynajem kontenerów mieszkalnych lub biurowych, - wynajem pozostałych kontenerów, - wynajem palet."
+              }
+            }
+          },
+          "774": {
+            "title": "Dzierżawa własności intelektualnej i podobnych produktów, z wyłączeniem prac chronionych prawem autorskim",
+            "children": {
+              "7740": {
+                "title": "Dzierżawa własności intelektualnej i podobnych produktów, z wyłączeniem prac chronionych prawem autorskim",
+                "description": "Podklasa ta obejmuje działalności związane z dzierżawą własności intelektualnej i podobnych produktów, za którą pobierane są opłaty w formie tantiemów lub opłat licencyjnych dla ich właściciela. Dzierżawa tych produktów może dotyczyć: zezwolenia na reprodukcję, wykorzystywania w późniejszych procesach lub produktach, koncesji autoryzowanej dystrybucji (franszyzy). Obecni właściciele mogą, ale nie muszą, być twórcami tych produktów. Podklasa ta obejmuje: - dzierżawę własności intelektualnej, z wyłączeniem prac chronionych prawem autorskim, takich jak książki lub oprogramowanie komputerowe, - tantiemy lub opłaty licencyjne płacone za prawo do korzystania z: - prawa do patentu, - znaków handlowych, nazwy marek, - prawa do badania i oceny minerałów, - franszyzy."
+              }
+            }
+          }
+        }
       },
       "78": {
-        "title": "DZIAŁALNOŚĆ ZWIĄZANA Z ZATRUDNIENIEM"
-      },
-      "79": {
-        "title": "DZIAŁALNOŚĆ ORGANIZATORÓW TURYSTYKI, POŚREDNIKÓW I AGENTÓW TURYSTYCZNYCH ORAZ POZOSTAŁA DZIAŁALNOŚĆ USŁUGOWA W ZAKRESIE REZERWACJI I DZIAŁALNOŚCI Z NIĄ ZWIĄZANE"
-      },
-      "80": {
-        "title": "DZIAŁALNOŚĆ DETEKTYWISTYCZNA I OCHRONIARSKA"
-      },
-      "81": {
-        "title": "DZIAŁALNOŚĆ USŁUGOWA ZWIĄZANA Z UTRZYMANIEM PORZĄDKU W BUDYNKACH I ZAGOSPODAROWANIEM TERENÓW ZIELENI"
-      },
-      "82": {
-        "title": "DZIAŁALNOŚĆ ZWIĄZANA Z ADMINISTRACYJNĄ OBSŁUGĄ BIURA I POZOSTAŁA DZIAŁALNOŚĆ WSPOMAGAJĄCA PROWADZENIE DZIAŁALNOŚCI GOSPODARCZEJ"
+        "title": "DZIAŁALNOŚĆ ZWIĄZANA Z ZATRUDNIENIEM",
+        "children": {
+          "7810": {
+            "title": "Działalność związana z wyszukiwaniem miejsc pracy i pozyskiwaniem pracowników",
+            "description": "Podklasa ta obejmuje działalność w zakresie pozyskiwania ofert pracy, poszukiwania pracowników oraz kierowania ich do pracy, przy czym osoby te nie są pracownikami urzędu/agencji pracy. Podklasa ta obejmuje: - wyszukiwanie pracowników, weryfikację kandydatów, kierowanie do pracy, włącznie z wyszukiwaniem i kierowaniem do pracy personelu kierowniczego, - działalność biur i agencji castingowych, takich jak: agencje zajmujące się obsadą ról teatralnych, - działalność związaną z poszukiwaniem miejsc pracy i pozyskiwaniem pracowników przez Internet."
+          },
+          "7820": {
+            "title": "Działalność agencji pracy tymczasowej",
+            "description": "Podklasa ta obejmuje: - działalność związaną z kierowaniem pracowników do pracodawcy na określony czas, w celu zastępstwa lub uzupełnienia jego personelu. Agencje pracy tymczasowej ujęte w niniejszej podklasie nie prowadzą bezpośredniego nadzoru nad swoimi pracownikami w miejscach pracy klientów."
+          },
+          "7830": {
+            "title": "Pozostała działalność związana z udostępnianiem pracowników",
+            "description": "Podklasa ta obejmuje: - działalność związaną z udostępnianiem pracowników dla firm klientów. Jednostki tu klasyfikowane reprezentują pracodawcę w sprawach związanych z listami płac, podatkami oraz innymi zagadnieniami fiskalnymi dotyczącymi pracowników, ale nie są one odpowiedzialne za kierowanie i nadzór nad pracownikami. - działalność związaną z udostępnianiem pracowników na długi okres lub na stałe. Jednostki tu klasyfikowane wykonują szeroki zakres czynności związany z udostępnianiem pracowników oraz zarządzaniem personelem."
+          }
+        },
+        "79": {
+          "title": "DZIAŁALNOŚĆ ORGANIZATORÓW TURYSTYKI, POŚREDNIKÓW I AGENTÓW TURYSTYCZNYCH ORAZ POZOSTAŁA DZIAŁALNOŚĆ USŁUGOWA W ZAKRESIE REZERWACJI I DZIAŁALNOŚCI Z NIĄ ZWIĄZANE",
+          "children": {
+            "791": {
+              "title": "Działalność agentów i pośredników turystycznych oraz organizatorów turystyki",
+              "children": {
+                "7911": {
+                  "title": "Działalność agentów i pośredników turystycznych",
+                  "description": "Podklasa ta obejmuje: - działalność polegającą na stałym pośredniczeniu w zawieraniu umów o świadczenie usług turystycznych na rzecz organizatorów turystyki, - działalność polegającą na wykonywaniu na zlecenie klienta, czynności faktycznych i prawnych, związanych z zawieraniem umów o świadczenie usług turystycznych."
+                },
+                "7912": {
+                  "title": "Działalność organizatorów turystyki",
+                  "description": "Podklasa ta obejmuje: - organizowanie imprez turystycznych, włączając wycieczki turystyczne, z kompleksowym programem imprez, uwzględniające transport, zakwaterowanie, wyżywienie, zwiedzanie muzeów, miejsc historycznych, oglądanie widowisk teatralnych, muzycznych i sportowych."
+                }
+              }
+            },
+            "799": {
+              "title": "Pozostała działalność usługowa w zakresie rezerwacji i działalności z nią związane",
+              "children": {
+                "7990": {
+                  "title": "Pozostała działalność usługowa w zakresie rezerwacji i działalności z nią związane",
+                  "description": "Podklasa nie wymaga wyjaśnień."
+                }
+              }
+            }
+          }
+        },
+        "80": {
+          "title": "DZIAŁALNOŚĆ DETEKTYWISTYCZNA I OCHRONIARSKA",
+          "children": {
+            "8010": {
+              "title": "Działalność ochroniarska, z wyłączeniem obsługi systemów bezpieczeństwa",
+              "description": "Podklasa ta obejmuje wykonywanie jednej lub kilku z poniższych działalności ochroniarskich, to jest: działalności w zakresie ochrony i patrolowania, działalności ochroniarskiej związanej z transportem pieniędzy, papierów wartościowych lub innych wartościowych rzeczy. Podklasa ta obejmuje: - działalność ochroniarską w zakresie przewozów samochodami opancerzonymi, - działalność usługową w zakresie ochrony osobistej, - działalność usługową w zakresie wykrywacza kłamstw, - działalność usługową związana z pobieraniem i identyfikacją odcisków palców, - pozostałą działalność ochroniarską, z wyłączeniem obsługi systemów bezpieczeństwa."
+            },
+            "8020": {
+              "title": "Działalność ochroniarska w zakresie obsługi systemów bezpieczeństwa",
+              "description": "Podklasa ta obejmuje: - działalność ochroniarską w zakresie obsługi i monitorowania elektronicznych systemów bezpieczeństwa, takich jak: alarmy przeciwwłamaniowe czy przeciwpożarowe, włączając ich instalację i konserwację, - instalację, naprawę, przebudowę oraz regulację mechanicznych lub elektronicznych urządzeń zamykających, sejfów i skarbców w powiązaniu z późniejszym monitoringiem. Jednostki prowadzące niniejszą działalność mogą prowadzić również sprzedaż ww. urządzeń tj. elektronicznych systemów bezpieczeństwa, mechanicznych lub elektronicznych urządzeń zamykających, sejfów i skarbców."
+            },
+            "8030": {
+              "title": "Działalność detektywistyczna",
+              "description": "Podklasa ta obejmuje: - działalność dochodzeniową i detektywistyczną, - działalność prywatnych detektywów, niezależnie od typu klienta czy celu dochodzenia."
+            }
+          },
+          "81": {
+            "title": "DZIAŁALNOŚĆ USŁUGOWA ZWIĄZANA Z UTRZYMANIEM PORZĄDKU W BUDYNKACH I ZAGOSPODAROWANIEM TERENÓW ZIELENI",
+            "children": {
+              "811": {
+                "title": "Działalność pomocnicza związana z utrzymaniem porządku w budynkach",
+                "children": {
+                  "8110": {
+                    "title": "Działalność pomocnicza związana z utrzymaniem porządku w budynkach",
+                    "description": "Podklasa ta obejmuje działalność pomocniczą związaną z utrzymywaniem porządku w budynkach klienta, poprzez: - ogólne sprzątanie wnętrz, - wywóz śmieci - ochronę i środki bezpieczeństwa, - działalności recepcyjne, pralnicze i podobne działalności pomocnicze. Działalności pomocnicze związane z utrzymaniem porządku w budynkach wykonywane są przez personel, który nie jest zaangażowany, ani odpowiedzialny za istotne sprawy czy działalność klienta."
+                  }
+                }
+              },
+              "812": {
+                "title": "Sprzątanie obiektów",
+                "children": {
+                  "8121": {
+                    "title": "Niespecjalistyczne sprzątanie budynków i obiektów przemysłowych",
+                    "description": "Podklasa ta obejmuje działalności związane z ogólnym, niespecjalistycznym sprzątaniem budynków wszelkich typów, takich jak: - biura, - domy i mieszkania, - fabryki, - sklepy, - instytucje, - pozostałe obiekty przemysłowe i budynki wielomieszkaniowe. Działalności te obejmują głównie sprzątanie wnętrz budynków, ale mogą również obejmować sprzątanie wspólnych miejsc zewnętrznych, takich jak okna czy chodniki."
+                  },
+                  "8122": {
+                    "title": "Specjalistyczne sprzątanie budynków i obiektów przemysłowych",
+                    "description": "Podklasa ta obejmuje: - zewnętrzne czyszczenie budynków wszelkich typów, takich jak: biura, fabryki, sklepy, instytucje i pozostałe obiekty przemysłowe i budynki wielomieszkaniowe, - działalność w zakresie specjalistycznego sprzątania budynków, taką jak: mycie okien, czyszczenie kominów i palenisk, pieców, włącznie z piecami do spalania śmieci, kotłów, bojlerów, przewodów wentylacyjnych i kanałów wylotowych, - czyszczenie maszyn przemysłowych, - pozostałą działalność w zakresie sprzątania budynków i obiektów przemysłowych, gdzie indziej niesklasyfikowaną."
+                  },
+                  "8129": {
+                    "title": "Pozostałe sprzątanie",
+                    "description": "Podklasa ta obejmuje: - czyszczenie i utrzymanie w czystości basenów, - mycie pociągów, autobusów, samolotów itp., - czyszczenie wnętrz cystern i tankowców, - działalność związaną z dezynfekcją, dezynsekcją i deratyzacją, - mycie butelek, - zamiatanie i polewanie ulic i usuwanie śniegu i lodu, włącznie z usuwaniem śniegu i lodu z dachów budynków, - pozostałą działalność w zakresie sprzątania, gdzie indziej niesklasyfikowaną."
+                  }
+                }
+              },
+              "813": {
+                "title": "Działalność usługowa związana z zagospodarowaniem terenów zieleni",
+                "children": {
+                  "8130": {
+                    "title": "Działalność usługowa związana z zagospodarowaniem terenów zieleni",
+                    "description": "Podklasa ta obejmuje: - dokonywanie zasadzeń, pielęgnację i utrzymanie: - parków i ogrodów: - przy domach prywatnych i domach wielomieszkaniowych, - przy budynkach użyteczności publicznej i częściowo publicznej (szkoły, szpitale, budynki administracyjne, kościoły itp.), - na terenach miejskich (parki miejskie, strefy zieleni, cmentarze itp.), - przy budynkach przemysłowych i handlowych, - zieleni: - budynków (zieleń fasad, ogrody na dachach i wewnątrz budynków itp.), - autostrad, ulic, dróg kolejowych i tramwajowych, brzegów dróg wodnych, w portach itp., - terenów sportowych, terenów przeznaczonych do gier i zabaw na świeżym powietrzu i innych terenów rekreacyjnych (np. trawniki przeznaczone do zażywania kąpieli słonecznych, pola golfowe), - wód stojących i płynących (zbiorniki wodne, bagna, stawy, baseny kąpielowe, fosy, strumyki, potoki, rzeki, systemy oczyszczania ścieków), - zagospodarowanie terenów zieleni i dokonywanie zasadzeń w celu ochrony przed hałasem, wiatrem, erozją, oślepianiem lub dla ułatwienia widoczności."
+                  }
+                }
+              }
+            }
+          },
+          "82": {
+            "title": "DZIAŁALNOŚĆ ZWIĄZANA Z ADMINISTRACYJNĄ OBSŁUGĄ BIURA I POZOSTAŁA DZIAŁALNOŚĆ WSPOMAGAJĄCA PROWADZENIE DZIAŁALNOŚCI GOSPODARCZEJ",
+            "children": {
+              "821": {
+                "title": "Działalność związana z administracyjną obsługą biura, włączając działalność wspomagającą",
+                "children": {
+                  "8211": {
+                    "title": "Działalność usługowa związana z administracyjną obsługą biura",
+                    "description": "Podklasa ta obejmuje: - działalność związaną z codzienną administracyjną obsługą biura, taką jak: recepcja, planowanie finansowe, rachunkowość, księgowość, obsługa personelu i dostarczanie poczty, wykonywaną na zlecenie."
+                  },
+                  "8219": {
+                    "title": "Wykonywanie fotokopii, przygotowywanie dokumentów i pozostała specjalistyczna działalność wspomagająca prowadzenie biura",
+                    "description": "Podklasa ta obejmuje kopiowanie i przygotowywanie dokumentów oraz pomocniczą specjalistyczną działalność związaną z prowadzeniem biura. Działalność w zakresie kopiowania/drukowania dokumentów dotyczy jedynie drukowania krótkoseryjnego. Podklasa ta obejmuje: - przygotowywanie, archiwizację i niszczenie dokumentów, - edycję i korektę dokumentów, - pisanie na maszynie i komputerowe redagowanie tekstu, - przepisywanie dokumentów - pozostałe usługi sekretarskie, - pisanie listów lub streszczeń, - działalność usługową w zakresie wynajmu skrzynki pocztowej oraz obsługę poczty, włączając pocztę elektroniczną, w zakresie sortowania wstępnego, adresowania itp., - fotokopiowanie, - powielanie, - światłokopiowanie, - działalność usługową w zakresie pozostałego kopiowania dokumentów, z wyłączeniem świadczenia usług drukarskich, takich jak: drukowanie offsetowe, szybkie drukowanie, drukowanie z nośników cyfrowych, drukowanie wstępne."
+                  }
+                }
+              },
+              "822": {
+                "title": "Działalność centrów telefonicznych (call center)",
+                "children": {
+                  "8220": {
+                    "title": "Działalność centrów telefonicznych (call center)",
+                    "description": "Podklasa ta obejmuje działalność centrów telefonicznych (call center): - obsługujących zgłoszenia przychodzące za pośrednictwem pracowników z serwisu operatorskiego lub przy zastosowaniu automatycznego rozdziału zgłoszeń, zintegrowanych systemów komputerowo-telefonicznych lub interaktywnych systemów głosowych lub podobnych metod do przyjmowania zamówień, dostarczania informacji o produkcie, obsługi klienta lub rozpatrywania skarg; - prowadzących działalność związaną ze sprzedażą i promocją skierowaną do klienta, z badaniem rynku, marketingiem bezpośrednim, weryfikacją adresów."
+                  }
+                }
+              },
+              "823": {
+                "title": "Działalność związana z organizacją targów, wystaw i kongresów",
+                "children": {
+                  "8230": {
+                    "title": "Działalność związana z organizacją targów, wystaw i kongresów",
+                    "description": "Podklasa ta obejmuje: - organizację, promocję i/lub zarządzanie imprezami, takimi jak targi, wystawy, kongresy, konferencje, spotkania, włączając zarządzanie i dostarczenie pracowników do obsługi obiektów, w których te imprezy mają miejsce."
+                  }
+                }
+              },
+              "829": {
+                "title": "Działalność komercyjna, gdzie indziej niesklasyfikowana",
+                "children": {
+                  "8291": {
+                    "title": "Działalność świadczona przez agencje inkasa i biura kredytowe",
+                    "description": "Podklasa ta obejmuje: - ściąganie należności płatniczych z tytułu roszczeń, odbiór płatności, takich jak rachunki lub długi, - opracowywanie informacji, takich jak historie kredytowe osób, firm czy dotyczące zatrudnienia, - ocenę zdolności kredytowej osób i jednostek gospodarczych przeprowadzaną w związku z prowadzeniem działalności gospodarczej."
+                  },
+                  "8292": {
+                    "title": "Działalność związana z pakowaniem",
+                    "description": "Podklasa ta obejmuje działalność związaną z pakowaniem wykonywaną na zlecenie, nawet z zastosowaniem technik zautomatyzowanych: - butelkowanie płynów, włączając napoje, - pakowanie żywności, - pakowanie przedmiotów stałych (w folię termokurczliwą, owijanie folią itp.), - pakowanie wyrobów farmaceutycznych, - etykietowanie, stemplowanie i nadrukowywanie, - pakowanie paczek i prezentów."
+                  },
+                  "8299": {
+                    "title": "Pozostała działalność wspomagająca prowadzenie działalności gospodarczej, gdzie indziej niesklasyfikowana",
+                    "description": "Podklasa ta obejmuje działalności usługowe pomocnicze, takie jak: - sporządzanie dosłownej relacji i stenotypii z przebiegu postępowania sądowego, na żywo oraz przepisywanie zarejestrowanych materiałów, przykładowo: - sporządzenie protokołu z przebiegu postępowania sądowego oraz usługi stenotypii, - usługi stenografii ogólnie dostępne, - tworzenie napisów w czasie rzeczywistym (symultanicznie) dla transmisji telewizyjnych na żywo z różnych spotkań, - wykonywanie adresowych kodów kreskowych, - wdrukowywanie kodów kreskowych, - organizowanie zbiórki pieniędzy, gromadzenie funduszy, wykonywane na zlecenie, - odzyskiwanie własności (rzeczy, nieruchomości), - zbieranie monet z parkomatów, - działalność niezależnych licytatorów, - zarządzanie programami lojalnościowymi, - odczytywanie wskazań gazomierzy, liczników wody i elektryczności, - pozostałą działalność komercyjną wspomagającą prowadzenie działalności gospodarczej, gdzie indziej niesklasyfikowaną."
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -2604,7 +3450,60 @@
     "title": "ADMINISTRACJA PUBLICZNA I OBRONA NARODOWA; OBOWIĄZKOWE ZABEZPIECZENIA SPOŁECZNE",
     "children": {
       "84": {
-        "title": "ADMINISTRACJA PUBLICZNA I OBRONA NARODOWA; OBOWIĄZKOWE ZABEZPIECZENIA SPOŁECZNE"
+        "title": "ADMINISTRACJA PUBLICZNA I OBRONA NARODOWA; OBOWIĄZKOWE ZABEZPIECZENIA SPOŁECZNE",
+        "children": {
+          "841": {
+            "title": "Administracja publiczna oraz polityka gospodarcza i społeczna",
+            "children": {
+              "8411": {
+                "title": "Kierowanie podstawowymi rodzajami działalności publicznej",
+                "description": "Podklasa ta obejmuje: - działalność ustawodawczą i wykonawczą prowadzoną przez naczelne i centralne organy administracji państwowej oraz terenowe organy administracji publicznej, - zarządzanie i nadzór nad sprawami podatkowymi w zakresie: - funkcjonowania systemu podatkowego, - poboru cła/podatków od produktów oraz prowadzenie dochodzeń w sprawach o naruszenie prawa podatkowego, - działalności służb celnych, - realizowanie budżetu państwa oraz zarządzanie funduszami publicznymi i zadłużeniem publicznym: - zbieranie i gromadzenie środków pieniężnych oraz kontrola w zakresie ich dystrybucji, - działalność związaną z ogólną (społeczną) polityką dotyczącą badań naukowych i prac rozwojowych oraz zarządzanie związanych z nią funduszami, - działalność związaną z ogólnopaństwowym planowaniem społeczno-gospodarczym, - działalność służb statystycznych na różnych szczeblach administracji publicznej."
+              },
+              "8412": {
+                "title": "Kierowanie w zakresie działalności związanej z ochroną zdrowia, edukacją, kulturą oraz pozostałymi usługami społecznymi, z wyłączeniem zabezpieczeń społecznych",
+                "description": "Podklasa ta obejmuje: - działalność administracji publicznej w zakresie kierowania realizacją programów mających na celu poprawę warunków życia ludności: - związaną z opieką zdrowotną i profilaktyką zdrowotną, - dotyczącą edukacji, - mającą na celu zapewnienie społeczeństwu świadczeń kulturalnych, sportowych i rekreacyjnych, - mającą na celu ochronę środowiska naturalnego, - związaną z budownictwem mieszkaniowym, - związaną z pozostałą działalnością społeczną, - działalność administracji publicznej związaną z badaniami naukowymi i pracami rozwojowymi i funduszami przeznaczonymi na te cele, - sponsorowanie działalności rekreacyjnej i kulturalnej, - rozdział grantów publicznych dla artystów, - kierowanie programami wspomagającymi w zakresie dostawy wody pitnej, - kierowanie działaniami w zakresie zbierania i usuwania odpadów, - kierowanie programami związanymi z ochroną środowiska, - kierowanie programami związanymi z gospodarką mieszkaniową."
+              },
+              "8413": {
+                "title": "Kierowanie w zakresie efektywności gospodarowania",
+                "description": "Podklasa ta obejmuje: - działalność administracji publicznej w zakresie kierowania przedsięwzięciami, włącznie z przyznawaniem subwencji różnym sektorom gospodarki, związanymi z: - rolnictwem, - gospodarką gruntami, - energetyką, kopalnictwem i wydobywaniem, - infrastrukturą, - transportem, - komunikacją, - hotelarstwem i turystyką, - handlem hurtowym i detalicznym, - działalność związaną z polityką dotyczącą badań naukowych i prac rozwojowych, której celem jest poprawa efektywności gospodarowania, - ewidencję pojazdów i wydawanie praw jazdy, - prowadzenie państwowego zasobu geodezyjnego i kartograficznego, - prowadzenie państwowych ewidencji, - działalność związaną z rynkiem siły roboczej, - wdrażanie środków regionalnej polityki rozwojowej, np. w celu zredukowania bezrobocia."
+              }
+            }
+          },
+          "842": {
+            "title": "Usługi na rzecz całego społeczeństwa",
+            "children": {
+              "8421": {
+                "title": "Sprawy zagraniczne",
+                "description": "Podklasa ta obejmuje: - kierowanie i wykonywanie prac Ministerstwa Spraw Zagranicznych oraz misji dyplomatycznych i konsularnych znajdujących się poza granicami kraju lub w siedzibach organizacji międzynarodowych, - kierowanie, wykonywanie i wspieranie działalności informacyjnej i kulturalnej prowadzonej za granicą, - udzielanie pomocy innym krajom niezależnie od tego, czy jest ona organizowana przez instytucje międzynarodowe, czy nie, - pomoc militarną na rzecz innych krajów, - prowadzenie polityki w zakresie handlu zagranicznego, finansów międzynarodowych oraz międzynarodowej współpracy technicznej."
+              },
+              "8422": {
+                "title": "Obrona narodowa",
+                "description": "Podklasa ta obejmuje: - kierowanie i nadzór nad działalnością związaną z obronnością (wojskami lądowymi, morskimi i powietrznymi) obejmujące: - bojowe formacje wojsk lądowych, marynarki i wojsk lotniczych, - jednostki inżynieryjne, transportowe, łączności, wywiadu, zaopatrzenia materiałowego, kadrowego i inne formacje niebojowe, - obronne formacje pomocnicze i rezerwy: - wojskowe jednostki logistyczne (zaopatrzenie w sprzęt, jednostki budowlane itp.), - działalność polowych szpitali wojskowych, - kierowanie, funkcjonowanie i wspieranie sił obrony cywilnej, - działalność w zakresie opracowania strategii na wypadek sytuacji kryzysowej oraz przeprowadzanie ćwiczeń w tym zakresie, - działalność związaną z polityką dotyczącą badań naukowych i prac rozwojowych w dziedzinie obronności oraz zarządzanie funduszami na te cele."
+              },
+              "8423": {
+                "title": "Wymiar sprawiedliwości",
+                "description": "Podklasa ta obejmuje: - działalność Sądu Najwyższego oraz Trybunałów: Konstytucyjnego i Stanu, - działalność powszechnych jednostek organizacyjnych prokuratury, sądów powszechnych, sądów administracyjnych, sądów karnych oraz wojskowych prokuratur i sądów, - działalność więziennictwa, zakładów poprawczych i schronisk dla nieletnich, włączając usługi resocjalizacyjne, - działalność rehabilitacyjną w przypadku niesłusznie skazanych."
+              },
+              "8424": {
+                "title": "Bezpieczeństwo państwa, porządek i bezpieczeństwo publiczne",
+                "description": "Podklasa ta obejmuje: - kierowanie oraz nadzór nad działalnością regularnych i pomocniczych sił policyjnych, włączając policję portową, graniczną, przybrzeżną i pozostałe formacje policyjne finansowane ze środków publicznych oraz policję drogową, jednostki rejestracji cudzoziemców i utrzymywania archiwów policyjnych, - zapewnienie bezpieczeństwa na wypadek zagrożenia wewnętrznego, w przypadkach klęsk żywiołowych i innych zagrożeń w czasie pokoju."
+              },
+              "8425": {
+                "title": "Ochrona przeciwpożarowa",
+                "description": "Podklasa ta obejmuje: - działalność regularnych i ochotniczych jednostek straży pożarnej w zakresie ochrony przeciwpożarowej, gaszenia pożarów, ratowania ludzi i zwierząt, pomocy w przypadkach klęsk żywiołowych i innych zagrożeń (klęski cywilizacyjne, powodzie, wypadki drogowe itp.), - działalność operacyjną obejmującą zwalczanie skutków klęsk żywiołowych i katastrof, ratowanie ludzi i zwierząt itp., finansowaną ze środków publicznych, realizowaną poprzez ratownictwo podczas pożarów, ratownictwo techniczne, chemiczne i ekologiczne oraz ratownictwo medyczne realizowane przez jednostki Państwowej Straży Pożarnej oraz jednostki ochotniczych straży pożarnych."
+              }
+            }
+          },
+          "843": {
+            "title": "Obowiązkowe zabezpieczenia społeczne",
+            "children": {
+              "8430": {
+                "title": "Obowiązkowe zabezpieczenia społeczne",
+                "description": "Podklasa ta obejmuje finansowanie i administrowanie programów rządowych związanych z zabezpieczeniem społecznym, takim jak: - ubezpieczenia społeczne (emerytalne, rentowe, chorobowe, wypadkowe z tytułu wypadków przy pracy i chorób zawodowych), - zaopatrzenie emerytalne (np. służb mundurowych, inwalidów wojennych i wojskowych, kombatantów itp.), - zabezpieczenia społeczne na wypadek bezrobocia, - powszechne ubezpieczenia zdrowotne."
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -2612,7 +3511,83 @@
     "title": "EDUKACJA",
     "children": {
       "85": {
-        "title": "EDUKACJA"
+        "title": "EDUKACJA",
+        "children": {
+          "851": {
+            "title": "Placówki wychowania przedszkolnego",
+            "children": {
+              "8510": {
+                "title": "Placówki wychowania przedszkolnego",
+                "description": "Podklasa ta obejmuje: - wychowanie przedszkolne, którego celem jest wspieranie rozwoju dziecka i przygotowanie go do rozpoczęcia nauki w szkole. Wychowanie przedszkolne jest prowadzone w przedszkolach, oddziałach przedszkolnych w szkołach podstawowych oraz innych formach wychowania przedszkolnego."
+              }
+            }
+          },
+          "852": {
+            "title": "Szkoły podstawowe",
+            "children": {
+              "8520": {
+                "title": "Szkoły podstawowe",
+                "description": "Podklasa ta obejmuje: - edukację na poziomie podstawowym zapewniającą uczniom zdobycie umiejętności w zakresie czytania, pisania i liczenia oraz podstawowych umiejętności i wiedzy w zakresie takich przedmiotów, jak: język polski, język obcy nowożytny, matematyka, historia, wiedza o społeczeństwie, przyroda, fizyka, chemia, geografia, biologia, plastyka, muzyka, technika, informatyka, edukacja dla bezpieczeństwa i wychowanie fizyczne. Edukacja w zakresie szkoły podstawowej jest obowiązkowa, - edukację w szkołach artystycznych niedających uprawnień zawodowych (I stopnia) realizującą pierwszy etap kształcenia artystycznego, którego ukończenie nie daje zawodu."
+              }
+            }
+          },
+          "853": {
+            "title": "Gimnazja, szkoły ponadgimnazjalne i szkoły ponadpodstawowe, z wyłączeniem szkół policealnych",
+            "children": {
+              "8531": {
+                "title": "Gimnazja i licea ogólnokształcące",
+                "description": "Podklasa ta obejmuje: - obowiązkową edukację w gimnazjach. Warunkiem formalnym przyjęcia do gimnazjum jest ukończenie szkoły podstawowej. Natomiast warunkiem koniecznym ukończenia gimnazjum jest przystąpienie do egzaminu zewnętrznego przeprowadzanego w klasie trzeciej. Absolwenci gimnazjum mają obowiązek kontynuowania nauki (do ukończenia 18 roku życia) w szkołach ponadpodstawowych, ponadgimnazjalnych w ramach przygotowania zawodowego u pracodawcy lub na kwalifikacyjnym kursie zawodowym, - edukację w liceach ogólnokształcących. Jednym z głównych celów kształcenia jest przygotowanie uczniów do ubiegania się o przyjęcie do szkół wyższych lub szkół policealnych. Absolwenci liceów po ukończeniu klasy programowo najwyższej, uzyskują wykształcenie średnie, co daje im możliwość ubiegania się o przyjęcie do szkół policealnych; po zdaniu egzaminu maturalnego uzyskują prawo do ubiegania się o przyjęcie na studia wyższe."
+              },
+              "8532": {
+                "title": "Szkoły prowadzące kształcenie zawodowe, z wyłączeniem szkół policealnych",
+                "description": "Podklasa ta obejmuje: - edukację w technikum, którego ukończenie umożliwia uzyskanie dyplomu potwierdzającego kwalifikacje zawodowe po zdaniu egzaminów zawodowych, a także umożliwia uzyskanie świadectwa dojrzałości po zdaniu egzaminu maturalnego, co pozwala na kontynuowanie nauki na studiach wyższych. Absolwenci techników po ukończeniu klasy programowo najwyższej, uzyskują wykształcenie średnie, co daje im możliwość ubiegania się o przyjęcie do szkół policealnych; po zdaniu egzaminu maturalnego uzyskują prawo do ubiegania się o przyjęcie na studia wyższe, - edukację w szkołach artystycznych (włączając realizujące program ogólnokształcący) dających uprawnienia zawodowe, - edukację w branżowej szkole I stopnia, której ukończenie umożliwia uzyskanie dyplomu potwierdzającego kwalifikacje zawodowe po zdaniu egzaminu zawodowego, a także dalsze kształcenie w branżowej szkole II stopnia lub liceum ogólnokształcącym dla dorosłych. Kształcenie w branżowej szkole I stopnia mogą podejmować absolwenci szkół podstawowych i gimnazjów, - edukację w szkołach specjalnych przysposabiających do pracy uczniów z niepełnosprawnością intelektualną w stopniu umiarkowanym lub znacznym oraz dla uczniów z niepełnosprawnościami sprzężonymi. Absolwent otrzymuje świadectwo ukończenia szkoły przysposabiającej do pracy. Jest to typ szkoły, której ukończenie nie przewiduje kontynuowania nauki w systemie szkolnym,  - edukację w branżowej szkole II stopnia, której ukończenie umożliwia uzyskanie dyplomu potwierdzającego kwalifikacje zawodowe w zawodzie nauczanym na poziomie technika po zdaniu egzaminu zawodowego, a także umożliwia otrzymanie świadectwa dojrzałości po zdaniu egzaminu maturalnego. Absolwenci po ukończeniu klasy programowo najwyższej uzyskują wykształcenie średnie branżowe, co daje im możliwość ubiegania się o przyjęcie do szkół policealnych. Natomiast po uzyskaniu świadectwa dojrzałości będą mogli kontynuować naukę na studiach wyższych. Kształcenie w branżowej szkole II stopnia mogą podejmować absolwenci branżowych szkół I stopnia."
+              }
+            }
+          },
+          "854": {
+            "title": "Szkoły policealne oraz wyższe",
+            "children": {
+              "8541": {
+                "title": "Szkoły policealne, kolegia pracowników służb społecznych i placówki doskonalenia nauczycieli",
+                "description": "Podklasa ta obejmuje: - edukację w szkołach policealnych przygotowujących do wykonywania zawodu, której ukończenie umożliwia uzyskanie dyplomu potwierdzającego kwalifikacje zawodowe po zdaniu egzaminów zawodowych. Okres kształcenia, w zależności od zdobywanego zawodu, określa klasyfikacja zawodów szkolnictwa zawodowego. Warunkiem przyjęcia do szkoły policealnej jest posiadanie wykształcenia średniego lub średniego branżowego, - edukację w szkołach artystycznych, dających uprawnienia zawodowe, - edukację w kolegiach pracowników służb społecznych. Kolegia kształcą w zawodzie pracownika socjalnego w systemie dziennym, wieczorowym lub zaocznym. Słuchaczem kolegium może być osoba, która posiada świadectwo dojrzałości oraz uzyskała pozytywny wynik w postępowaniu rekrutacyjnym, - edukację w placówkach doskonalenia nauczycieli, której celem jest doskonalenie zawodowe nauczycieli, - działania placówek doskonalenia nauczycieli na rzecz doskonalenia systemu oświaty, zgodnie z polityką oświatową państwa, w zakresie określonym w statutach tych placówek oraz wykonywanie przez nie zadań związanych z podnoszeniem jakości edukacji."
+              },
+              "8542": {
+                "title": "Szkoły wyższe",
+                "description": "Podklasa ta obejmuje: - kształcenie w szkołach wyższych publicznych i niepublicznych prowadzone na poziomie: - studiów krótkiego cyklu, opierających się zwykle na praktycznej nauce, właściwej dla wykonywania danego zawodu i przygotowujących studentów do wejścia na rynek pracy lub do innych programów kształcenia wyższego, - studiów pierwszego stopnia, na które przyjmowani są kandydaci posiadający świadectwo dojrzałości, kończące się uzyskaniem kwalifikacji pierwszego stopnia, - studiów drugiego stopnia, na które przyjmowani są kandydaci posiadający co najmniej kwalifikacje pierwszego stopnia, kończące się uzyskaniem kwalifikacji drugiego stopnia, - jednolitych studiów magisterskich na które przyjmowani są kandydaci posiadający świadectwo dojrzałości, kończące się uzyskaniem kwalifikacji drugiego stopnia, - studiów podyplomowych, na które przyjmowani są kandydaci, którzy ukończyli co najmniej studia pierwszego stopnia, kończące się uzyskaniem kwalifikacji podyplomowych, - studiów trzeciego stopnia (studiów doktoranckich), na które przyjmowani są kandydaci posiadający kwalifikacje drugiego stopnia, kończące się uzyskaniem kwalifikacji trzeciego stopnia. Kształcenie odbywa się w formie studiów stacjonarnych i niestacjonarnych."
+              }
+            }
+          },
+          "855": {
+            "title": "Pozaszkolne formy edukacji",
+            "children": {
+              "8551": {
+                "title": "Pozaszkolne formy edukacji sportowej oraz zajęć sportowych i rekreacyjnych",
+                "description": "Podklasa ta obejmuje kursy, zajęcia sportowe i rekreacyjne dla grup i osób indywidualnych. Zajęcia mogą być prowadzone w szkołach, na obozach, obiektach własnych jednostki nauczającej, obiektach klienta lub innych obiektach, włączając zakwaterowanie. Kursy i zajęcia ujęte w tej podklasie mają charakter formalnie zorganizowany. Podklasa ta obejmuje: - zajęcia sportowe (siatkówkę, koszykówkę, piłkę nożną itp.), - obozy sportowe, - zajęcia gimnastyczne, - szkoły nauki jazdy konnej, - naukę pływania, - działalność profesjonalnych instruktorów sportowych, nauczycieli i trenerów, - kursy sztuk walki, kursy jogi, - kursy gry w karty (np. brydż)."
+              },
+              "8552": {
+                "title": "Pozaszkolne formy edukacji artystycznej",
+                "description": "Podklasa ta obejmuje kursy i zajęcia w zakresie sztuki, teatru oraz muzyki. Jednostki prowadzące ten rodzaj nauczania mogą być nazywane „szkołami”, „studiami”, „klasami” itp. Zapewniają one formalnie zorganizowane zajęcia związane z hobby, rekreacją lub rozwojem własnym. Nie prowadzą one do uzyskania dyplomu zawodowego, licencjata czy stopnia naukowego. Podklasa ta obejmuje: - naukę gry na instrumentach muzycznych i inne zajęcia muzyczne, - zajęcia z dziedziny sztuki, - kursy tańca, - szkoły teatralne, z wyłączeniem akademickich, - szkoły sztuk pięknych, z wyłączeniem akademickich, - szkoły sztuk widowiskowych, z wyłączeniem akademickich, - kursy fotograficzne, z wyłączeniem fotografii profesjonalnej."
+              },
+              "8553": {
+                "title": "Pozaszkolne formy edukacji z zakresu nauki jazdy i pilotażu",
+                "description": "Podklasa ta obejmuje: - naukę jazdy, - szkoły pilotażu, żeglarstwa, nawigacji morskiej inne niż wydające zawodowe certyfikaty i uprawnienia."
+              },
+              "8559": {
+                "title": "Pozaszkolne formy edukacji, gdzie indziej niesklasyfikowane",
+                "description": "Podklasa ta obejmuje: - edukację, w której nie da się zdefiniować poziomu nauczania, - działalność placówek kształcenia praktycznego, placówek kształcenia ustawicznego oraz ośrodków dokształcania i doskonalenia zawodowego, - korepetycje, włączając korepetycje z języków obcych, - działalność ośrodków prowadzących kursy wyrównawcze, - kursy przygotowujące do egzaminu z wiedzy zawodowej, - kursy komputerowe, - naukę religii, - kursy udzielania pierwszej pomocy, - szkoły przetrwania, - szkolenia z zakresu komunikacji werbalnej i niewerbalnej, - kursy szybkiego czytania, - pozostałe pozaszkolne formy edukacji związane głównie z rozwijaniem własnych zainteresowań, uzyskiwaniem i uzupełnianiem wiedzy, umiejętności i kwalifikacji zawodowych w formach pozaszkolnych oraz doskonaleniem zawodowym (włączając: kwalifikacyjne kursy zawodowe, kursy umiejętności zawodowych, kursy kompetencji ogólnych, turnusy dokształcania teoretycznego młodocianych pracowników)."
+              }
+            }
+          },
+          "856": {
+            "title": "Działalność wspomagająca edukację",
+            "children": {
+              "8560": {
+                "title": "Działalność wspomagająca edukację",
+                "description": "Podklasa ta obejmuje: - doradztwo edukacyjno-zawodowe, - działalność w zakresie pomocy psychologiczno-pedagogicznej, - działalność komisji egzaminacyjnych, - działalność dotyczącą oceny szkoleń, - organizowanie programów wymiany studenckiej, - działalność edukacyjną zespołów przedszkoli i szkół."
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -2620,13 +3595,90 @@
     "title": "OPIEKA ZDROWOTNA I POMOC SPOŁECZNA",
     "children": {
       "86": {
-        "title": "OPIEKA ZDROWOTNA"
+        "title": "OPIEKA ZDROWOTNA",
+        "children": {
+          "861": {
+            "title": "Działalność szpitali",
+            "children": {
+              "8610": {
+                "title": "Działalność szpitali",
+                "description": "Podklasa ta obejmuje: - działalność szpitali ogólnych oraz specjalistycznych, takich jak: szpitale psychiatryczne, zakłady dla osób uzależnionych, szpitale zakaźne, położnicze zapewniające pacjentom zakwaterowanie i wyżywienie, - działalność prewentoriów, sanatoriów, centrów rehabilitacyjnych i pozostałych placówek medycznych zapewniających pacjentom zakwaterowanie i wyżywienie, - działalność szpitali wojskowych i w zakładach karnych, - usługi personelu medycznego i paramedycznego, - działalność prowadzoną przez laboratoria, pracownie techniczne, włącznie z usługami radiologów, - działalność izb przyjęć, - działalność aptek szpitalnych, - obsługę sal operacyjnych, usługi wyżywienia oraz pozostałe usługi szpitalne. Działalność tych placówek nastawiona jest głównie na obsługę pacjentów przebywających w szpitalach i prowadzona jest pod bezpośrednim nadzorem lekarzy."
+              }
+            }
+          },
+          "862": {
+            "title": "Praktyka lekarska",
+            "children": {
+              "8621": {
+                "title": "Praktyka lekarska ogólna",
+                "description": "Podklasa nie wymaga wyjaśnień."
+              },
+              "8622": {
+                "title": "Praktyka lekarska specjalistyczna",
+                "description": "Podklasa ta obejmuje: - porady, diagnostykę i leczenie świadczone przez lekarzy specjalistów, włączając chirurgów."
+              },
+              "8623": {
+                "title": "Praktyka lekarska dentystyczna",
+                "description": "Podklasa ta obejmuje: - praktyki dentystyczne o charakterze ogólnym lub specjalistycznym np. periodontologia, ortodoncja, operacje dentystyczne."
+              }
+            }
+          },
+          "869": {
+            "title": "Pozostała działalność w zakresie opieki zdrowotnej",
+            "children": {
+              "8690": {
+                "title": "Gimnazja i licea ogólnokształcące",
+                "description": "Podklasa ta obejmuje: - indywidualną lub zespołową działalność fizjoterapeutów, prowadzoną w takich dziedzinach jak: diagnostyka fizjoterapeutyczna, fizykoterapia, hydroterapia, masaż leczniczy, terapia ruchowa itp. Działalność ta może być prowadzona w placówkach medycznych, takich jak: przychodnie (ogólne, przyszpitalne, medycyny pracy, przy domach pomocy społecznej), specjalistyczne placówki medyczne inne niż szpitale, prywatne gabinety oraz w domu pacjenta. Działalność ta może być prowadzona także w obiektach zapewniających zakwaterowanie, ale innych niż szpitale, - działalność pogotowia ratunkowego w zakresie transportu chorych, włączając transport samolotowy, - indywidualną praktykę pielęgniarek i położnych, włącznie z indywidualną praktyką specjalistyczną, - grupową praktykę pielęgniarek i położnych Działalność ta może być prowadzona w placówkach medycznych, takich jak: przychodnie (ogólne, przyszpitalne, medycyny pracy), specjalistyczne placówki medyczne inne niż szpitale, prywatne gabinety oraz w domu pacjenta. Działalność ta nie obejmuje leczenia medycznego, Podklasa ta obejmuje: - działalność paramedyczną prowadzoną w takich dziedzinach jak: irydologia, homeopatia, akupunktura, akupresura itp. Działalność ta może być prowadzona w placówkach medycznych, takich jak: przychodnie ogólne, specjalistyczne placówki medyczne inne niż szpitale, prywatne gabinety oraz w domu pacjenta. Działalność ta może być prowadzona także w obiektach zapewniających zakwaterowanie, ale innych niż szpitale, - pomocniczą działalność dentystyczną, taką jak: działalność higienistek i asystentek dentystycznych. Osoby te mogą pracować samodzielnie, lecz co jakiś czas są kontrolowane przez lekarzy dentystów, - działalność związaną z prowadzeniem profilaktyki i promocji zdrowia prowadzoną m.in. przez higienistki szkolne, ortoptystów, instruktorów higieny, dietetyków i specjalistów promocji zdrowia, - działalność diagnostyczną prowadzoną przez samodzielne laboratoria medyczne, - działalność banków krwi, spermy, organów i tkanek do przeszczepów oraz zbiór moczu kobiecego do produkcji leków hormonalnych, - działalność w dziedzinie terapii logopedycznej, optometrii, - działalność w zakresie zdrowia psychicznego świadczoną przez psychologów i psychoterapeutów."
+              }
+            }
+          }
+        }
       },
       "87": {
-        "title": "POMOC SPOŁECZNA Z ZAKWATEROWANIEM"
+        "title": "POMOC SPOŁECZNA Z ZAKWATEROWANIEM",
+        "8710": {
+          "title": "Pomoc społeczna z zakwaterowaniem zapewniająca opiekę pielęgniarską",
+          "description": "Podklasa ta obejmuje pomoc społeczną z zakwaterowaniem zapewniająca opiekę pielęgniarską realizowaną w: - domach pomocy społecznej, - domach rehabilitacyjnych, - pozostałych placówkach pomocy społecznej."
+        },
+        "8720": {
+          "title": "Pomoc społeczna z zakwaterowaniem dla osób z zaburzeniami psychicznymi",
+          "description": "Podklasa ta obejmuje pomoc społeczną zapewniającą zakwaterowanie, wyżywienie, nadzór ochronny, pomoc i opiekę zdrowotną do pewnego stopnia świadczoną osobom upośledzonym umysłowo lub osobom uzależnionym w placówkach innych niż szpitale, takich jak: - placówki dla osób uzależnionych od alkoholu lub narkotyków, - psychiatryczne placówki rekonwalescencyjne, - domy mieszkalne dla osób z zaburzeniami emocjonalnymi, - placówki dla osób opóźnionych umysłowo, - ośrodki zdrowia psychicznego."
+        },
+        "8730": {
+          "title": "Pomoc społeczna z zakwaterowaniem dla osób w podeszłym wieku i osób niepełnosprawnych",
+          "description": "Podklasa ta obejmuje pomoc społeczną zapewniającą całodobową opiekę osobom w podeszłym wieku i osobom niepełnosprawnym realizowaną w: - domach emeryta, - domach pomocy społecznej z minimalną opieką pielęgniarską, - domach pomocy społecznej bez opieki pielęgniarskiej."
+        },
+        "8790": {
+          "title": "Pozostała pomoc społeczna z zakwaterowaniem",
+          "description": "Podklasa ta obejmuje pomoc społeczną zapewniającą całodobową opiekę dzieciom oraz osobom o ograniczonej zdolności radzenia sobie samemu, w której opieka medyczna, edukacja i działalność rehabilitacyjna odgrywają rolę marginesową, realizowaną przez instytucje administracji publicznej, organizacje prywatne lub społeczne w takich placówkach, jak: - domy dziecka, - pogotowia opiekuńcze, - specjalne ośrodki wychowawcze, - rodziny zastępcze, - domy dla bezdomnych, - domy dla samotnych matek z dziećmi, - ośrodki pomocy dla osób z problemami socjalnymi lub osobistymi, - ogniska wychowawcze."
+        }
       },
       "88": {
-        "title": "POMOC SPOŁECZNA BEZ ZAKWATEROWANIA"
+        "title": "POMOC SPOŁECZNA BEZ ZAKWATEROWANIA",
+        "children": {
+          "881": {
+            "title": "Pomoc społeczna bez zakwaterowania dla osób w podeszłym wieku i osób niepełnosprawnych",
+            "children": {
+              "8810": {
+                "title": "Pomoc społeczna bez zakwaterowania dla osób w podeszłym wieku i osób niepełnosprawnych",
+                "description": "Podklasa ta obejmuje działalność poradni, schronisk i pozostałą pomoc społeczną bez zakwaterowania świadczoną osobom w podeszłym wieku i osobom niepełnosprawnym, realizowaną przez instytucje administracji publicznej, organizacje o zasięgu ogólnopolskim lub lokalnym oraz przez specjalistów udzielających porad, m.in. poprzez: - odwiedzanie osób w podeszłym wieku i chorych w ich domach, - dzienną opiekę dla osób w podeszłym wieku lub dorosłych osób niepełnosprawnych, - działalność związaną z przystosowaniem zawodowym osób upośledzonych umysłowo lub niepełnosprawnych fizycznie; w działalności tego typu czynnik edukacyjny powinien występować w ograniczonym zakresie."
+              }
+            }
+          },
+          "889": {
+            "title": "Pozostała pomoc społeczna bez zakwaterowania",
+            "children": {
+              "8891": {
+                "title": "Opieka dzienna nad dziećmi",
+                "description": "Podklasa ta obejmuje: - działalność żłobków, - pozostałą opiekę dzienną nad dziećmi, włączając dzieci niepełnosprawne."
+              },
+              "8899": {
+                "title": "Pozostała pomoc społeczna bez zakwaterowania, gdzie indziej niesklasyfikowana",
+                "description": "Podklasa ta obejmuje działalność poradni, schronisk, pomoc specjalną i pozostałą pomoc społeczną bez zakwaterowania świadczoną osobom i rodzinom w ich domach lub poza nimi, realizowaną przez instytucje administracji publicznej, organizacje niosące pomoc ofiarom katastrof, organizacje o zasięgu ogólnopolskim lub lokalnym oraz przez specjalistów udzielających porad, m.in. poprzez: - pomoc społeczną i poradnictwo dla dzieci i młodzieży, - działalność związaną z adopcją, - działalność prewencyjną przeciwko przemocy wobec dzieci oraz inną działalność tego rodzaju, - konsultacje i doradztwo związane z planowaniem budżetów domowych, działalność poradni małżeńskich i rodzinnych, poradnictwo w zakresie zaciągania kredytów i spłacania długów, - działalność społeczną lokalną i sąsiedzką, - działalność polegającą na niesieniu pomocy ofiarom klęsk żywiołowych, katastrof, uchodźcom, imigrantom itp., włączając działalność tymczasowych i długotrwałych schronisk dla tych osób, - działalność związaną z przystosowaniem zawodowym osób bezrobotnych, w działalności tego typu czynnik edukacyjny powinien występować w ograniczonym zakresie, - działalność polegającą na określeniu, czy ubiegający się o wsparcie spełniają warunki potrzebne do przyznania pomocy finansowej lub rzeczowej, - placówki dzienne dla osób bezdomnych oraz innych osób potrzebujących pomocy, - działalność charytatywną polegającą na gromadzeniu funduszy lub inne formy wspierania finansowego w ramach pomocy społecznej."
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -2634,16 +3686,99 @@
     "title": "DZIAŁALNOŚĆ ZWIĄZANA Z KULTURĄ, ROZRYWKĄ I REKREACJĄ",
     "children": {
       "90": {
-        "title": "DZIAŁALNOŚĆ TWÓRCZA ZWIĄZANA Z KULTURĄ I ROZRYWKĄ"
+        "title": "DZIAŁALNOŚĆ TWÓRCZA ZWIĄZANA Z KULTURĄ I ROZRYWKĄ",
+        "children": {
+          "9001": {
+            "title": "Działalność związana z wystawianiem przedstawień artystycznych",
+            "description": "Podklasa ta obejmuje wystawianie przedstawień teatralnych, operowych, baletowych, musicalowych i innych: - działalność grup cyrkowych, orkiestr i zespołów muzycznych, - działalność indywidualnych artystów takich jak: aktorzy, tancerze, piosenkarze, lektorzy lub prezenterzy."
+          },
+          "9002": {
+            "title": "Działalność wspomagająca wystawianie przedstawień artystycznych",
+            "description": "Podklasa ta obejmuje: - działalność wspomagającą wystawianie przedstawień teatralnych, operowych, baletowych, musicalowych i innych: - działalność reżyserów, producentów, scenografów, projektantów i wykonawców teatralnych dekoracji scenicznych, maszynistów sceny, specjalistów od oświetlenia sceny, konferansjerów itd. - działalność producentów przedstawień artystycznych, w obiektach lub poza nimi."
+          },
+          "9003": {
+            "title": "Artystyczna i literacka działalność twórcza",
+            "description": "Podklasa ta obejmuje: - działalność indywidualnych artystów takich jak: rzeźbiarze, malarze, rysownicy, grawerzy, artyści uprawiający kwasoryt itp., - działalność indywidualnych pisarzy wszystkich dziedzin, włączając fikcję literacką, literaturę popularno-naukową itp., - działalność niezależnych dziennikarzy, - renowację prac artystycznych, takich jak obrazy itp."
+          },
+          "9004": {
+            "title": "Działalność obiektów kulturalnych",
+            "description": "Podklasa ta obejmuje: - działalność teatrów i sal koncertowych, galerii i salonów wystawienniczych, domów i ośrodków kultury, świetlic oraz pozostałych obiektów kulturalnych."
+          }
+        }
       },
       "91": {
-        "title": "DZIAŁALNOŚĆ BIBLIOTEK, ARCHIWÓW, MUZEÓW ORAZ POZOSTAŁA DZIAŁALNOŚĆ ZWIĄZANA Z KULTURĄ"
+        "title": "DZIAŁALNOŚĆ BIBLIOTEK, ARCHIWÓW, MUZEÓW ORAZ POZOSTAŁA DZIAŁALNOŚĆ ZWIĄZANA Z KULTURĄ",
+        "children": {
+          "910": {
+            "title": "DZIAŁALNOŚĆ BIBLIOTEK, ARCHIWÓW, MUZEÓW ORAZ POZOSTAŁA DZIAŁALNOŚĆ ZWIĄZANA Z KULTURĄ",
+            "children": {
+              "9101": {
+                "title": "Działalność bibliotek i archiwów",
+                "description": "Podklasa ta obejmuje: - dokumentacyjną i informacyjną działalność bibliotek wszystkich rodzajów, czytelni, pomieszczeń do odsłuchiwania i oglądania, świadczoną dla ogółu społeczeństwa lub specjalnych grup odbiorców, takich jak: studenci, naukowcy, nauczyciele, członkowie: - gromadzenie zbiorów - katalogowanie zbiorów, - wypożyczanie i przechowywanie książek, map, periodyków, filmów, płyt, taśm, prac artystycznych itp., - wyszukiwanie informacji z posiadanych zbiorów itp., - przechowywanie zdjęć i filmów przez biblioteki i usługi z tym związane, - dokumentacyjną i informacyjną działalność archiwów publicznych świadczona dla ogółu społeczeństwa lub specjalnych grup odbiorców, takich jak: studenci, naukowcy, nauczyciele, członkowie oraz działalność archiwów rządowych: - gromadzenie zbiorów, - katalogowanie zbiorów, - wypożyczanie i przechowywanie książek, map, periodyków, filmów, płyt, taśm, prac artystycznych itp., - wyszukiwanie informacji z posiadanych zbiorów itp."
+              },
+              "9102": {
+                "title": "Działalność muzeów",
+                "description": "Podklasa ta obejmuje działalność muzeów wszystkich rodzajów, takich jak: - muzea sztuki, biżuterii, mebli, strojów, ceramiki, srebra stołowego, - muzea historii naturalnej, nauki i techniki, historyczne, włączając muzea wojskowe i izby pamięci, - pozostałe muzea wyspecjalizowane, - muzea na wolnym powietrzu."
+              },
+              "9103": {
+                "title": "Działalność historycznych miejsc i budynków oraz podobnych atrakcji turystycznych",
+                "description": "Podklasa ta obejmuje: - konserwację i ochronę miejsc i budynków zabytkowych i historycznych oraz zabytkowych obiektów ruchomych."
+              },
+              "9104": {
+                "title": "Działalność ogrodów botanicznych i zoologicznych oraz obszarów i obiektów ochrony przyrody",
+                "description": "Podklasa ta obejmuje: - działalność ogrodów botanicznych i zoologicznych, włączając ogrody zoologiczne dla dzieci, - działalność rezerwatów przyrody, włączając ochronę dzikiej przyrody itd."
+              }
+            }
+          }
+        }
       },
       "92": {
-        "title": "DZIAŁALNOŚĆ ZWIĄZANA Z GRAMI LOSOWYMI I ZAKŁADAMI WZAJEMNYMI"
+        "title": "DZIAŁALNOŚĆ ZWIĄZANA Z GRAMI LOSOWYMI I ZAKŁADAMI WZAJEMNYMI",
+        "children": {
+          "9200": {
+            "title": "DZIAŁALNOŚĆ ZWIĄZANA Z GRAMI LOSOWYMI I ZAKŁADAMI WZAJEMNYMI",
+            "description": "Podklasa ta obejmuje działalność w zakresie gier losowych i zakładów wzajemnych, taką jak: - sprzedaż losów na loterie, - eksploatacja automatów do gier hazardowych na monety, - obsługa stron internetowych z wirtualnymi grami losowymi, - działalność bukmacherska oraz pozostała działalność w zakresie zakładów wzajemnych, - zakłady wyścigów konnych, - działalność kasyn, włączając „pływające kasyna”."
+          }
+        }
       },
       "93": {
-        "title": "DZIAŁALNOŚĆ SPORTOWA, ROZRYWKOWA I REKREACYJNA"
+        "title": "DZIAŁALNOŚĆ SPORTOWA, ROZRYWKOWA I REKREACYJNA",
+        "children": {
+          "931": {
+            "title": "Działalność związana ze sportem",
+            "children": {
+              "9311": {
+                "title": "Działalność obiektów sportowych",
+                "description": "Podklasa ta obejmuje: - działalność obiektów sportowych na otwartym powietrzu lub obiektów sportowych halowych (otwartych, zamkniętych lub zadaszonych, z miejscami siedzącymi dla widzów lub bez, tj.: - stadiony do gry w piłkę nożną, - stadiony do gry w krykieta, rugby, - tory wyścigowe dla samochodów, psów, koni, - baseny, - stadiony lekkoatletyczne, - hale i stadiony przeznaczone dla sportów zimowych, włączając hale do gry w hokeja, - hale bokserskie, - pola golfowe, - tory do gry w kręgle, - pozostałe obiekty sportowe - organizowanie i przeprowadzanie imprez sportowych dla sportowców zawodowych lub amatorów z wykorzystaniem własnych, otwartych lub zamkniętych obiektów sportowych, - zarządzanie i zapewnienie pracowników do obsługi tych obiektów."
+              },
+              "9312": {
+                "title": "Działalność klubów sportowych",
+                "description": "Podklasa obejmuje działalność klubów sportowych zawodowych lub amatorskich, takich jak: - kluby piłkarskie, - kluby pływackie, - kluby bokserskie, - kluby lekkoatletyczne, - kluby strzeleckie, - kluby sportów zimowych, - kluby golfowe, - kluby kręglarskie, - kluby szachowe itd."
+              },
+              "9313": {
+                "title": "Działalność obiektów służących poprawie kondycji fizycznej",
+                "description": "Podklasa ta obejmuje: - działalność centrów i klubów fitness oraz innych obiektów służących poprawie kondycji fizycznej i kulturystyce."
+              },
+              "9319": {
+                "title": "Pozostała działalność związana ze sportem",
+                "description": "Podklasa ta obejmuje: - działalność producentów i sponsorów wydarzeń sportowych, w obiektach lub poza nimi, - działalność indywidualnych sportowców, sędziów, chronometrażystów itd., - działalność związaną z organizacją lig sportowych, - działalność związaną z promocją imprez sportowych, - działalność przewodników górskich. - działalność stajni wyścigowych, ośrodków hodowli i tresury psów wyścigowych, - działalność wspomagającą łowiectwo i wędkarstwo sportowe lub rekreacyjne."
+              }
+            }
+          },
+          "932": {
+            "title": "Działalność związana ze sportem",
+            "children": {
+              "9321": {
+                "title": "Działalność wesołych miasteczek i parków rozrywki",
+                "description": "Podklasa ta obejmuje: - działalność wesołych miasteczek i parków rozrywki, - organizowanie różnych atrakcji rozrywkowych i rekreacyjnych, takich jak: zjazdy wodne, gry, pokazy, wystawy tematyczne i imprezy plenerowe."
+              },
+              "9329": {
+                "title": "Pozostała działalność rozrywkowa i rekreacyjna",
+                "description": "Podklasa ta obejmuje pozostałą działalność rozrywkową i rekreacyjną, gdzie indziej niesklasyfikowaną (z wyłączeniem działalności wesołych miasteczek i parków rozrywki), taką jak: - eksploatacja automatów do gier zręcznościowych, nawet na monety, - działalność parków rekreacyjnych (bez zakwaterowania), - transport rekreacyjny, np. działalność przystani jachtowych, - obsługa stoków narciarskich, - wypożyczanie sprzętu rekreacyjnego stanowiącego integralną część obiektu rekreacyjnego, - działalność jarmarków i widowisk o charakterze rekreacyjnym - działalność plaż, włączając wynajmowanie przebieralni, szafek na ubrania, wypożyczanie leżaków, itd. - działalność miejsc do tańczenia (np. dyskoteki, sale taneczne), - działalność producentów i sponsorów przedstawień na żywo, innych niż artystyczne lub sportowe, w obiektach lub poza nimi."
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -2651,13 +3786,120 @@
     "title": "POZOSTAŁA DZIAŁALNOŚĆ USŁUGOWA",
     "children": {
       "94": {
-        "title": "DZIAŁALNOŚĆ ORGANIZACJI CZŁONKOWSKICH"
+        "title": "DZIAŁALNOŚĆ ORGANIZACJI CZŁONKOWSKICH",
+        "children": {
+          "941": {
+            "title": "Działalność organizacji komercyjnych, pracodawców oraz organizacji profesjonalnych",
+            "children": {
+              "9411": {
+                "title": "Działalność organizacji komercyjnych i pracodawców",
+                "description": "Podklasa ta obejmuje: - działalność organizacji, których członkowie zainteresowani są rozwojem i dobrą koniunkturą pewnych grup przemysłu i handlu, włączając rolnictwo, lub wzrostem gospodarczym i ogólnym pewnych regionów, jak również podziałem politycznym bez względu na branżę, - działalność federacji i stowarzyszeń, - działalność izb handlowych, zrzeszeń kupieckich i podobnych organizacji, - działalność informacyjną, reprezentowanie interesów członków organizacji przed instytucjami rządowymi, w stosunkach międzyludzkich (public relations), przy negocjacjach biznesowych i przed organizacjami pracodawców."
+              },
+              "9412": {
+                "title": "Działalność organizacji profesjonalnych",
+                "description": "Podklasa ta obejmuje: - działalność organizacji, których członkowie zainteresowani są określoną dyscypliną nauki lub pewną dziedziną zawodową, zalicza się tu działalność stowarzyszeń lekarzy, prawników, księgowych, inżynierów, architektów itp., - działalność stowarzyszeń, których członkowie: pisarze, malarze, aktorzy, dziennikarze itp. zaangażowani są w działalność naukową, akademicką lub kulturalną, - działalność informacyjną, ustalanie i nadzór nad praktykowanymi zasadami działalności zawodowej, reprezentowanie interesów członków organizacji przed instytucjami rządowymi i w stosunkach międzyludzkich (public relations), - działalność stowarzyszeń naukowych."
+              }
+            }
+          },
+          "942": {
+            "title": "Działalność związków zawodowych",
+            "children": {
+              "9420": {
+                "title": "Działalność związków zawodowych",
+                "description": "Podklasa ta obejmuje: - propagowanie interesów zorganizowanych związków zawodowych i pracowników, - działalność stowarzyszeń, których członkowie są z reguły pracownikami zainteresowanymi w reprezentowaniu ich interesów w zakresie zarobków i wykonywanej pracy oraz w prowadzeniu wspólnych akcji przez tego typu organizacje, - działalność związków zawodowych: pracowników pracujących w pojedynczych zakładach, pracowników konkretnych grup zawodowych, pewnych gałęzi przemysłu oraz regionalnych związków zawodowych i związków zawodowych zorganizowanych w oparciu o inne kryteria."
+              }
+            }
+          },
+          "949": {
+            "title": "Działalność pozostałych organizacji członkowskich",
+            "children": {
+              "9491": {
+                "title": "Działalność organizacji religijnych",
+                "description": "Podklasa ta obejmuje: - propagowanie interesów zorganizowanych związków zawodowych i pracowników, - działalność stowarzyszeń, których członkowie są z reguły pracownikami zainteresowanymi w reprezentowaniu ich interesów w zakresie zarobków i wykonywanej pracy oraz w prowadzeniu wspólnych akcji przez tego typu organizacje, - działalność związków zawodowych: pracowników pracujących w pojedynczych zakładach, pracowników konkretnych grup zawodowych, pewnych gałęzi przemysłu oraz regionalnych związków zawodowych i związków zawodowych zorganizowanych w oparciu o inne kryteria."
+              },
+              "9492": {
+                "title": "Działalność organizacji politycznych",
+                "description": "Podklasa ta obejmuje: - działalność organizacji politycznych i pomocniczych, takich jak: organizacje młodzieżowe związane z partią polityczną. Organizacje te są głównie zaangażowane w uzyskiwanie wpływu na decyzje podejmowane w instytucjach rządowych przez delegowanie swoich członków lub sympatyków do funkcji politycznych oraz działalność informacyjną, public relations, zbieranie funduszy itp."
+              },
+              "9499": {
+                "title": "Działalność pozostałych organizacji członkowskich, gdzie indziej niesklasyfikowana",
+                "description": "Podklasa ta obejmuje: - działalność organizacji niezwiązanych bezpośrednio z partią polityczną, wspierających inicjatywy społeczne poprzez edukację, wpływy polityczne, gromadzenie funduszy itp., takich jak: - organizacje wspierające inicjatywy mieszkańców lub ruchy protestacyjne, - organizacje ekologiczne i działające w celu ochrony środowiska, - organizacje wspierające działalność stowarzyszeń regionalnych i edukacyjnych, gdzie indziej niesklasyfikowane, - organizacje mające na celu ochronę i poprawę sytuacji pewnych grup specjalnych, np. grup etnicznych i mniejszościowych, - stowarzyszenia patriotyczne, włączając stowarzyszenia kombatantów, - działalność stowarzyszeń konsumentów, - działalność związków motorowych, - działalność stowarzyszeń kultywujących kontakty towarzyskie, takie jak kluby rotariańskie, loże itp., - działalność związków młodzieżowych, organizacji studenckich, klubów i bractw itp., - działalność stowarzyszeń agitujących do działalności kulturalnej, rekreacyjnej oraz hobbystycznej (innej niż sporty i gry), np.: koła poetyckie i literackie, kluby książki, kluby historyczne, koła działkowców, kluby filmowe, koła fotograficzne, muzyczne i artystyczne, kluby kolekcjonerskie, kluby środowiskowe itp., - działania wspierające myślistwo i łowiectwo, - działalność związaną z przyznawaniem dotacji przez organizacje członkowskie i inne."
+              }
+            }
+          }
+        }
       },
       "95": {
-        "title": "NAPRAWA I KONSERWACJA KOMPUTERÓW I ARTYKUŁÓW UŻYTKU OSOBISTEGO I DOMOWEGO"
+        "title": "NAPRAWA I KONSERWACJA KOMPUTERÓW I ARTYKUŁÓW UŻYTKU OSOBISTEGO I DOMOWEGO",
+        "children": {
+          "951": {
+            "title": "Naprawa i konserwacja komputerów i sprzętu komunikacyjnego",
+            "children": {
+              "9511": {
+                "title": "Naprawa i konserwacja komputerów i urządzeń peryferyjnych",
+                "description": "Podklasa ta obejmuje naprawę i konserwację: - komputerów stacjonarnych, - komputerów przenośnych (laptopów), - napędów dysków magnetycznych, dysków przenośnych i pozostałych układów pamięci, - napędów dysków optycznych (CD-RW, CD-ROM, DVD-ROM, DVD- RW), - drukarek, - monitorów, - klawiatury, - akcesoriów typu mysz, joystick i manipulator kulkowy (trackball), - wewnętrznych i zewnętrznych modemów komputerowych, - wyspecjalizowanych terminali komputerowych, - serwerów komputerowych, - skanerów, włączając skanery kodów kreskowych, - czytników kart magnetycznych (smart card), - kasków (hełmów) do kreowania rzeczywistości wirtualnej, - rzutników komputerowych, - terminali komputerowych typu: bankomat (ATM); terminale kasowe (POS), które nie są obsługiwane mechanicznie, - podręcznych komputerów typu „hand-help” (PDA)."
+              },
+              "9512": {
+                "title": "Naprawa i konserwacja sprzętu (tele)komunikacyjnego",
+                "description": "Podklasa ta obejmuje naprawę i konserwację: - telefonów bezprzewodowych, - telefonów komórkowych, - modemów (sprzętu transmisyjnego), - faksów, - urządzeń komunikacyjnych do przesyłania danych (np. urządzeń trasujących, pomostów, modemów), - krótkofalówek, urządzeń nadawczo-odbiorczych, - komercyjnych kamer telewizyjnych i kamer wideo."
+              }
+            }
+          },
+          "952": {
+            "title": "Naprawa i konserwacja artykułów użytku osobistego i domowego",
+            "children": {
+              "9521": {
+                "title": "Naprawa i konserwacja elektronicznego sprzętu powszechnego użytku",
+                "description": "Podklasa ta obejmuje naprawę i konserwację elektronicznego sprzętu powszechnego użytku: - telewizorów, radioodbiorników, - magnetowidów (VCR), - odtwarzaczy CD, - kamer wideo użytku domowego."
+              },
+              "9522": {
+                "title": "Naprawa i konserwacja urządzeń gospodarstwa domowego oraz sprzętu użytku domowego i ogrodniczego",
+                "description": "Podklasa ta obejmuje: - naprawę i konserwację urządzeń gospodarstwa domowego: - lodówek, pieców, pralek, suszarek ubraniowych, urządzeń klimatyzacyjnych itp., - naprawę i konserwację sprzętu użytku domowego i ogrodniczego: - kosiarek do trawy, podkaszarek, dmuchaw do śniegu i liści, przycinarek itp."
+              },
+              "9523": {
+                "title": "Naprawa obuwia i wyrobów skórzanych",
+                "description": "Podklasa ta obejmuje naprawę i konserwację: - naprawę obuwia, toreb bagażowych i podobnych wyrobów skórzanych, - dopasowywanie, montaż obcasów."
+              },
+              "9524": {
+                "title": "Naprawa i konserwacja mebli i wyposażenia domowego",
+                "description": "Podklasa ta obejmuje: - tapicerowanie, obróbkę wykończającą, naprawę, renowację mebli i wyposażenia domowego, włączając meble biurowe."
+              },
+              "9525": {
+                "title": "Naprawa zegarów, zegarków oraz biżuterii",
+                "description": "Podklasa ta obejmuje: - naprawę zegarków, zegarów i ich części, takich jak: koperty i obudowy; - naprawę mechanizmów zegarowych, chronometrów itp., - naprawę biżuterii, - usługi grawerowania „na poczekaniu”."
+              },
+              "9529": {
+                "title": "Naprawa pozostałych artykułów użytku osobistego i domowego",
+                "description": "Podklasa ta obejmuje naprawę artykułów użytku osobistego i domowego: - naprawę rowerów, - naprawę i przeróbki odzieży, - naprawę artykułów sportowych i wyposażenia turystycznego, z wyłączeniem naprawy broni sportowej i rekreacyjnej, - naprawę książek, - naprawę instrumentów muzycznych, z wyłączeniem renowacji organów i pozostałych instrumentów zabytkowych, - naprawę zabawek i podobnych artykułów, - naprawę pozostałych artykułów użytku osobistego i domowego, - strojenie fortepianów i pianin."
+              }
+            }
+          }
+        }
       },
       "96": {
-        "title": "POZOSTAŁA INDYWIDUALNA DZIAŁALNOŚĆ USŁUGOWA"
+        "title": "POZOSTAŁA INDYWIDUALNA DZIAŁALNOŚĆ USŁUGOWA",
+        "children": {
+          "9601": {
+            "title": "Pranie i czyszczenie wyrobów włókienniczych i futrzarskich",
+            "description": "Podklasa ta obejmuje: - pranie i czyszczenie chemicznie, prasowanie itp. wszystkich rodzajów odzieży (włączając odzież futrzaną) i wyrobów tekstylnych, wykonywane za pomocą urządzeń mechanicznych lub ręcznie, pranie samoobsługowe w urządzeniach na monety, - zbieranie zabrudzonej odzieży od klientów i dostarczanie odzieży upranej, - pranie dywanów, pledów, zasłon i firan, również u klienta, - wypożyczanie przez pralnie bielizny pościelowej, odzieży roboczej i podobnych wyrobów."
+          },
+          "9602": {
+            "title": "Fryzjerstwo i pozostałe zabiegi kosmetyczne",
+            "description": "Podklasa ta obejmuje: - mycie, obcinanie i układanie, czesanie, suszenie, farbowanie, prostowanie włosów, wykonywanie trwałej ondulacji oraz podobne czynności świadczone dla mężczyzn i kobiet, - golenie i przycinanie brody, - masaż twarzy, manicure i pedicure, robienie makijażu itp., - pozostałe zabiegi kosmetyczne, gdzie indziej niesklasyfikowane."
+          },
+          "9603": {
+            "title": "Pogrzeby i działalność pokrewna",
+            "description": "Podklasa ta obejmuje: - grzebanie i kremację zwłok ludzkich i zwierzęcych oraz usługi powiązane: - przygotowanie zwłok do pochówku lub kremacji, balsamowanie zwłok, - usługi zakładów pogrzebowych, - przeprowadzenie pogrzebu lub kremacji, - wynajmowanie przygotowanego miejsca w domach pogrzebowych, - dzierżawę lub sprzedaż grobów, - opiekę i utrzymywanie grobów i mauzoleów."
+          },
+          "9604": {
+            "title": "Działalność usługowa związana z poprawą kondycji fizycznej",
+            "description": "Podklasa ta obejmuje: - działalność usługowa łaźni tureckich, saun i łaźni parowych, solariów, salonów odchudzających, salonów masażu itp. mająca na celu poprawę samopoczucia."
+          },
+          "9609": {
+            "title": "Pozostała działalność usługowa, gdzie indziej niesklasyfikowana",
+            "description": "Podklasa ta obejmuje: - działalność astrologiczną i spirytystyczną, - działalność biur towarzyskich, biur matrymonialnych, - działalność agencji hostess, - działalność usługową związaną z opieką nad zwierzętami domowymi w zakresie wyżywienia, pielęgnowania, strzyżenia, pilnowania i tresury, - wyłapywanie bezpańskich zwierząt, - działalność organizacji badających genealogię, - działalność salonów tatuażu i piercingu, - usługi czyścibutów, portierów, pracowników wyznaczonych do parkowania samochodów itp., - dorabianie kluczy, - działalność samoobsługowych maszyn na monety, takich jak: automaty fotograficzne, wagi, urządzenia do mierzenia ciśnienia krwi, szafki na monety itp."
+          }
+        }
       }
     }
   },
@@ -2665,10 +3907,26 @@
     "title": "GOSPODARSTWA DOMOWE ZATRUDNIAJĄCE PRACOWNIKÓW; GOSPODARSTWA DOMOWE PRODUKUJĄCE WYROBY I ŚWIADCZĄCE USŁUGI NA WŁASNE POTRZEBY",
     "children": {
       "97": {
-        "title": "GOSPODARSTWA DOMOWE ZATRUDNIAJĄCE PRACOWNIKÓW"
+        "title": "GOSPODARSTWA DOMOWE ZATRUDNIAJĄCE PRACOWNIKÓW",
+        "children": {
+          "9700": {
+            "title": "GOSPODARSTWA DOMOWE ZATRUDNIAJĄCE PRACOWNIKÓW",
+            "description": "Podklasa ta obejmuje: - działalność gospodarstw domowych zatrudniających personel do prac domowych, taki jak: pokojówki, kucharze, kelnerzy, służący, kamerdynerzy, praczki, ogrodnicy, portierzy, stajenni, kierowcy, dozorcy, guwernantki, opiekunki do dzieci, korepetytorzy, sekretarki itd. Podklasa ta pozwala zatrudnionym pracownikom potwierdzić działalność ich pracodawców poprzez spisy lub badania, nawet jeśli pracodawcą jest osoba fizyczna. Produkt wytworzony w wyniku tej działalności ulega konsumpcji przez gospodarstwo domowe."
+          }
+        }
       },
       "98": {
-        "title": "GOSPODARSTWA DOMOWE PRODUKUJĄCE WYROBY I ŚWIADCZĄCE USŁUGI NA WŁASNE POTRZEBY"
+        "title": "GOSPODARSTWA DOMOWE PRODUKUJĄCE WYROBY I ŚWIADCZĄCE USŁUGI NA WŁASNE POTRZEBY",
+        "children": {
+          "9810": {
+            "title": "Gospodarstwa domowe produkujące wyroby na własne potrzeby",
+            "description": "Podklasa ta obejmuje: - działalność gospodarstw domowych produkujących różnorodne wyroby na własne potrzeby. - myślistwo, zbieractwo, hodowlę, budowę miejsc schronienia dla zwierząt oraz produkcję odzieży, a także innych wyrobów na własne potrzeby."
+          },
+          "9820": {
+            "title": "Gospodarstwa domowe świadczące usługi na własne potrzeby",
+            "description": "Podklasa ta obejmuje: - działalność gospodarstw domowych świadczących różnorodne usługi na własne potrzeby, tj. gotowanie, nauczanie, opiekę nad członkami gospodarstwa domowego i inne usługi na własne potrzeby."
+          }
+        }
       }
     }
   },
@@ -2676,7 +3934,8 @@
     "title": "ORGANIZACJE I ZESPOŁY EKSTERYTORIALNE",
     "children": {
       "9900": {
-        "title": "ORGANIZACJE I ZESPOŁY EKSTERYTORIALNE"
+        "title": "ORGANIZACJE I ZESPOŁY EKSTERYTORIALNE",
+        "description": "Podklasa ta obejmuje: - działalność organizacji i zespołów eksterytorialnych, takich jak: ONZ oraz jej wyspecjalizowane agendy, oddziały regionalne itp., Międzynarodowy Fundusz Walutowy, Bank Światowy, Światowa Organizacja Celna, Organizacja Współpracy Gospodarczej i Rozwoju, Organizacja Państw - Eksporterów Ropy Naftowej, Wspólnoty Europejskie, Europejskie Stowarzyszenie Wolnego Handlu, - działalność misji dyplomatycznych i konsularnych, które znajdują się na terenie Polski."
       }
     }
   }
