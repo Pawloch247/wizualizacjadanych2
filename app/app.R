@@ -269,7 +269,7 @@ server <- function(input, output) {
     p1 <- df %>%
       group_by(PKDMainSection) %>%
       tally() %>% 
-      mutate(n = n / nrow(df)) %>%
+      mutate(n = 100 * (n / nrow(df))) %>%
       
       ggplot(aes(x=PKDMainSection, y=n, fill=getGroupText(PKDMainSection))) +
       geom_bar(stat="identity", width=1, color="white") +
