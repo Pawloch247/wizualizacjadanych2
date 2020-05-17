@@ -11,6 +11,17 @@ source("utils/load_and_filter.R")
 if (!"data" %in% ls())
   data <- loadAndFilterCeidg("data/")
 
+if (!"pkd_main" %in% ls())
+  pkd_main <- loadPKDMain("data/")
+
+getGroupText <- function(group) {
+  match <- pkd_main[pkd_main$PKDMainSection %in% group,] %>%
+    mutate(
+      PKDMainSectionTitle = paste(PKDMainSection, PKDMainSectionTitle, sep=' - ')
+    )
+  
+  return(match$PKDMainSectionTitle)
+}
 
 ui <- dashboardPage(
   skin = "blue",
@@ -39,13 +50,13 @@ ui <- dashboardPage(
     tags$head(
       tags$style(HTML(".leaflet-container { background-color:rgba(255,0,0,0.0) }"))
     ),
-    tags$head(tags$style(HTML('.info-box {min-height: 77px;}
-                              .info-box-icon {height: 77px; line-height: 77px;}
+    tags$head(tags$style(HTML('.info-box {min-height: 110px;}
+                              .info-box-icon {height: 110px; line-height: 110px;}
                               .info-box-content {padding-top: 0px;
                                                  padding-bottom: 0px;}'))),
 
     fluidRow(
-      column(width = 6,
+      column(width = 5,
         box(
           width = NULL,
           # solidHeader = T,
@@ -60,11 +71,11 @@ ui <- dashboardPage(
             solidHeader = T,
             background = "teal",
             status = "primary",
-            height = 285,
+            height = 385,
             box(
               width = NULL,
               height = NULL,
-              leafletOutput("statistics", height = 200)
+              leafletOutput("statistics", height = 300)
             )
             # "Tu będą ogólne statystyki",
             
@@ -73,7 +84,7 @@ ui <- dashboardPage(
           box(
             width = 6,
             background = "teal",
-            height = 285,
+            height = 385,
             column(
               width = 12,
               # box(
@@ -147,17 +158,17 @@ ui <- dashboardPage(
         )
       ),
       column(
-        width = 6,
+        width = 7,
         box(
           width = NULL,
           background = "teal",
           tabBox(
             width = NULL,
             side ="right",
-            id = "tabset1", #height = "250px",
-            
-            tabPanel("Tab1", plotOutput("plot")),
-            tabPanel("Tab2", plotOutput("plot1"))
+            id = "tabset1",
+            height = "785px",
+            tabPanel("Tab1", plotOutput("plot", height = 740)),
+            tabPanel("Tab2", plotOutput("plot1", height = 740))
           )
         )
              
@@ -254,19 +265,36 @@ server <- function(input, output) {
       geom_histogram()
     output$plot <- renderPlot(p)
     
+ 
     p1 <- df %>%
-      group_by(PKDMainSection) %>% tally() %>%
+      group_by(PKDMainSection) %>%
+      tally() %>% 
+      arrange(desc(PKDMainSection)) %>%
+      mutate(n = n / nrow(df)) %>%
       
-      ggplot(aes(x="", y=n, fill=PKDMainSection)) +
+      ggplot(aes(x=PKDMainSection, y=n, fill=getGroupText(PKDMainSection))) +
       geom_bar(stat="identity", width=1, color="white") +
-      coord_polar("y", start=0)
-      # theme_ft_rc() +
-      # theme(
-      #   axis.title.x = element_blank(),
-      #   axis.title.y = element_blank(),
-      #   axis.text.x = element_blank(),
-      #   panel.grid = element_blank() # to z jakiegoś powodu nie działa
-      # )
+      coord_flip() +
+      labs(
+        title = "Udział poszczególnych rodzajów działalności gospodarczej",
+        x = "Kod PKD",
+        y = "% udziału danej kategorii"
+      ) + 
+      theme(
+        plot.title = element_text(hjust = 0.5, face = "bold", size = (15)),
+        axis.title = element_text(size = (12)),
+        axis.text = element_text(size = (12)),
+        legend.position="bottom",
+        legend.title=element_blank(),
+        legend.direction = "horizontal",
+        legend.spacing.x = unit(0.05, 'cm'),
+        legend.spacing.y = unit(0.05, 'cm'),
+        legend.text = element_text(size = 8.5)
+      ) + 
+      guides(fill=guide_legend(
+        nrow=11,
+        byrow=TRUE))
+
     output$plot1 <- renderPlot(p1)
     
     output$regionName <- renderText(region_name)

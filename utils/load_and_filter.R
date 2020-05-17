@@ -30,5 +30,16 @@ loadAndFilterCeidg <- function(path) {
 }
 
 
+loadPKDMain <- function(path) {
+  library(dplyr)
+
+  pkd_main <- data.table::fread(paste(path,"pkd_main.csv", sep = ""),
+                             stringsAsFactors = F,
+                             encoding = "UTF-8",
+                             data.table = F)
+
+  return(pkd_main)
+}
+
 
 
