@@ -242,9 +242,9 @@ server <- function(input, output) {
   
   regions <- reactive({
     if (wojewodztwa() == "woj")
-      readOGR("maps/wojewodztwa.shp")
+      readOGR("maps/wojewodztwa.shp", use_iconv = TRUE, encoding = "UTF-8")
     else 
-      readOGR("maps/Powiaty.shp")
+      readOGR("maps/Powiaty.shp", use_iconv = TRUE, encoding = "UTF-8")
   })
   
   myPalette <- reactive({
