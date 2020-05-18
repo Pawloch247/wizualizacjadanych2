@@ -3,6 +3,7 @@ library(bdl)
 library(leaflet)
 library(rgdal)
 library(ggplot2)
+library(htmltools)
 
 
 source("utils/load_and_filter.R")
@@ -27,7 +28,7 @@ server <- function(input, output) {
     if (input$region_type == "Województwa")
       readOGR("maps/wojewodztwa.shp")
     else
-      readOGR("maps/powiaty.shp")
+      readOGR("maps/Powiaty.shp")
   })
   
   wojewodztwa <- reactive ({
