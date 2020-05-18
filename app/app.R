@@ -3,6 +3,7 @@ library(shinydashboard)
 library(leaflet)
 library(rgdal)
 library(ggplot2)
+library(htmltools)
 library(sortable)
 library(dplyr)
 
@@ -205,6 +206,12 @@ server <- function(input, output) {
   #     
   # })
 
+
+  
+  
+  
+  
+  
   wojewodztwa <- reactive ({
     if (input$region_type == "Województwa")
       "woj"
@@ -214,7 +221,7 @@ server <- function(input, output) {
       "pow"
   })
   
-  regions = reactive({
+  regions <- reactive({
     if (wojewodztwa() == "woj")
       readOGR("maps/wojewodztwa.shp")
     else if (wojewodztwa() =="kraj")
@@ -223,17 +230,40 @@ server <- function(input, output) {
       readOGR("maps/Powiaty.shp")
   })
   
+  myPalette <- reactive({
+    colorNumeric("YlOrRd", domain = regions()$No_Buss)
+  })
   
+  labels <- reactive({
+    sprintf(
+      "<strong>%s</strong><br/>%g  registered enterprises",
+      regions()$Name, regions()$No_Buss) %>%
+      lapply(htmltools::HTML)
+  })
+  
+  
+
 
   output$map <- renderLeaflet({
     leaflet(regions()) %>%
-      addTiles() %>%
+      addProviderTiles(providers$CartoDB.Positron) %>%
       addPolygons(layerId = regions()$JPT_KOD_JE,
-                  highlightOptions = highlightOptions(color = "teal", weight = 2,
-                                                      bringToFront = TRUE))
-  })
 
-  
+                  fillColor = ~myPalette()(regions()$No_Buss),
+                  fillOpacity = 0.3,
+                  weight = 1,
+                  color = "grey",
+                  dashArray = "3",
+                  highlightOptions = highlightOptions(color = "#666", 
+                                                      weight = 2,
+                                                      bringToFront = TRUE,
+                                                      fillOpacity = "0.3"),
+      label = labels()) %>%
+      addLegend(pal = myPalette(), values = ~regions()$No_Buss, opacity = 0.7, title = "No. of enterprises",
+                position = "bottomright")
+  })
+ 
+
   observeEvent(input$map_shape_click,{
     event <- input$map_shape_click
 
