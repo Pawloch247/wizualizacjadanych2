@@ -182,12 +182,12 @@ ui <- dashboardPage(
             side ="right",
             id = "tabset1",
             height = "785px",
-            tabPanel("Dur", plotOutput("plot", height = 740)),
+            tabPanel("Czas trwania", plotOutput("plot", height = 740)),
             tabPanel("Start", plotOutput("plot3", height = 740)),
-            tabPanel("PKD_%", plotOutput("plot1", height = 740)),
-            tabPanel("PKD_ran_%", plotOutput("plot4", height = 740)),
-            tabPanel("PKD_ran_c", plotOutput("plot5", height = 740)),
-            tabPanel("Stats", plotOutput("plot2", height = 740))
+            tabPanel("PKD %", plotOutput("plot1", height = 740)),
+            tabPanel("PKD ranking %", plotOutput("plot4", height = 740)),
+            tabPanel("PKD ranking suma", plotOutput("plot5", height = 740)),
+            tabPanel("Statystyki", plotOutput("plot2", height = 740))
             
           )
         )
@@ -253,7 +253,7 @@ server <- function(input, output) {
   
   labels <- reactive({
     sprintf(
-      "<strong>%s</strong><br/>%g  registered enterprises",
+      "<strong>%s</strong><br/>%g  zarejestrowanych działalności",
       regions()$Name, regions()$No_Buss) %>%
       lapply(htmltools::HTML)
   })
@@ -276,14 +276,13 @@ server <- function(input, output) {
                                                       bringToFront = TRUE,
                                                       fillOpacity = "0.3"),
       label = labels()) %>%
-      addLegend(pal = myPalette(), values = ~regions()$No_Buss, opacity = 0.7, title = "No. of enterprises",
+      addLegend(pal = myPalette(), values = ~regions()$No_Buss, opacity = 0.7, title = "Liczba działalności",
                 position = "bottomright")
   })
  
 
   observeEvent(input$map_shape_click,{
     event <- input$map_shape_click
-
     
     if (wojewodztwa() == "woj"){
       df <- data %>%
