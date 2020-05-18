@@ -1,9 +1,13 @@
 loadAndFilterCeidg <- function(path) {
   library(dplyr)
 
-  bdl_dict <- readxl::read_excel(paste(path, "bdl_dictionary.xlsx", sep = ""))
-  ceidg <- read.csv(paste(path,"ceidg_data_classif.csv", sep = ""), stringsAsFactors=FALSE, encoding = "UTF-8")
+  # bdl_dict <- readxl::read_excel(paste(path, "bdl_dictionary.xlsx", sep = ""))
+  # ceidg <- read.csv(paste(path,"ceidg_data_classif.csv", sep = ""), stringsAsFactors=FALSE, encoding = "UTF-8")
   
+  ceidg <- data.table::fread(paste(path,"ceidg_data_classif.csv", sep = ""),
+                             stringsAsFactors = F,
+                             encoding = "UTF-8",
+                             data.table = F)
   sprintf('przed filtrowaniem: %d', nrow(ceidg))
   
   # wiersze bez kodów PKD raczej nam się nie przydadzą
@@ -24,4 +28,18 @@ loadAndFilterCeidg <- function(path) {
   
   return(ceidg)
 }
-getwd()
+
+
+loadPKDMain <- function(path) {
+  library(dplyr)
+
+  pkd_main <- data.table::fread(paste(path,"pkd_main.csv", sep = ""),
+                             stringsAsFactors = F,
+                             encoding = "UTF-8",
+                             data.table = F)
+
+  return(pkd_main)
+}
+
+
+
