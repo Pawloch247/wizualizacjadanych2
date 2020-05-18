@@ -17,6 +17,18 @@ if (!"data" %in% ls())
 if (!"pkd_main" %in% ls())
   pkd_main <- loadPKDMain("data/")
 
+if (!"woj_percent" %in% ls())
+  woj_percent <- loadWojPercent("data/")
+
+if (!"woj_count" %in% ls())
+  woj_count <- loadWojCount("data/")
+
+if (!"pow_percent" %in% ls())
+  pow_percent <- loadPowPercent("data/")
+
+if (!"pow_count" %in% ls())
+  pow_count <- loadPowCount("data/")
+
 getGroupText <- function(group) {
   match <- pkd_main[pkd_main$PKDMainSection %in% group,] %>%
     mutate(
@@ -170,10 +182,13 @@ ui <- dashboardPage(
             side ="right",
             id = "tabset1",
             height = "785px",
-            tabPanel("Tab1", plotOutput("plot", height = 740)),
-            tabPanel("Tab2", plotOutput("plot1", height = 740)),
-            tabPanel("Tab3", plotOutput("plot2", height = 740)),
-            tabPanel("Tab4", plotOutput("plot3", height = 740))
+            tabPanel("Dur", plotOutput("plot", height = 740)),
+            tabPanel("Start", plotOutput("plot3", height = 740)),
+            tabPanel("PKD_%", plotOutput("plot1", height = 740)),
+            tabPanel("PKD_ran_%", plotOutput("plot4", height = 740)),
+            tabPanel("PKD_ran_c", plotOutput("plot5", height = 740)),
+            tabPanel("Stats", plotOutput("plot2", height = 740))
+            
           )
         )
              
@@ -276,6 +291,14 @@ server <- function(input, output) {
         rename(Region = AdressVoivodeship) %>%
         select(DurationOfExistenceInMonths, Region, PKDMainSection, Sex, IsWWW, IsPhoneNo, IsEmail, MonthOfStartingOfTheBusiness)
       
+      df_pkd_percent <- woj_percent %>%
+        filter(AdressTERC == event$id) %>%
+        select(PKDMainSection, size)
+      
+      df_pkd_count <- woj_count %>%
+        filter(AdressTERC == event$id) %>%
+        select(PKDMainSection, size)
+      
       region_name = df$Region[1]
       
     } else {
@@ -283,6 +306,14 @@ server <- function(input, output) {
         filter(substr(AdressTERC, 1, 4) == event$id) %>%
         rename(Region = AdressCounty) %>%
         select(DurationOfExistenceInMonths, Region, PKDMainSection, Sex, IsWWW, IsPhoneNo, IsEmail, MonthOfStartingOfTheBusiness)
+      
+      df_pkd_percent <- pow_percent %>%
+        filter(AdressTERC == event$id) %>%
+        select(PKDMainSection, size)
+      
+      df_pkd_count <- pow_count %>%
+        filter(AdressTERC == event$id) %>%
+        select(PKDMainSection, size)
       
       region_name = df$Region[1]
       
@@ -422,6 +453,45 @@ server <- function(input, output) {
         byrow=TRUE))
     
     output$plot3 <- renderPlot(p3)
+    
+    
+    p4 <- df_pkd_percent %>%
+      group_by(PKDMainSection) %>%
+      ggplot(aes(x=PKDMainSection, y=size, fill=getGroupText(PKDMainSection))) +
+      geom_bar(stat="identity", width=1, color="white") +
+      geom_text(aes(label=size), position=position_dodge(width=0.9), vjust=-0.25) + 
+      labs(
+        title = "Ranking według procentowego udziału poszczególnych rodzajów działalności gospodarczej",
+        x = "Kod PKD",
+        y = "Miejsce w porównaniu do innych jednostek"
+      ) + 
+      theme_basic + 
+      guides(fill=guide_legend(
+        nrow=11,
+        byrow=TRUE))
+    
+    output$plot4 <- renderPlot(p4)
+    
+    
+    p5 <- df_pkd_count %>%
+      group_by(PKDMainSection) %>%
+      ggplot(aes(x=PKDMainSection, y=size, fill=getGroupText(PKDMainSection))) +
+      geom_bar(stat="identity", width=1, color="white") +
+      geom_text(aes(label=size), position=position_dodge(width=0.9), vjust=-0.25) +
+      labs(
+        title = "Ranking według sumarycznego udziału poszczególnych rodzajów działalności gospodarczej",
+        x = "Kod PKD",
+        y = "Miejsce w porównaniu do innych jednostek"
+      ) + 
+      theme_basic + 
+      guides(fill=guide_legend(
+        nrow=11,
+        byrow=TRUE))
+    
+    output$plot5 <- renderPlot(p5)
+    
+    
+    
     ### END PLOTS
     
     

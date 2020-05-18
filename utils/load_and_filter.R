@@ -37,8 +37,50 @@ loadPKDMain <- function(path) {
                              stringsAsFactors = F,
                              encoding = "UTF-8",
                              data.table = F)
-
   return(pkd_main)
+}
+
+
+loadWojPercent <- function(path) {
+  library(dplyr)
+  woj_percent <- data.table::fread(paste(path,"woj_percent.csv", sep = ""),
+                                colClasses=c("AdressTERC"="character"),
+                                stringsAsFactors = F,
+                                encoding = "UTF-8",
+                                data.table = F)
+  return(woj_percent)
+}
+
+
+loadWojCount <- function(path) {
+  library(dplyr)
+  woj_count <- data.table::fread(paste(path,"woj_count.csv", sep = ""),
+                                   colClasses=c("AdressTERC"="character"),
+                                   stringsAsFactors = F,
+                                   encoding = "UTF-8",
+                                   data.table = F)
+  return(woj_count)
+}
+
+loadPowPercent <- function(path) {
+  library(dplyr)
+  pow_percent <- data.table::fread(paste(path,"pow_percent.csv", sep = ""),
+                                   colClasses=c("AdressTERC"="character"),
+                                   stringsAsFactors = F,
+                                   encoding = "UTF-8",
+                                   data.table = F)
+  return(pow_percent)
+}
+
+
+loadPowCount <- function(path) {
+  library(dplyr)
+  pow_count <- data.table::fread(paste(path,"pow_count.csv", sep = ""),
+                                 colClasses=c("AdressTERC"="character"),
+                                 stringsAsFactors = F,
+                                 encoding = "UTF-8",
+                                 data.table = F)
+  return(pow_count)
 }
 
 
