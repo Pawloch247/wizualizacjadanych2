@@ -9,7 +9,7 @@ library(dplyr)
 
 source("utils/load_and_filter.R")
 
-if (!"data" %in% ls())
+if (!"data" %in% ls()) 
   data <- loadAndFilterCeidg("data/")
 
 if (!"pkd_main" %in% ls())
@@ -32,7 +32,7 @@ ui <- dashboardPage(
                       label = "Znajdź wybrany powiat/województwo"),
 
     selectInput("region_type", "Wybierz jednostkę administracyjną:",
-                c("Kraj", "Województwa", "Powiaty"), selected = "Kraj")
+                c("Województwa", "Powiaty"), selected = "Województwa")
   ),
   
   dashboardBody(
@@ -224,8 +224,6 @@ server <- function(input, output) {
   regions <- reactive({
     if (wojewodztwa() == "woj")
       readOGR("maps/wojewodztwa.shp")
-    else if (wojewodztwa() =="kraj")
-      readOGR("maps/kraj.shp")
     else 
       readOGR("maps/Powiaty.shp")
   })
@@ -276,7 +274,7 @@ server <- function(input, output) {
       
       region_name = df$Region[1]
       
-    } else if (wojewodztwa() =="pow") {
+    } else {
       df <- data %>%
         filter(substr(AdressTERC, 1, 4) == event$id) %>%
         rename(Region = AdressCounty) %>%
@@ -284,10 +282,6 @@ server <- function(input, output) {
       
       region_name = df$Region[1]
       
-    } else {
-      df = data
-      
-      region_name = "POLSKA"
     }
 
     
