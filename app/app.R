@@ -6,6 +6,8 @@ library(ggplot2)
 library(htmltools)
 library(sortable)
 library(dplyr)
+library(formattable)
+
 
 source("utils/load_and_filter.R")
 
@@ -169,7 +171,9 @@ ui <- dashboardPage(
             id = "tabset1",
             height = "785px",
             tabPanel("Tab1", plotOutput("plot", height = 740)),
-            tabPanel("Tab2", plotOutput("plot1", height = 740))
+            tabPanel("Tab2", plotOutput("plot1", height = 740)),
+            tabPanel("Tab3", plotOutput("plot2", height = 740)),
+            tabPanel("Tab4", plotOutput("plot3", height = 740))
           )
         )
              
@@ -270,7 +274,7 @@ server <- function(input, output) {
       df <- data %>%
         filter(substr(AdressTERC, 1, 2) == event$id) %>%
         rename(Region = AdressVoivodeship) %>%
-        select(DurationOfExistenceInMonths, Region, PKDMainSection)
+        select(DurationOfExistenceInMonths, Region, PKDMainSection, Sex, IsWWW, IsPhoneNo, IsEmail, MonthOfStartingOfTheBusiness)
       
       region_name = df$Region[1]
       
@@ -278,17 +282,39 @@ server <- function(input, output) {
       df <- data %>%
         filter(substr(AdressTERC, 1, 4) == event$id) %>%
         rename(Region = AdressCounty) %>%
-        select(DurationOfExistenceInMonths, Region, PKDMainSection)
+        select(DurationOfExistenceInMonths, Region, PKDMainSection, Sex, IsWWW, IsPhoneNo, IsEmail, MonthOfStartingOfTheBusiness)
       
       region_name = df$Region[1]
       
     }
 
+    ### START PLOTS
+    theme_title <- theme(
+      plot.title = element_text(hjust = 0.5, face = "bold", size = (15)),
+    )
+   
+    theme_basic <- theme(
+      plot.title = element_text(hjust = 0.5, face = "bold", size = (15)),
+      axis.title = element_text(size = (12)),
+      axis.text = element_text(size = (12)),
+      legend.position="bottom",
+      legend.title=element_blank(),
+      legend.direction = "horizontal",
+      legend.spacing.x = unit(0.05, 'cm'),
+      legend.spacing.y = unit(0.05, 'cm'),
+      legend.text = element_text(size = 8.5)
+    )
     
     p <- ggplot(df, aes(x=DurationOfExistenceInMonths)) +
-      geom_histogram()
+      geom_histogram(color="#39cccc", fill="#39cccc") +
+      labs(
+        title = "Histogram czasu trwania działalności",
+        x = "Czas trwania (w miesiącach)",
+        y = "Liczba"
+      ) + 
+      theme_basic
     output$plot <- renderPlot(p)
-    
+   
  
     p1 <- df %>%
       group_by(PKDMainSection) %>%
@@ -303,22 +329,101 @@ server <- function(input, output) {
         x = "Kod PKD",
         y = "% udziału danej kategorii"
       ) + 
-      theme(
-        plot.title = element_text(hjust = 0.5, face = "bold", size = (15)),
-        axis.title = element_text(size = (12)),
-        axis.text = element_text(size = (12)),
-        legend.position="bottom",
-        legend.title=element_blank(),
-        legend.direction = "horizontal",
-        legend.spacing.x = unit(0.05, 'cm'),
-        legend.spacing.y = unit(0.05, 'cm'),
-        legend.text = element_text(size = 8.5)
-      ) + 
+      theme_basic + 
       guides(fill=guide_legend(
         nrow=11,
         byrow=TRUE))
 
     output$plot1 <- renderPlot(p1)
+    
+    p2_1 <- df %>%
+      group_by(Sex) %>% tally() %>% mutate(n =  (n / nrow(df))) %>%
+      mutate(Sex = recode(Sex, 'F' = "Kobieta", 'M' = "Mężczyzna")) %>%
+      ggplot(aes(x="", y=n, fill=Sex)) +
+      geom_col() +
+      geom_text(aes(label = percent(n)), position = position_stack(vjust = 0.5), color = "white", size=6, fontface='bold') +
+      coord_polar("y", start=0) + 
+      theme_void() +
+      theme_title +
+      theme(legend.title=element_blank()) +
+      labs(
+        title = "Płeć"
+      ) + 
+      scale_fill_manual(values = c("Mężczyzna" = "#39cccc",
+                                   "Kobieta" = "#cc3939"))
+    
+    p2_2 <- df %>%
+      group_by(IsWWW) %>% tally() %>% mutate(n =  (n / nrow(df))) %>%
+      mutate(IsWWW = c('Posiada', 'Nie posiada')[IsWWW + 1]) %>%
+      ggplot(aes(x="", y=n, fill=IsWWW)) +
+      geom_col() +
+      geom_text(aes(label = percent(n)), position = position_stack(vjust = 0.5), color = "white", size=6, fontface='bold') +
+      coord_polar("y", start=0) + 
+      theme_void() +
+      theme_title +
+      theme(legend.title=element_blank()) +
+      labs(
+        title = "Strona WWW (podana w rejestracji)"
+      ) + 
+      scale_fill_manual(values = c("Posiada" = "#39cccc",
+                                   "Nie posiada" = "#cc3939"))
+    
+    p2_3 <- df %>%
+      group_by(IsEmail) %>% tally() %>% mutate(n =  (n / nrow(df))) %>%
+      mutate(IsEmail = c('Posiada', 'Nie posiada')[IsEmail + 1]) %>%
+      ggplot(aes(x="", y=n, fill=IsEmail)) +
+      geom_col() +
+      geom_text(aes(label = percent(n)), position = position_stack(vjust = 0.5), color = "white", size=6, fontface='bold') +
+      coord_polar("y", start=0) + 
+      scale_fill_manual(values = c("Posiada" = "#39cccc",
+                                   "Nie posiada" = "#cc3939")) +
+      theme_void() +
+      theme_title +
+      theme(legend.title=element_blank()) +
+      labs(
+        title = "Adres Email (podany w rejestracji)"
+      )
+    
+    p2_4 <- df %>%
+      group_by(IsPhoneNo) %>% tally() %>% mutate(n =  (n / nrow(df))) %>%
+      mutate(IsPhoneNo = c('Posiada', 'Nie posiada')[IsPhoneNo + 1]) %>%
+      ggplot(aes(x="", y=n, fill=IsPhoneNo)) +
+      geom_col() +
+      geom_text(aes(label = percent(n)), position = position_stack(vjust = 0.5), color = "white", size=6, fontface='bold') +
+      coord_polar("y", start=0) + 
+      theme_void() +
+      theme_title +
+      theme(legend.title=element_blank()) +
+      labs(
+        title = "Numer telefonu (podany w rejestracji)"
+      ) + 
+      scale_fill_manual(values = c("Posiada" = "#39cccc",
+                                   "Nie posiada" = "#cc3939"))
+    
+    p2 <- cowplot::plot_grid(p2_1, p2_2, p2_3, p2_4, labels = "")
+    
+    output$plot2 <- renderPlot(p2)
+    
+    
+    p3 <- df %>%
+      group_by(MonthOfStartingOfTheBusiness, PKDMainSection) %>% tally() %>%
+      rowwise() %>%
+      mutate(PKDMainSection = getGroupText(PKDMainSection)) %>%
+      ggplot(aes(x=MonthOfStartingOfTheBusiness, y=n)) +
+      geom_bar(stat="identity", position = 'fill', aes(fill = PKDMainSection)) +
+      labs(
+        title = "Udział poszczególnych rodzajów działalności gospodarczej w odniesieniu do miesiąca rozpoczęcia",
+        x = "Miesiąc rozpoczęcia działalności",
+        y = "Udziału danej kategorii"
+      ) + 
+      theme_basic + 
+      guides(fill=guide_legend(
+        nrow=11,
+        byrow=TRUE))
+    
+    output$plot3 <- renderPlot(p3)
+    ### END PLOTS
+    
     
     output$regionName <- renderText(region_name)
     
