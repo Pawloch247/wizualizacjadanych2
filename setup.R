@@ -5,12 +5,7 @@
 
 install.packages("readxl") # czytanie XLSX
 install.packages("remotes")
-install.packages("sf", "rgeos", "PROJ") # ubuntu 18.04 was unhappy w/o this and the following line
-devtools::install_github("r-spatial/lwgeom", force = T)
-
 remotes::install_github("statisticspoland/R_Package_to_API_BDL") # API do GUS
 # to przy okazji instaluje dplyr, ggplot, shiny i wszystkich świętych
 
 install.packages("hrbrthemes") # ładne motywy do wykresów
-install.packages("rmapshaper") # utils/maps_simplifier, hard to install, read carefully errors
-
