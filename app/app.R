@@ -353,6 +353,7 @@ server <- function(input, output) {
       
       ggplot(aes(x=PKDMainSection, y=n, fill=getGroupText(PKDMainSection))) +
       geom_bar(stat="identity", width=1, color="white") +
+      geom_text(aes(label=paste(round(n, digits=1), ' %', sep='')), position=position_dodge(width=0.9), hjust=-0.1) +
       coord_flip() +
       labs(
         title = "Udział poszczególnych rodzajów działalności gospodarczej",
