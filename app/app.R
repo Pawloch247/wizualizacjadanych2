@@ -496,10 +496,11 @@ server <- function(input, output) {
     
     output$regionName <- renderText(region_name)
     
-    index_region = which(regions()@data[["JPT_KOD_JE"]] == event$id)
+    regs = regions()
+    index_region = which(regs@data[["JPT_KOD_JE"]] == event$id)
     
     output$statistics <- renderLeaflet({
-      leaflet(regions()@polygons[[index_region]]@Polygons[[1]]@coords,
+      leaflet(regs@polygons[[index_region]]@Polygons[[1]]@coords,
               options = leafletOptions(
                 zoomControl = FALSE,
                 attributionControl=FALSE)) %>% 
