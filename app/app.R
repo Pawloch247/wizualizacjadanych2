@@ -252,7 +252,7 @@ server <- function(input, output) {
     colorNumeric("YlOrRd", domain = regions()$No_Buss)
   })
   
-  labels <- reactive({
+  popups <- reactive({
     sprintf(
       "<strong>%s</strong><br/>%g  zarejestrowanych działalności",
       regions()$Name, regions()$No_Buss) %>%
@@ -276,7 +276,8 @@ server <- function(input, output) {
                                                       weight = 2,
                                                       bringToFront = TRUE,
                                                       fillOpacity = "0.3"),
-      label = labels(),
+      label = regions()$Name,
+      popup = popups(),
       group = "polygons") %>%
       addLegend(pal = myPalette(), values = ~regions()$No_Buss, opacity = 0.7, title = "Liczba działalności",
                 position = "bottomright") %>% 
