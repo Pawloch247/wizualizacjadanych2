@@ -46,7 +46,7 @@ ui <- dashboardPage(
     sidebarSearchForm(textId = "findRegion", buttonId = "searchButton",
                       label = "Znajdź wybrany powiat/województwo"),
 
-    selectInput("region_type", "Wybierz jednostkę administracyjną:",
+    selectInput("region_type", "Wybierz rodzaj jednostki administracyjnej:",
                 c("Województwa", "Powiaty"), selected = "Województwa")
   ),
   
@@ -183,7 +183,7 @@ ui <- dashboardPage(
             side ="right",
             id = "tabset1",
             height = "785px",
-            tabPanel("Czas trwania", plotOutput("plot", height = 740)),
+            tabPanel("Czas istnienia", plotOutput("plot", height = 740)),
             tabPanel("Start", plotOutput("plot3", height = 740)),
             tabPanel("PKD %", plotOutput("plot1", height = 740)),
             tabPanel("PKD ranking %", plotOutput("plot4", height = 740)),
@@ -415,8 +415,8 @@ server <- function(input, output) {
     p <- ggplot(df()$df, aes(x=DurationOfExistenceInMonths)) +
       geom_histogram(color="#39cccc", fill="#39cccc") +
       labs(
-        title = "Histogram czasu trwania działalności",
-        x = "Czas trwania (w miesiącach)",
+        title = "Histogram czasu istnienia działalności",
+        x = "Czas istnienia (w miesiącach)",
         y = "Liczba"
       ) + theme_basic()
     return(p)
@@ -494,7 +494,7 @@ server <- function(input, output) {
       theme_title() +
       theme(legend.title=element_blank()) +
       labs(
-        title = "Adres Email (podany w rejestracji)"
+        title = "Adres email (podany w rejestracji)"
       )
     
     p2_4 <- df()$df %>%
