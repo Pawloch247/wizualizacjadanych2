@@ -318,6 +318,7 @@ server <- function(input, output) {
         select(PKDMainSection, size)
 
       region_name = df$Region[1]
+      count = 16
 
     } else {
       df <- data %>%
@@ -334,11 +335,12 @@ server <- function(input, output) {
         select(PKDMainSection, size)
 
       region_name = df$Region[1]
+      count = 380
 
     }
 
     return(list(df = df, df_pkd_percent = df_pkd_percent,
-                df_pkd_count = df_pkd_count, region_name = region_name))
+                df_pkd_count = df_pkd_count, region_name = region_name, count = count))
     
   })
   
@@ -542,8 +544,9 @@ server <- function(input, output) {
   p4 = reactive({
     p4 <- df()$df_pkd_percent %>%
       group_by(PKDMainSection) %>%
-      ggplot(aes(x=PKDMainSection, y=size, fill=getGroupText(PKDMainSection))) +
+      ggplot(aes(x=PKDMainSection, y=(df()$count + 1 - size), fill=getGroupText(PKDMainSection))) +
       geom_bar(stat="identity", width=1, color="white") +
+      scale_y_continuous(limits = c(0, df()$count)) +
       geom_text(aes(label=size), position=position_dodge(width=0.9), vjust=-0.25) +
       labs(
         title = "Ranking według procentowego udziału poszczególnych rodzajów działalności gospodarczej",
@@ -562,8 +565,9 @@ server <- function(input, output) {
   p5 = reactive({
     p5 <- df()$df_pkd_count %>%
       group_by(PKDMainSection) %>%
-      ggplot(aes(x=PKDMainSection, y=size, fill=getGroupText(PKDMainSection))) +
+      ggplot(aes(x=PKDMainSection, y=(df()$count + 1 - size), fill=getGroupText(PKDMainSection))) +
       geom_bar(stat="identity", width=1, color="white") +
+      scale_y_continuous(limits = c(0, df()$count)) +
       geom_text(aes(label=size), position=position_dodge(width=0.9), vjust=-0.25) +
       labs(
         title = "Ranking według sumarycznego udziału poszczególnych rodzajów działalności gospodarczej",
