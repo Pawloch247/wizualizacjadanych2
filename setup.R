@@ -13,4 +13,5 @@ remotes::install_github("statisticspoland/R_Package_to_API_BDL") # API do GUS
 
 install.packages("hrbrthemes") # ładne motywy do wykresów
 install.packages("rmapshaper") # utils/maps_simplifier, hard to install, read carefully errors
-
+install.packages("leaflet.extras") # search bar
+install.packages("formattable")

@@ -7,6 +7,7 @@ library(htmltools)
 library(sortable)
 library(dplyr)
 library(formattable)
+library(leaflet.extras)
 
 
 source("utils/load_and_filter.R")
@@ -264,8 +265,8 @@ server <- function(input, output) {
   output$map <- renderLeaflet({
     leaflet(regions()) %>%
       addProviderTiles(providers$CartoDB.Positron) %>%
+      addResetMapButton() %>%
       addPolygons(layerId = regions()$JPT_KOD_JE,
-
                   fillColor = ~myPalette()(regions()$No_Buss),
                   fillOpacity = 0.3,
                   weight = 1,
@@ -275,9 +276,13 @@ server <- function(input, output) {
                                                       weight = 2,
                                                       bringToFront = TRUE,
                                                       fillOpacity = "0.3"),
-      label = labels()) %>%
+      label = labels(),
+      group = "polygons") %>%
       addLegend(pal = myPalette(), values = ~regions()$No_Buss, opacity = 0.7, title = "Liczba działalności",
-                position = "bottomright")
+                position = "bottomright") %>% 
+      addSearchFeatures(
+        targetGroups  = 'polygons',
+        options = searchFeaturesOptions(zoom=7, openPopup=TRUE, autoType=FALSE))
   })
  
 
