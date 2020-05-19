@@ -40,144 +40,139 @@ getGroupText <- function(group) {
 }
 
 ui <- dashboardPage(
-  skin = "blue",
-  dashboardHeader(title = "Działalności gospodarcze w Polsce"),
-  dashboardSidebar(
-    sidebarSearchForm(textId = "findRegion", buttonId = "searchButton",
-                      label = "Znajdź wybrany powiat/województwo"),
-
-    selectInput("region_type", "Wybierz jednostkę administracyjną:",
-                c("Województwa", "Powiaty"), selected = "Województwa")
-  ),
+  # skin = "blue",
   
+  dashboardHeader(title = "Działalności gospodarcze w Polsce", titleWidth = "380px"),
+  dashboardSidebar(disable = TRUE),
   dashboardBody(
     tags$head(
       tags$style(HTML('* { font-family: Arial; }
-                       .skin-blue .main-sidebar {
-                              background-color: #00C0EF;
+                      .h3, h3 { font-family: Arial; }
+                      .skin-blue .main-sidebar {
+                      background-color: #84B5E5;
+                      }
+                      div.MathJax_Display{
+                      text-align: left !important;
                       }
                       .skin-blue .main-header .logo {
-                              background-color: #3C8DBC;
+                      background-color: #006695;
                       }
                       .nav-tabs-custom>.nav-tabs {
-                              background-color: #39CCCC;
-                      }'))
-    ),
+                      background-color: #84B5E5;
+                      }
+                      .content-wrapper, content {
+                      background-color: #FDFCFE;
+                      }
+                      .info-box{
+                      background: #FDFCFE;
+                      }
+                      .box.box-solid.box-primary>.box-header {
+                      color:#FDFCFE;
+                      background:#84B5E5;
+                      }
+                      .box.box-solid.box-primary{
+                      
+                      background:#84B5E5;
+                      }
+                      .skin-blue .main-header .navbar {
+                      background-color: #006695;
+                      }
+                      .label-info, .modal-info .modal-body {
+                      background-color: #84B5E5;
+                      }
+                      .box {
+                      background: #84B5E5;
+                      border-top: 0px;
+                      }
+                      .nav-tabs-custom>.tab-content {
+                      background: #FDFCFE;
+                      }
+                      .nav-tabs-custom>.nav-tabs>li.active:hover>a, .nav-tabs-custom>.nav-tabs>li.active>a {
+                      background-color: #FDFCFE;
+                      
+                      }
+                      .nav-tabs-custom>.nav-tabs>li {
+                      border-top: 0px
+                      }
+                      .alert-info, .bg-aqua, .callout.callout-info, .label-info, .modal-info .modal-body {
+                      background-color: #006695!important;
+                      }
+                      '))
+      ),
     tags$head(
       tags$style(HTML(".leaflet-container { background-color:rgba(255,0,0,0.0) }"))
     ),
     tags$head(tags$style(HTML('.info-box {min-height: 110px;}
-                              .info-box-icon {height: 110px; line-height: 110px;}
+                              .info-box-icon {height: 110px; line-height: 110px;
+                              color:#84B5E5}
                               .info-box-content {padding-top: 0px;
-                                                 padding-bottom: 0px;}'))),
-
+                              padding-bottom: 0px;
+                              }'))),
+    
     fluidRow(
       column(width = 5,
-        box(
-          width = NULL,
-          # solidHeader = T,
-          # status = "info",
-          background = "teal",
-          leafletOutput("map")
-        ),
-        fluidRow(
-          box(
-            width = 6,
-            title = textOutput("regionName"),
-            solidHeader = T,
-            background = "teal",
-            status = "primary",
-            height = 385,
-            box(
-              width = NULL,
-              height = NULL,
-              leafletOutput("statistics", height = 300)
-            )
-            # "Tu będą ogólne statystyki",
-            
-            # , width = "40%", height = 200
-          ),
-          box(
-            width = 6,
-            background = "teal",
-            height = 385,
-            column(
-              width = 12,
-              # box(
-              #   width = NULL,
-              #   height = 75,
-              #   span(htmlOutput("statistics_people"),
-              #        style="color:teal; text-align:center; font-size: 20px")
-              # ),
-
-              
-              fluidRow(
-                infoBoxOutput("progressBox1")
-              ),
-              fluidRow(
-                infoBoxOutput("progressBox2")
-              ),
-              
-              fluidRow(
-                infoBoxOutput("progressBox3")
-              )
-              
-              
-              # box(
-              #   width = NULL,
-              #   height = 75,
-              #   span(htmlOutput("statistics_area"),
-              #        style="color:teal; text-align:center; font-size: 20px")
-              # ),
-              # box(
-              #   width = NULL,
-              #   height = 75,
-              #   span(htmlOutput("statistics_companies"),
-              #        style="color:teal;text-align:center; font-size: 20px")
-              # )
-            )
-          )
-          # box(
-          #   width = 6,
-          #   height = 285,
-          #   background = "teal",
-          #   "Tu będą ogólne statystyki"
-          # )
-            
-              # column(width = 12,
-                # box(
-                #   title ="Liczba ludności",
-                #   status = "primary",
-                #   width = NULL,
-                #   height = 75,
-                #   textOutput("statistics_people")
-                # ),
-                # box(
-                #   width = NULL,
-                #   height = 75,
-                #   textOutput("statistics_area")
-                # ),
-              # column(
-              #   width = 6,
-              #   valueBoxOutput("progressBox1"),
-              #   # valueBoxOutput("progressBox2")
-              # )
-              # valueBoxOutput("progressBox2"),
-              # valueBoxOutput("progressBox3")
-                # box(
-                #   width = NULL,
-                #   height = 75,
-                #   background = "teal",
-                #   
-                # )
-          
-        )
+             box(
+               width = NULL,
+               height = "470px",
+               leafletOutput("map", height = 450),
+               absolutePanel(top = 0, right = 15,
+                             selectInput("region_type",
+                                         "",
+                                         c("Województwa", "Powiaty"), selected = "Województwa",
+                                         width = "150px"))
+             ),
+             fluidRow(
+               column(width = 7,
+                      box(
+                        width = NULL,
+                        height = "335px",
+                        title = textOutput("regionName"),
+                        solidHeader = T,
+                        # 
+                        status = "primary",
+                        
+                        leafletOutput("statistics", height = 270)
+                        
+                        # "Tu będą ogólne statystyki",
+                        
+                        # , width = "40%", height = 200
+                      )
+               ),
+               
+               column(
+                 width = 5,
+                 
+                 fluidRow(
+                   width = 5,
+                   # infoBoxOutput("progressBox1"),
+                   h3("Liczba ludności:"),
+                   h3(uiOutput("liczba_ludnosci")),
+                   h3("Powierzchnia:"),
+                   h3(uiOutput("powierzchnia")),
+                   h3("Liczba działalności:"),
+                   h3(uiOutput("liczba_dzialalnosci"))
+                   # box(
+                   #   width = NULL,
+                   #   h1("siema"))
+                 )
+                 # fluidRow(
+                 #   # infoBoxOutput("progressBox2")
+                 #   box("siema")
+                 # ),
+                 # 
+                 # fluidRow(
+                 #   # infoBoxOutput("progressBox3")
+                 #   box('siema')
+                 # )
+               )
+               
+             )
       ),
       column(
         width = 7,
         box(
           width = NULL,
-          background = "teal",
+          
           tabBox(
             width = NULL,
             side ="right",
@@ -192,10 +187,10 @@ ui <- dashboardPage(
             
           )
         )
-             
+        
         # box(
         #   width = NULL,
-        #   background = "teal",
+        #   
         #   # bucket_list(
         #   #   header = NULL,
         #   #   group_name = "bucket_list_group",
@@ -207,26 +202,26 @@ ui <- dashboardPage(
         #       plotOutput("plot1")
         #     ),
         #     input_id = "rank_list_1"
-      #   )
-      
+        #   )
+        
         
       )
     )
-  )
-)
+    )
+    )
 
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-
+  
   # regions <- reactive ({
   #   if (input$region_type == "Województwa")
   #     
   #   else
   #     
   # })
-
-
+  
+  
   
   
   
@@ -258,8 +253,8 @@ server <- function(input, output) {
   })
   
   
-
-
+  
+  
   output$map <- renderLeaflet({
     leaflet(regions()) %>%
       addProviderTiles(providers$CartoDB.Positron) %>%
@@ -274,24 +269,24 @@ server <- function(input, output) {
                                                       weight = 2,
                                                       bringToFront = TRUE,
                                                       fillOpacity = "0.3"),
-      label = regions()$Name,
-      popup = popups(),
-      group = "polygons") %>%
+                  label = regions()$Name,
+                  popup = popups(),
+                  group = "polygons") %>%
       addLegend(pal = myPalette(), values = ~regions()$No_Buss, opacity = 0.7, title = "Liczba działalności",
                 position = "bottomright") %>% 
       addSearchFeatures(
         targetGroups  = 'polygons',
         options = searchFeaturesOptions(zoom=7, openPopup=TRUE, autoType=FALSE))
   })
- 
+  
   
   regionTMP = eventReactive(input$map_shape_click,{
     event <- input$map_shape_click
-
+    
     return(event$id)},ignoreNULL = F)
   
   regionID = reactive({
-
+    
     if (wojewodztwa() & (nchar(regionTMP()) == 4 || is.null(regionTMP())))
       return(c("14"))
     
@@ -302,7 +297,7 @@ server <- function(input, output) {
   })
   
   df = reactive({
-
+    
     if (wojewodztwa()){
       df <- data %>%
         filter(substr(AdressTERC, 1, 2) == regionID()) %>%
@@ -312,35 +307,36 @@ server <- function(input, output) {
       df_pkd_percent <- woj_percent %>%
         filter(AdressTERC == regionID()) %>%
         select(PKDMainSection, size)
-
+      
       df_pkd_count <- woj_count %>%
         filter(AdressTERC == regionID()) %>%
         select(PKDMainSection, size)
-
+      
       region_name = df$Region[1]
       count = 16
-
+      
     } else {
       df <- data %>%
         filter(substr(AdressTERC, 1, 4) == regionID()) %>%
         rename(Region = AdressCounty) %>%
         select(DurationOfExistenceInMonths, Region, PKDMainSection, Sex, IsWWW, IsPhoneNo, IsEmail, MonthOfStartingOfTheBusiness)
-
+      
       df_pkd_percent <- pow_percent %>%
         filter(AdressTERC == regionID()) %>%
         select(PKDMainSection, size)
-
+      
       df_pkd_count <- pow_count %>%
         filter(AdressTERC == regionID()) %>%
         select(PKDMainSection, size)
-
+      
       region_name = df$Region[1]
       count = 380
-
+      
     }
-
+    
     return(list(df = df, df_pkd_percent = df_pkd_percent,
-                df_pkd_count = df_pkd_count, region_name = region_name, count = count))
+                df_pkd_count = df_pkd_count, region_name = region_name,
+                count = count))
     
   })
   
@@ -381,12 +377,12 @@ server <- function(input, output) {
   #     
   #   }
   # 
-    ### START PLOTS
+  ### START PLOTS
   
   
   theme_title = reactive({
     theme_title <- theme(
-      plot.title = element_text(hjust = 0.5, face = "bold", size = (15)),
+      plot.title = element_text(hjust = 0.5, face = "bold", size = (15))
     )
     
     return(theme_title)
@@ -414,6 +410,7 @@ server <- function(input, output) {
     
     p <- ggplot(df()$df, aes(x=DurationOfExistenceInMonths)) +
       geom_histogram(color="#39cccc", fill="#39cccc") +
+      xlim(0, NA) +
       labs(
         title = "Histogram czasu trwania działalności",
         x = "Czas trwania (w miesiącach)",
@@ -445,9 +442,9 @@ server <- function(input, output) {
         byrow=TRUE))
     return(p1)
   })
-
+  
   output$plot1 <- renderPlot(p1())
-
+  
   p2 = reactive({
     p2_1 <- df()$df %>%
       group_by(Sex) %>% tally() %>% mutate(n =  (n / nrow(df()$df))) %>%
@@ -517,9 +514,9 @@ server <- function(input, output) {
     
     return(p2)
   })  
-
+  
   output$plot2 <- renderPlot(p2())
-
+  
   p3 = reactive({
     p3 <- df()$df %>%
       group_by(MonthOfStartingOfTheBusiness, PKDMainSection) %>% tally() %>%
@@ -538,9 +535,9 @@ server <- function(input, output) {
         byrow=TRUE))
     return(p3)
   })
-    
+  
   output$plot3 <- renderPlot(p3())
-
+  
   p4 = reactive({
     p4 <- df()$df_pkd_percent %>%
       group_by(PKDMainSection) %>%
@@ -559,9 +556,9 @@ server <- function(input, output) {
         byrow=TRUE))
     return(p4)
   })
-    
+  
   output$plot4 <- renderPlot(p4())
-
+  
   p5 = reactive({
     p5 <- df()$df_pkd_count %>%
       group_by(PKDMainSection) %>%
@@ -580,31 +577,31 @@ server <- function(input, output) {
         byrow=TRUE))
     return(p5)
   })
-
+  
   
   output$plot5 <- renderPlot(p5())
-
-
-
-    ### END PLOTS
-
-
-    output$regionName <- renderText(df()$region_name)
-
-    
-    index_region = reactive({
-      return(which(regions()@data[["JPT_KOD_JE"]] == regionID()))
-    })
-    
-
-    output$statistics <- renderLeaflet({
-      leaflet(regions()@polygons[[index_region()]]@Polygons[[1]]@coords,
-              options = leafletOptions(
-                zoomControl = FALSE,
-                attributionControl=FALSE)) %>%
-        addTiles() %>% 
-        addPolygons()
-    })
+  
+  
+  
+  ### END PLOTS
+  
+  
+  output$regionName <- renderText(df()$region_name)
+  
+  
+  index_region = reactive({
+    return(which(regions()@data[["JPT_KOD_JE"]] == regionID()))
+  })
+  
+  
+  output$statistics <- renderLeaflet({
+    leaflet(regions()@polygons[[index_region()]]@Polygons[[1]]@coords,
+            options = leafletOptions(
+              zoomControl = FALSE,
+              attributionControl=FALSE)) %>%
+      addTiles() %>% 
+      addPolygons()
+  })
   # #   
   #   # output$statistics_people <- renderUI({
   #   #   str1 = "Liczba ludności:"
@@ -633,7 +630,8 @@ server <- function(input, output) {
   output$progressBox1 <- renderInfoBox({
     infoBox(
       "Liczba ludności",
-      value = data_people[data_people$AdressTERC == regionID(),]$people,
+      value = "Liczba osób",
+      subtitle = data_people[data_people$AdressTERC == regionID(),]$people,
       width = NULL,
       icon = icon("male"),
       fill = FALSE#male, globe, mail-bulk, balance-scale, dollar-sign, lightbulb
@@ -641,10 +639,13 @@ server <- function(input, output) {
   })
   
   output$progressBox2 <- renderInfoBox({
-   
+    
     infoBox(
-      "Powierzchnia",
-      value = paste(data_people[data_people$AdressTERC == regionID(),]$area, "km2",sep=""),
+      "",
+      value = "Powierzchnia (km2)", 
+      subtitle = paste(data_people[data_people$AdressTERC == regionID(),]$area,
+                       "km2",sep=" "),
+      
       width = NULL,
       icon = icon("globe") #male, globe, mail-bulk, balance-scale, dollar-sign, lightbulb
     )
@@ -658,14 +659,36 @@ server <- function(input, output) {
   # })
   
   output$progressBox3 <- renderInfoBox({
-
+    
     infoBox(
-      title = "Liczba działalności", value = nrow(df()$df),
+      title = "Liczba działalności", value = "Liczba działalności", subtitle = nrow(df()$df),
       width = NULL,
       icon = icon("user-tie") #male, globe, mail-bulk, balance-scale, dollar-sign, lightbulb
     )
   })
   
+  
+  output$liczba_ludnosci = renderUI({
+    withMathJax(sprintf("$$\\ %s$$
+                        ",
+                        data_people[data_people$AdressTERC == regionID(),]$people))
+    
+  })
+  
+  output$powierzchnia = renderUI({
+    # withMathJax(helpText('$$\\mathbf{km}^{2}$$'))
+    # # paste(data_people[data_people$AdressTERC == regionID(), ]$area,
+    # #       "km2", sep=" ")
+    withMathJax(sprintf("$$ %s \\ \\textrm{km}^{2}$$
+                        ",
+                        data_people[data_people$AdressTERC == regionID(), ]$area))
+  })
+  
+  output$liczba_dzialalnosci = renderUI({
+    withMathJax(sprintf("$$ %i $$
+                        ",
+                        (nrow(df()$df))[1]))
+  })
 }
 
 # Run the application
