@@ -33,7 +33,7 @@ if (!"pow_count" %in% ls())
 getGroupText <- function(group) {
   match <- pkd_main[pkd_main$PKDMainSection %in% group,] %>%
     mutate(
-      PKDMainSectionTitle = paste(PKDMainSection, PKDMainSectionTitle, sep=' - ')
+      PKDMainSectionTitle = paste(PKDMainSection, PKDMainSectionTitle, sep=' – ')
     )
   
   return(match$PKDMainSectionTitle)
@@ -178,7 +178,7 @@ ui <- dashboardPage(
             side ="right",
             id = "tabset1",
             height = "785px",
-            tabPanel("Czas trwania", plotOutput("plot", height = 740)),
+            tabPanel("Czas istnienia", plotOutput("plot", height = 740)),
             tabPanel("Start", plotOutput("plot3", height = 740)),
             tabPanel("PKD %", plotOutput("plot1", height = 740)),
             tabPanel("PKD ranking %", plotOutput("plot4", height = 740)),
@@ -412,8 +412,8 @@ server <- function(input, output) {
       geom_histogram(color="#39cccc", fill="#39cccc") +
       xlim(0, NA) +
       labs(
-        title = "Histogram czasu trwania działalności",
-        x = "Czas trwania (w miesiącach)",
+        title = "Histogram czasu istnienia działalności",
+        x = "Czas istnienia (w miesiącach)",
         y = "Liczba"
       ) + theme_basic()
     return(p)
@@ -491,7 +491,7 @@ server <- function(input, output) {
       theme_title() +
       theme(legend.title=element_blank()) +
       labs(
-        title = "Adres Email (podany w rejestracji)"
+        title = "Adres email (podany w rejestracji)"
       )
     
     p2_4 <- df()$df %>%
@@ -522,7 +522,7 @@ server <- function(input, output) {
       group_by(MonthOfStartingOfTheBusiness, PKDMainSection) %>% tally() %>%
       rowwise() %>%
       mutate(PKDMainSection = getGroupText(PKDMainSection)) %>%
-      ggplot(aes(x=MonthOfStartingOfTheBusiness, y=n)) +
+      ggplot(aes(x = factor(MonthOfStartingOfTheBusiness, level = month.name), y=n)) +
       geom_bar(stat="identity", position = 'fill', aes(fill = PKDMainSection)) +
       labs(
         title = "Udział poszczególnych rodzajów działalności gospodarczej w odniesieniu do miesiąca rozpoczęcia",
@@ -669,7 +669,7 @@ server <- function(input, output) {
   
   
   output$liczba_ludnosci = renderUI({
-    withMathJax(sprintf("$$\\ %s$$
+    withMathJax(sprintf("$$%s$$
                         ",
                         data_people[data_people$AdressTERC == regionID(),]$people))
     
