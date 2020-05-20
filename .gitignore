@@ -6,3 +6,5 @@
 data/ceidg_data_classif.csv
 data/ceidg_data_surv.csv
 .RDataTmp*
+
+maps_*
