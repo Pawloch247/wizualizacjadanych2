@@ -1,10 +1,11 @@
 loadAndFilterCeidg <- function(path) {
   library(dplyr)
+  library(R.utils)
 
   # bdl_dict <- readxl::read_excel(paste(path, "bdl_dictionary.xlsx", sep = ""))
   # ceidg <- read.csv(paste(path,"ceidg_data_classif.csv", sep = ""), stringsAsFactors=FALSE, encoding = "UTF-8")
   
-  ceidg <- data.table::fread(paste(path,"ceidg_data_classif.csv", sep = ""),
+  ceidg <- data.table::fread(paste(path,"ceidg_data_classif.csv.gz", sep = ""),
                              stringsAsFactors = F,
                              encoding = "UTF-8",
                              data.table = F)

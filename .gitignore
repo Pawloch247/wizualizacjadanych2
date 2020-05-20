@@ -8,3 +8,5 @@ data/ceidg_data_surv.csv
 .RDataTmp*
 
 maps_*
+
+*.gz
