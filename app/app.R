@@ -33,7 +33,7 @@ if (!"pow_count" %in% ls())
 getGroupText <- function(group) {
   match <- pkd_main[pkd_main$PKDMainSection %in% group,] %>%
     mutate(
-      PKDMainSectionTitle = paste(PKDMainSection, PKDMainSectionTitle, sep=' - ')
+      PKDMainSectionTitle = paste(PKDMainSection, PKDMainSectionTitle, sep=' – ')
     )
   
   return(match$PKDMainSectionTitle)
@@ -522,7 +522,7 @@ server <- function(input, output) {
       group_by(MonthOfStartingOfTheBusiness, PKDMainSection) %>% tally() %>%
       rowwise() %>%
       mutate(PKDMainSection = getGroupText(PKDMainSection)) %>%
-      ggplot(aes(x=MonthOfStartingOfTheBusiness, y=n)) +
+      ggplot(aes(x = factor(MonthOfStartingOfTheBusiness, level = month.name), y=n)) +
       geom_bar(stat="identity", position = 'fill', aes(fill = PKDMainSection)) +
       labs(
         title = "Udział poszczególnych rodzajów działalności gospodarczej w odniesieniu do miesiąca rozpoczęcia",
@@ -669,7 +669,7 @@ server <- function(input, output) {
   
   
   output$liczba_ludnosci = renderUI({
-    withMathJax(sprintf("$$\\ %s$$
+    withMathJax(sprintf("$$%s$$
                         ",
                         data_people[data_people$AdressTERC == regionID(),]$people))
     
